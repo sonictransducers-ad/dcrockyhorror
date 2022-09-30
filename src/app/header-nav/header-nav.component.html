@@ -1,0 +1,40 @@
+<nav>
+  <a
+    class="nav-link"
+    routerLink="/"
+    routerLinkActive="active-link"
+    [routerLinkActiveOptions]="{ exact: true }"
+    >Home</a
+  >
+
+  <a class="nav-link" routerLink="/hello" routerLinkActive="active-link"
+    >Hello Rocky Horror!</a
+  >
+
+  <a class="nav-link" routerLink="/show-location" routerLinkActive="active-link"
+    >Show Location</a
+  >
+
+  <div class="nav-link more">
+    More...
+    <div class="overflow">
+      <a class="nav-link" routerLink="/calendar" routerLinkActive="active-link"
+        >Calendar of Shows</a
+      >
+
+      <a
+        class="nav-link"
+        routerLink="/audience-participation"
+        routerLinkActive="active-link"
+        >Audience Participation</a
+      >
+      <a class="nav-link" routerLink="/join-us" routerLinkActive="active-link"
+        >Join Our Cast</a
+      >
+
+      <a class="nav-link" routerLink="/contact" routerLinkActive="active-link"
+        >Contact Us</a
+      >
+    </div>
+  </div>
+</nav>

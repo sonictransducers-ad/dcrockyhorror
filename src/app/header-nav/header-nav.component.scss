@@ -1,0 +1,43 @@
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+  right: 0;
+  top: 0;
+  padding-right: 20px;
+  padding-top: 20px
+}
+
+.nav-link {
+  color: white;
+  padding: 0 30px;
+  text-decoration: none;
+  transition: all 0.3s;
+  cursor: pointer;
+  line-height: 40px;
+  text-align: center;
+}
+
+.nav-link.active-link, .nav-link:hover, .nav-link:focus {
+  color: #E84A43;
+}
+
+.overflow {
+  display: none;
+  position: fixed;
+  right: 0;
+  top: 60px;
+  flex-direction: column;
+  background-color: black;
+}
+
+.more:hover .overflow, .move:focus .overflow {
+  display: flex;
+}
+
+.overflow .nav_link {
+  line-height: auto;
+}
