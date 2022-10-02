@@ -1,0 +1,54 @@
+.home-wrapper {
+  width: 90%;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.home-text-wrapper {
+  width: 600px;
+}
+
+h1 {
+ font-size: 70px;
+ margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  font-size: 22px;
+  font-family: enriqueta,serif;
+  a {
+    text-decoration: none;
+    font: inherit;
+    color: white;
+  }
+}
+
+.overline {
+  border-top: 1px solid white;
+  display: flex;
+  margin-top: 50px;
+  & * {
+    flex-grow: 1;
+  }
+}
+
+.location {
+  border-left: 1px solid white;
+  padding: 15px;
+  width: 300px;
+  a {
+    font-size: 22px;
+    font-family: enriqueta,serif;
+    color: white;
+  }
+}
+
+img {
+  width: 600px;
+}
+
+.image-holder {
+  text-align: center;
+  margin: 100px 0;
+}

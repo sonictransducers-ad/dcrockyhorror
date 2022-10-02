@@ -11,6 +11,7 @@ import { CalendarComponent } from './pages/calendar/calendar.component';
 import { ParticipationComponent } from './pages/participation/participation.component';
 import { JoinusComponent } from './pages/joinus/joinus.component';
 import { ContactusComponent } from './pages/contactus/contactus.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContactusComponent } from './pages/contactus/contactus.component';
     CalendarComponent,
     ParticipationComponent,
     JoinusComponent,
-    ContactusComponent
+    ContactusComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 import { CalendarComponent } from './pages/calendar/calendar.component';
 import { ContactusComponent } from './pages/contactus/contactus.component';
 import { HelloComponent } from './pages/hello/hello.component';
@@ -9,6 +10,7 @@ import { ShowLocationComponent } from './pages/show-location/show-location.compo
 
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'show-location', component: ShowLocationComponent },
   { path: 'calendar', component: CalendarComponent },
   { path: 'contact', component: ContactusComponent },
