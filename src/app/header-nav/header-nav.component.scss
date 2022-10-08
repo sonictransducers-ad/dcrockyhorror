@@ -1,6 +1,6 @@
 @use 'src/variables' as v;
 
-nav {
+header {
   img {
     height: 40px;
   }
@@ -11,7 +11,7 @@ nav {
   justify-content: space-between;
   padding: v.$small v.$medium;
   background-color: v.$black;
-  .links {
+  nav {
     display: flex;
     align-items: center;
   }
