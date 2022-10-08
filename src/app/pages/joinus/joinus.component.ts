@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './joinus.component.html',
   styleUrls: ['./joinus.component.scss']
 })
-export class JoinusComponent implements OnInit {
+export class JoinUsComponent implements OnInit {
 
   constructor() { }
 

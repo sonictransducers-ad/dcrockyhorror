@@ -1,40 +1,24 @@
+
 <nav>
+  <img src="assets/sonictransducerslogo.png" alt="Sonic Transducers logo">
+<div class="links">
   <a
-    class="nav-link"
     routerLink="/"
     routerLinkActive="active-link"
     [routerLinkActiveOptions]="{ exact: true }"
-    >Home</a
-  >
+    >
+    Home</a>
 
-  <a class="nav-link" routerLink="/hello" routerLinkActive="active-link"
-    >Hello Rocky Horror!</a
-  >
+  <a routerLink="/location" routerLinkActive="active-link">Location</a>
 
-  <a class="nav-link" routerLink="/show-location" routerLinkActive="active-link"
-    >Show Location</a
-  >
+  <a routerLink="/calendar" routerLinkActive="active-link">Calendar</a>
 
-  <div class="nav-link more">
-    More...
-    <div class="overflow">
-      <a class="nav-link" routerLink="/calendar" routerLinkActive="active-link"
-        >Calendar of Shows</a
-      >
+  <a routerLink="/about" routerLinkActive="active-link">About / FAQ</a>
 
-      <a
-        class="nav-link"
-        routerLink="/audience-participation"
-        routerLinkActive="active-link"
-        >Audience Participation</a
-      >
-      <a class="nav-link" routerLink="/join-us" routerLinkActive="active-link"
-        >Join Our Cast</a
-      >
+  <a routerLink="/cast" routerLinkActive="active-link">Cast</a>
 
-      <a class="nav-link" routerLink="/contact" routerLinkActive="active-link"
-        >Contact Us</a
-      >
-    </div>
-  </div>
+  <a routerLink="/join-us" routerLinkActive="active-link">Join Us</a>
+
+  <a routerLink="/prop-guide" routerLinkActive="active-link">Prop Guide</a>
+</div>
 </nav>

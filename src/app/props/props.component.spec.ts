@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ParticipationComponent } from './participation.component';
+import { PropsComponent } from './props.component';
 
-describe('ParticipationComponent', () => {
-  let component: ParticipationComponent;
-  let fixture: ComponentFixture<ParticipationComponent>;
+describe('PropsComponent', () => {
+  let component: PropsComponent;
+  let fixture: ComponentFixture<PropsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ParticipationComponent ]
+      declarations: [ PropsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ParticipationComponent);
+    fixture = TestBed.createComponent(PropsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

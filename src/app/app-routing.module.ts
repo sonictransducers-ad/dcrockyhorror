@@ -2,22 +2,20 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { CalendarComponent } from './pages/calendar/calendar.component';
-import { ContactusComponent } from './pages/contactus/contactus.component';
-import { HelloComponent } from './pages/hello/hello.component';
-import { JoinusComponent } from './pages/joinus/joinus.component';
-import { ParticipationComponent } from './pages/participation/participation.component';
-import { ShowLocationComponent } from './pages/show-location/show-location.component';
-
+import { JoinUsComponent } from './pages/joinus/joinus.component';
+import { AboutComponent } from './pages/about/about.component';
+import { LocationComponent } from './pages/location/location.component';
+import { CastComponent } from './pages/cast/cast.component';
+import { PropsComponent } from './props/props.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'show-location', component: ShowLocationComponent },
+  { path: 'location', component: LocationComponent },
   { path: 'calendar', component: CalendarComponent },
-  { path: 'contact', component: ContactusComponent },
-  { path: 'hello', component: HelloComponent },
-  { path: 'join-us', component: JoinusComponent },
-  { path: 'audience-participation', component: ParticipationComponent },
-  { path: 'show-location', component: ParticipationComponent }
+  { path: 'about', component: AboutComponent },
+  { path: 'cast', component: CastComponent },
+  { path: 'join-us', component: JoinUsComponent },
+  { path: 'prop-guide', component: PropsComponent },
 ];
 
 @NgModule({

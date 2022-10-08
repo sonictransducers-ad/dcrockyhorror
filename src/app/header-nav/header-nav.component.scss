@@ -1,44 +1,28 @@
+@use 'src/variables' as v;
+
 nav {
+  img {
+    height: 40px;
+  }
   position: fixed;
-  width: 100%;
-  // background-color: black;
-  display: flex;
-  justify-content: flex-end;
-  height: 40px;
-  right: 0;
   top: 0;
-  padding-right: 20px;
-  padding-top: 20px;
-  font-size: 16px;
-}
-
-.nav-link {
-  color: white;
-  padding: 0 25px;
-  text-decoration: none;
-  transition: all 0.3s;
-  cursor: pointer;
-  line-height: 40px;
-  text-align: center;
-}
-
-.nav-link.active-link, .nav-link:hover, .nav-link:focus {
-  color: #E84A43;
-}
-
-.overflow {
-  display: none;
-  position: fixed;
-  right: 0;
-  top: 60px;
-  flex-direction: column;
-  background-color: black;
-}
-
-.more:hover .overflow, .move:focus .overflow {
+  width: calc(100% - 2 * v.$medium);
   display: flex;
-}
-
-.overflow .nav_link {
-  line-height: auto;
+  justify-content: space-between;
+  padding: v.$small v.$medium;
+  background-color: v.$black;
+  .links {
+    display: flex;
+    align-items: center;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    margin: 0 v.$medium;
+    transition: all 0.3s;
+    cursor: pointer;
+    &.active-link, &:hover, &:focus {
+      color: v.$red;
+    }
+  }
 }

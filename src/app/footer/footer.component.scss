@@ -1,52 +1,5 @@
-.upper, .lower {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  width: 900px;
-  font-weight: lighter;
-}
+@use "src/variables" as v;
 
-.upper {
-  border-bottom: 1px solid white;
-  padding-bottom: 50px;
-}
-
-.name,
-.location,
-.contact {
-  flex-grow: 1;
-}
-
-.location,
-.contact {
-  padding-left: 30px;
-}
-
-.line {
-  border-left: 1px solid white;
-}
-
-.name {
-  font-family: Avenir, sans-serif;
-  font-size: 30px;
-  line-height: 1.78em;
-  color: #f20a00;
-  font-weight: bold;
-}
-
-.location p {
-  line-height: 1.8em;
-  font-size: 16px;
-  margin: 0;
-}
-
-.social-bar img {
-  height: 25px;
-  &:nth-child(2) {
-    padding: 0 5px;
-  }
-}
-
-.lower {
-  padding: 30px 0;
+footer {
+  background-color: v.$gray;
 }
