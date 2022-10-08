@@ -2,4 +2,57 @@
 
 footer {
   background-color: v.$gray;
+  padding: v.$small;
+  .upper, .lower {
+    width: 100%;
+  }
+  .upper {
+    display: flex;
+    justify-content: space-around;
+    padding: v.$medium 0;
+  }
+  .lower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: v.$small-text;
+    color: v.$light-gray;
+    hr { 
+      margin: v.$medium 0;
+
+      width: 70%;
+    }
+  }
+}
+
+.socials {
+  display: flex;
+  a {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: v.$red;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: v.$small;
+    transition: all 0.5s;
+    &:hover, &:focus {
+      background-color: v.$darkred;
+    }
+  }
+  img {
+    width: 25px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  footer .upper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .socials {
+    margin: v.$medium 0;
+  }
 }
