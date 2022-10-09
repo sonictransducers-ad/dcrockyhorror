@@ -1,6 +1,7 @@
 @use "src/variables" as v;
 
 footer {
+  position: relative;
   background-color: v.$gray;
   padding: v.$small;
   .upper, .lower {
@@ -50,6 +51,14 @@ footer {
   }
 }
 
+.frank {
+  position: absolute;
+  width: 40%;
+  bottom: 100%;
+  right: 0;
+  z-index: -1;
+}
+
 @media only screen and (max-width: 700px) {
   footer .upper {
     flex-direction: column;
@@ -58,5 +67,8 @@ footer {
   }
   .socials {
     margin: v.$medium 0;
+  }
+  .frank {
+    display: none;
   }
 }

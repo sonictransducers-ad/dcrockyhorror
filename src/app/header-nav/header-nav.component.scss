@@ -1,6 +1,7 @@
 @use "src/variables" as v;
 
 header {
+  z-index: 10;
   img {
     height: 40px;
   }
