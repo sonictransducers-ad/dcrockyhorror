@@ -18,7 +18,28 @@ h1 {
   font-family: 'Public Sans', sans-serif;
   font-size: v.$very-large-text;
   line-height: v.$very-large-text;
-  margin-bottom: 2rem;
+  margin: 0;
   color: v.$red;
   text-transform: uppercase;
  }
+
+ .wrapper {
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 800px;
+  margin: calc(v.$verylarge + 2rem) auto 4rem auto;
+}
+
+.overview {
+  display: flex;
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    text-align: center;
+  }
+
+  .overview {
+    flex-direction: column;
+  }
+}

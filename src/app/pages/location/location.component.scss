@@ -1,28 +1,17 @@
 @use "src/variables" as v;
 
-.wrapper {
-  box-sizing: border-box;
-  width: 90%;
-  margin: calc(56px + 2rem) auto 4rem auto;
-}
-
-h1 {
-  margin-top: 0;
-}
-
-.overview {
-  display: flex;
-}
-
 a {
   color: inherit;
+}
+
+.left-text, .image-holder {
+  width: 50%
 }
 
 .image-holder {
   img {
     max-width: 100%;
     padding-left: v.$large;
-    padding-top: v.$verylarge;
     box-sizing: border-box;
   }
 }
@@ -146,15 +135,13 @@ h3 {
 }
 
 @media only screen and (max-width: 700px) {
-  h1 {
-    text-align: center;
-  }
-  .overview {
-    flex-direction: column;
-  }
   .award-wrapper {
     flex-direction: column;
     justify-content: center;
+  }
+
+  .left-text, .image-holder {
+    width: 100%
   }
 
   .image-holder {
@@ -162,7 +149,6 @@ h3 {
     overflow: hidden;
     img {
       padding-left: 0;
-
     }
   }
 

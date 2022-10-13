@@ -1,21 +1,7 @@
 @use "src/variables" as v;
 
-.wrapper {
-  box-sizing: border-box;
-  width: 90%;
-  margin: calc(56px + 2rem) auto 4rem auto;
-}
-
-h1 {
-  margin-top: 0;
-}
-
 h2 {
   text-align: left;
-}
-
-.overview {
-  display: flex;
 }
 
 .left-text {
@@ -74,15 +60,24 @@ h2 {
   transform: rotate(90deg);
 }
 
-@media only screen and (max-width: 700px) {
-  h1 {
+.rules {
+  background-color: white;
+  border-left: 5px solid v.$red;
+  color: black;
+  padding: v.$large;
+  margin: v.$verylarge 0;
+  line-height: 2.5rem;
+  h2 {
     text-align: center;
+    margin-bottom: 0;
   }
-
-  .overview {
-    flex-direction: column;
+  .subtext {
+    text-align: center;
+    margin-top: 0;
   }
+}
 
+@media only screen and (max-width: 700px) {
   .left-text {
     width: 100%;
   }
@@ -93,6 +88,13 @@ h2 {
     width: 100%;
     img {
       padding-left: 0;
+    }
+  }
+
+  .rules {
+    padding: 1rem;
+    ol {
+      padding-left: 1rem;
     }
   }
 }
