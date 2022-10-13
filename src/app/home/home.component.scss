@@ -10,9 +10,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  h1 {
-    text-transform: uppercase;
-  }
   p {
     font-size: v.$large-text;
     line-height: v.$large-text-lh;
@@ -48,6 +45,7 @@ a {
     align-items: center;
     h1 {
       font-size: 12vw;
+      line-height: 12vw;
       text-align: center;
     }
     p, a {
