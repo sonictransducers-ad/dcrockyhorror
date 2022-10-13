@@ -1,0 +1,17 @@
+@use "src/variables" as v;
+
+.wrapper {
+  box-sizing: border-box;
+  width: 90%;
+  margin: calc(56px + 2rem) auto 4rem auto;
+}
+
+.landmark {
+  color: v.$red;
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    text-align: center;
+  }
+}

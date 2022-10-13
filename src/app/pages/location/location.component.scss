@@ -69,6 +69,7 @@ hr {
 
 .map {
   position: relative;
+  background-color: v.$gray;
   a {
     position: absolute;
     top: v.$medium;
@@ -175,5 +176,4 @@ h3 {
   .left, .right {
     width: 100%;
   }
-  
 }

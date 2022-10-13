@@ -1,1 +1,119 @@
-<p>about / faq works!</p>
+<div class="wrapper">
+  <section class="overview">
+    <div class="left-text">
+      <h1>About</h1>
+      <p>
+        <em>The Rocky Horror Picture Show</em> is a 1975 musical science-fiction
+        horror-comedy film. Though the initial reaction was negative, it soon
+        became a cult sensation. To this day, it's often shown at midnight with
+        "shadow casts" who mime and lip-sync what happens on the screen.
+        Audiences are invited to shout callbacks, dance, dress up, throw various
+        props (from pre-approved prop bags), and even join us in an underwear
+        run!
+      </p>
+    </div>
+
+    <div class="image-holder">
+      <img
+        src="assets/frankandrocky.png"
+        alt="Actors dressed as Dr. Frank N Furter and Rocky stand at the front of a movie theater. The Rocky Horror Picture Show is playing on the screen behind them."
+      />
+    </div>
+  </section>
+  <hr />
+  <section class="faq">
+    <div class="question" [ngClass]="questionStatus[0] ? 'open' : ''">
+      <button (click)="toggleQuestion(0)"><h2>What are callbacks?</h2></button>
+      <div class="answer">
+        <p>
+          Unlike in most movie theaters, we encourage you to yell things out
+          during the show! Most callbacks are jokes timed with something
+          happened on the screen. There are many types of callbacks; some are
+          call and response, some require multiple people, some are chants, some
+          have been around for ages, and some change every night!
+        </p>
+        <p>
+          Here's an easy callback to remember: when you hear the name "Brad
+          Majors", call him an asshole!
+        </p>
+      </div>
+    </div>
+    <div class="question" [ngClass]="questionStatus[1] ? 'open' : ''">
+      <button (click)="toggleQuestion(1)"><h2>What do I wear?</h2></button>
+      <div class="answer">
+        <p>
+          You can wear whatever you're comfortable with! Er, as long as it
+          doesn't violate any laws (no nudity). Oftentimes people come dressed
+          in costumes from or inspired by the movie, and we see a lot of
+          fishnets, high heels, corsets, etc., you get the picture. We do
+          encourage you to wear nice underwear (see underwear run, below). Oh,
+          and we should probably mention, some people may get a little wet.
+        </p>
+        <p>
+          Rocky Horror is a great place to express yourself. No matter what you
+          wear, whether you dress up or don't, you'll fit right in here.
+        </p>
+      </div>
+    </div>
+    <div class="question" [ngClass]="questionStatus[2] ? 'open' : ''">
+      <button (click)="toggleQuestion(2)">
+        <h2>What props can I throw?</h2>
+      </button>
+      <div class="answer">
+        <p>
+          Please, do not bring outside prop bags! The Sonic Transducers will
+          have prop bags for sale prior to the show that contain theatre
+          approved props. Please refrain from throwing anything else. This
+          includes, but is not limited to: rice, confetti, hot dogs, bread,
+          popcorn, concession stand food, and water.
+        </p>
+        <p>
+          Curious about what's in the prop bags? Check out our
+          <a href="/prop-guide">Prop Bag Guide.</a>
+        </p>
+      </div>
+    </div>
+    <div class="question" [ngClass]="questionStatus[3] ? 'open' : ''">
+      <button (click)="toggleQuestion(3)">
+        <h2>What's an "underwear run"?</h2>
+      </button>
+      <div class="answer">
+        <p>
+          The underwear run is one of our favorite traditions! About midway
+          through the movie, after everyone sits down for dinner (meatloaf,
+          anyone?), Frank slaps Janet in the face, and she takes off running.
+          She'll run right off stage and out the theater door, and you're
+          invited to follow!
+        </p>
+
+        <p>
+          You're encouraged to strip down to your undies (but keep those naughty
+          bits covered). If you're not comfortable in just your skivvies, no
+          worries, we welcome various levels of undress!
+        </p>
+      </div>
+    </div>
+    <div class="question" [ngClass]="questionStatus[4] ? 'open' : ''">
+      <button (click)="toggleQuestion(4)">
+        <h2>What if I've never seen Rocky Horror before?</h2>
+      </button>
+      <div class="answer">
+        <p>
+          Virgin alert! In the Rocky Horror world, a "virgin" is someone who has
+          never experienced <em>The Rocky Horror Picture Show</em> in a theater
+          with an audience and a live cast. Seeing it at home (DVD, streaming
+          services, TV, etc.) doesn't count!
+        </p>
+
+        <p>
+          If you're a virgin, you may be invited to play some of our special
+          virgin games before the show. It's traditional to get marked with a
+          "V" on your forehead in red lipstick. Don't worry about being
+          unprepared, just be ready to have fun! Just like in sex, virgins
+          aren't expected to know anything!
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="rules"></section>
+</div>
