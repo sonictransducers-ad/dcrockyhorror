@@ -1,1 +1,78 @@
-<p>cast works!</p>
+<div class="wrapper">
+  <h1>Cast</h1>
+  <p class="meet">Meet the cast and crew of The Sonic Transducers!</p>
+  <section class="cast-bios">
+    <div class="threecol">
+      <div class="col">
+        <div class="member" *ngFor="let member of castList.slice(0, 3)">
+          <ng-container
+            *ngTemplateOutlet="memberTemplate; context: { member: member }"
+          ></ng-container>
+        </div>
+      </div>
+      <div class="col">
+        <div class="member" *ngFor="let member of castList.slice(3, 6)">
+          <ng-container
+            *ngTemplateOutlet="memberTemplate; context: { member: member }"
+          ></ng-container>
+        </div>
+      </div>
+      <div class="col">
+        <div class="member" *ngFor="let member of castList.slice(6)">
+          <ng-container
+            *ngTemplateOutlet="memberTemplate; context: { member: member }"
+          ></ng-container>
+        </div>
+      </div>
+    </div>
+    <div class="twocol">
+      <div class="col">
+        <div class="member" *ngFor="let member of castList.slice(0, 5)">
+          <ng-container
+            *ngTemplateOutlet="memberTemplate; context: { member: member }"
+          ></ng-container>
+        </div>
+      </div>
+      <div class="col">
+        <div class="member" *ngFor="let member of castList.slice(5)">
+          <ng-container
+            *ngTemplateOutlet="memberTemplate; context: { member: member }"
+          ></ng-container>
+        </div>
+      </div>
+    </div>
+    <div class="onecol">
+      <div class="col">
+        <div class="member" *ngFor="let member of castList">
+          <ng-container
+            *ngTemplateOutlet="memberTemplate; context: { member: member }"
+          ></ng-container>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<ng-template #memberTemplate let-member="member">
+  <img class="headshot" src="{{ member.photoUrl }}" alt="{{ member.name }}" />
+  <h2 class="name">{{ member.name }} {{ member.pronouns }}</h2>
+  <p class="title">
+    <i>{{ member.title }}</i>
+  </p>
+  <p><i>Member since: </i><span class="space"></span>{{ member.yearJoined }}</p>
+  <p><i>Roles: </i><span class="space"></span>{{ member.roles }}</p>
+  <p>
+    <i>Why did you join? </i><span class="space"></span>{{ member.whyJoin }}
+  </p>
+  <div class="socials">
+    <a *ngIf="member.facebook" href="{{ member.facebook }}"
+      ><img src="assets/facebook.png" alt="{{ member.name }} facebook"
+    /></a>
+    <a *ngIf="member.twitter" href="{{ member.twitter }}"
+      ><img src="assets/twitter.png" alt="{{ member.name }} twitter"
+    /></a>
+    <a *ngIf="member.instagram" href="{{ member.instagram }}"
+      ><img src="assets/instagram.png" alt="{{ member.name }} instagram"
+    /></a>
+  </div>
+</ng-template>

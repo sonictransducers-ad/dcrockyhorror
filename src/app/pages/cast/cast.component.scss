@@ -1,0 +1,93 @@
+@use "src/variables" as v;
+
+.cast-bios {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.threecol {
+  display: flex;
+  justify-content: space-around;
+  .col {
+    width: 30%;
+  }
+}
+
+.twocol {
+  display: none;
+  justify-content: space-around;
+  .col {
+    width: 45%;
+  }
+}
+
+.onecol {
+  display: none;
+  justify-content: space-around;
+  .col {
+    width: 100%;
+  }
+}
+
+.member {
+  background-color: v.$red;
+  width: 100%;
+  border-radius: v.$medium;
+  padding: v.$medium;
+  margin: 2rem 0;
+  box-sizing: border-box;
+  .headshot {
+    width: 100%;
+  }
+  h2 {
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+  }
+  .title {
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.25rem;
+  }
+  p {
+    margin: 0.75rem;
+    font-size: 1rem;
+  }
+  .space {
+    width: 4px;
+    display: inline-block;
+  }
+  .socials {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    img {
+      width: 30px;
+      margin: 0 4px;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .twocol {
+    display: flex;
+  }
+  .threecol, .onecol {
+    display: none;
+  }
+  .meet {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .onecol {
+    display: flex;
+  }
+  .threecol, .twocol {
+    display: none;
+  }
+}
