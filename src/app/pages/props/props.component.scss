@@ -1,0 +1,32 @@
+@use "src/variables" as v;
+
+.props {
+  margin-top: 4rem;
+}
+
+.prop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h2 {
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0.5rem;
+    font-size: v.$large-text;
+    line-height: v.$large-text-lh;
+    b {
+      font-style: italic;
+    }
+  }
+  img {
+    // height: 150px;   
+    &.left {
+      margin-right: v.$medium;
+    }
+    &.right {
+      margin-left: v.$medium;
+    }
+  }
+}

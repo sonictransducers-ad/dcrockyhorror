@@ -6,7 +6,7 @@ import { JoinUsComponent } from './pages/joinus/joinus.component';
 import { AboutComponent } from './pages/about/about.component';
 import { LocationComponent } from './pages/location/location.component';
 import { CastComponent } from './pages/cast/cast.component';
-import { PropsComponent } from './props/props.component';
+import { PropsComponent } from './pages/props/props.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },

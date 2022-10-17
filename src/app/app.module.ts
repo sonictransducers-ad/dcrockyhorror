@@ -11,7 +11,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { JoinUsComponent } from './pages/joinus/joinus.component';
 import { HomeComponent } from './home/home.component';
 import { CastComponent } from './pages/cast/cast.component';
-import { PropsComponent } from './props/props.component';
+import { PropsComponent } from './pages/props/props.component';
 
 @NgModule({
   declarations: [
