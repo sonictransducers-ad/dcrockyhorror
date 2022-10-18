@@ -10,17 +10,8 @@ img {
   justify-content: center;
   font-size: v.$large-text;
   a {
-    background-color: v.$red;
-    color: white;
-    text-decoration: none;
     text-transform: uppercase;
-    text-align: center;
-    padding: v.$small;
     border-radius: v.$medium;
     padding: v.$medium v.$verylarge;
-    transition: all 0.2s;
-    &:focus, &:hover {
-      background-color: v.$darkred;
-    }
   }
 }

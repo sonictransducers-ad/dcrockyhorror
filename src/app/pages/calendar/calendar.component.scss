@@ -10,6 +10,33 @@
   color: v.$red;
 }
 
+.buy {
+  margin: v.$large 0;
+}
+
+.cast {
+  border-left: 5px solid v.$red;
+  padding-left: v.$medium;
+}
+
+.role {
+  display: flex;
+  margin: 0.5rem 0;
+  .name {
+    display: flex;
+    flex-grow: 1;
+    align-items: baseline;
+  }
+  .divider {
+    flex-grow: 2;
+    margin: 0 v.$small;
+    border-bottom: 2px white dotted;
+  }
+  .actor {
+    width: 40%;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   h1 {
     text-align: center;

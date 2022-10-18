@@ -1,10 +1,91 @@
 <div *ngIf="!showDates[date]" class="wrapper">
   <h1>Calendar</h1>
-  <p>We have midnight shows the second weekend of every month, as well as bonus shows at Halloween! Click any show date for a cast list and more info, or visit <a class="landmark" href="https://www.landmarktheatres.com/movies/313-the-rocky-horror-picture-show" target="_blank"><b>Landmark Cinema's website</b></a> to buy tickets now.</p>
+  <p>
+    We have midnight shows the second weekend of every month, as well as bonus
+    shows at Halloween! Click any show date for a cast list and more info, or
+    visit
+    <a
+      class="landmark"
+      href="https://www.landmarktheatres.com/movies/313-the-rocky-horror-picture-show"
+      target="_blank"
+      ><b>Landmark Cinema's website</b></a
+    >
+    to buy tickets now.
+  </p>
   <a href="calendar?date=1014">1014</a>
-  <a href="calendar?date=456">456</a>
 </div>
 
 <div *ngIf="showDates[date]" class="wrapper">
-  {{showDates[date].date}}
+  <p><a href="calendar">back to calendar</a></p>
+  <h2>{{ showDates[date].date }}</h2>
+  <p>
+    {{ showDates[date].time }} at
+    <span *ngIf="showDates[date].locationLink; else noLocationLink">
+      <a href="{{ showDates[date].locationLink }}" target="_blank">{{
+        showDates[date].location
+      }}</a>
+    </span>
+    <ng-template #noLocationLink>
+      {{ showDates[date].location }}
+    </ng-template>
+  </p>
+
+  <div class="buy">
+    <div *ngIf="showDates[date].ticketLink; else noTickets" >
+      <p><a href="{{ showDates[date].ticketLink }}" target="_blank" class="round-button">BUY TICKETS</a></p>
+    </div>
+  </div>
+
+  <ng-template #noTickets>
+    <p>Tickets are not currently available for this show. Check back soon!</p>
+  </ng-template>
+
+  <section class="cast" *ngIf="showDates[date].cast; else noCast">
+    <p class="role">
+      <span class="name">FRANK <span class="divider"></span></span><span class="actor">{{ showDates[date].cast?.frank }}</span>
+    </p>
+    <p class="role">
+      <span class="name">JANET <span class="divider"></span></span><span class="actor">{{ showDates[date].cast?.janet }}</span>
+    </p>
+    <p class="role">
+      <span class="name">BRAD <span class="divider"></span></span><span class="actor">{{ showDates[date].cast?.brad }}</span>
+    </p>
+    <p class="role">
+      <span class="name">RIFF RAFF <span class="divider"></span></span><span class="actor">{{ showDates[date].cast?.riff }}</span>
+    </p>
+    <p class="role">
+      <span class="name">MAGENTA <span class="divider"></span></span><span class="actor">{{ showDates[date].cast?.magenta }}</span>
+    </p>
+    <p class="role">
+      <span class="name">COLUMBIA <span class="divider"></span></span><span class="actor">{{ showDates[date].cast?.columbia }}</span>
+    </p>
+    <p class="role">
+      <span class="name">ROCKY <span class="divider"></span></span><span class="actor">{{ showDates[date].cast?.rocky }}</span>
+    </p>
+    <p class="role">
+      <span class="name">EDDIE <span class="divider"></span></span><span class="actor">{{ showDates[date].cast?.eddie }}</span>
+    </p>
+    <p class="role">
+      <span class="name">DR. SCOTT/RALPH <span class="divider"></span></span
+      ><span class="actor">{{ showDates[date].cast?.scott }}</span>
+    </p>
+    <p class="role">
+      <span class="name">CRIM <span class="divider"></span></span><span class="actor">{{ showDates[date].cast?.crim }}</span>
+    </p>
+    <p class="role">
+      <span class="name">TRIXIE <span class="divider"></span></span><span class="actor">{{ showDates[date].cast?.trixie }}</span>
+    </p>
+    <p class="role">
+      <span class="name">LIGHTS <span class="divider"></span></span><span class="actor">{{ showDates[date].cast?.lights }}</span>
+    </p>
+    <p class="role">
+      <span class="name">STAGE MANAGER <span class="divider"></span></span
+      ><span class="actor">{{ showDates[date].cast?.stagemanager }}</span>
+    </p>
+    <p class="role">
+      <span class="name">RUNNING CREW <span class="divider"></span></span
+      ><span class="actor">{{ showDates[date].cast?.runningcrew }}</span>
+    </p>
+  </section>
+  <ng-template #noCast> CAST LIST TBD </ng-template>
 </div>
