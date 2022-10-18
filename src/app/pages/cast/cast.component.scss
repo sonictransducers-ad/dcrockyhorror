@@ -9,7 +9,7 @@
 
 .threecol {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   .col {
     width: 30%;
   }
@@ -17,7 +17,7 @@
 
 .twocol {
   display: none;
-  justify-content: space-around;
+  justify-content: space-between;
   .col {
     width: 45%;
   }

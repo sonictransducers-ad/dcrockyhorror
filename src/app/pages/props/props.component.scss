@@ -21,12 +21,25 @@
     }
   }
   img {
-    // height: 150px;   
     &.left {
       margin-right: v.$medium;
     }
     &.right {
       margin-left: v.$medium;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  .prop {
+    flex-direction: column;
+    div {
+      order: 1;
+    }
+    img.left, img.right {
+      margin: 0;
+      order: 0;
     }
   }
 }
