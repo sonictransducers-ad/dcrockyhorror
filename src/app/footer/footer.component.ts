@@ -10,7 +10,6 @@ export class FooterComponent {
   onHome = true;
 
   constructor(private router: Router) {
-
     router.events.subscribe((event: Event) => {
       if(event instanceof NavigationStart) {
         this.onHome = event.url === "/"

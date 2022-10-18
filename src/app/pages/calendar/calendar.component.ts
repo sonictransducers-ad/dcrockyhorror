@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { showDates } from './showDates';
 
 @Component({
   selector: 'app-calendar',
@@ -6,10 +8,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./calendar.component.scss']
 })
 export class CalendarComponent implements OnInit {
+  date: string = "";
+  showDates = showDates;
 
-  constructor() { }
+  constructor(private route: ActivatedRoute) {}
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.route.queryParams.subscribe(params => {
+      this.date = params['date'];
+    });
   }
 
 }
