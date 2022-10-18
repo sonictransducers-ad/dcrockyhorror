@@ -19,4 +19,25 @@ export class CalendarComponent implements OnInit {
     });
   }
 
+  getFormattedDate(date: Date) {
+    const day = date.toLocaleDateString('en-us', { weekday:"long"});
+    const month = date.toLocaleDateString('en-us', { month:"long"});
+    const dayNum = date.getDate();
+    const year = date.getFullYear();
+    return `${day} ${month} ${this.getOrdinalNum(dayNum)}, ${year}`
+  }
+
+  getOrdinalNum(number: number):string {
+    let selector;
+  
+    if (number <= 0) {
+      selector = 4;
+    } else if ((number > 3 && number < 21) || number % 10 > 3) {
+      selector = 0;
+    } else {
+      selector = number % 10;
+    }
+  
+    return number + ['th', 'st', 'nd', 'rd', ''][selector];
+  };
 }

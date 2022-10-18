@@ -16,12 +16,12 @@
 </div>
 
 <div *ngIf="showDates[date]" class="wrapper">
-  <p><a href="calendar">back to calendar</a></p>
-  <h2>{{ showDates[date].date }}</h2>
-  <p>
+  <p><a href="calendar" class="back">back to calendar</a></p>
+  <h2>{{ getFormattedDate(showDates[date].date) }}</h2>
+  <p class="center">
     {{ showDates[date].time }} at
     <span *ngIf="showDates[date].locationLink; else noLocationLink">
-      <a href="{{ showDates[date].locationLink }}" target="_blank">{{
+      <a href="{{ showDates[date].locationLink }}" target="_blank" class="location">{{
         showDates[date].location
       }}</a>
     </span>
@@ -30,7 +30,7 @@
     </ng-template>
   </p>
 
-  <div class="buy">
+  <div class="buy center">
     <div *ngIf="showDates[date].ticketLink; else noTickets" >
       <p><a href="{{ showDates[date].ticketLink }}" target="_blank" class="round-button">BUY TICKETS</a></p>
     </div>
@@ -87,5 +87,5 @@
       ><span class="actor">{{ showDates[date].cast?.runningcrew }}</span>
     </p>
   </section>
-  <ng-template #noCast> CAST LIST TBD </ng-template>
+  <ng-template #noCast><p class="center">CAST LIST TBD</p></ng-template>
 </div>

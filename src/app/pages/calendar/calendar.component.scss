@@ -6,12 +6,26 @@
   margin: calc(56px + 2rem) auto 4rem auto;
 }
 
+.back {
+  color: v.$red;
+}
+
 .landmark {
   color: v.$red;
 }
 
+.location {
+  color: inherit;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
 .buy {
-  margin: v.$large 0;
+  margin: 3rem 0;
+  font-weight: bold;
 }
 
 .cast {
@@ -31,6 +45,7 @@
     flex-grow: 2;
     margin: 0 v.$small;
     border-bottom: 2px white dotted;
+    min-width: v.$large;
   }
   .actor {
     width: 40%;
@@ -38,7 +53,13 @@
 }
 
 @media only screen and (max-width: 700px) {
-  h1 {
+  h1, h2, .center {
     text-align: center;
+  }
+  .role {
+    .actor {
+      width: auto;
+      max-width: 60%;
+    }
   }
 }
