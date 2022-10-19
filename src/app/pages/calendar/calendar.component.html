@@ -12,7 +12,44 @@
     >
     to buy tickets now.
   </p>
-  <a href="calendar?date=1014">1014</a>
+
+  <div id="mobile-calendar">
+    <div class="header">
+      <button (click)="incrementMonth(-1)"><</button><h2>{{getFormattedMonth()}}</h2><button (click)="incrementMonth(1)">></button>
+    </div>
+    <div *ngFor="let show of getShowsInCurrentMonth()" class="shows">
+      <a href="calendar?date={{show[0]}}" class="round-button">{{getFormattedDate(show[1].date, false) + ' ' + show[1].time}}</a>
+    </div>
+  </div>
+
+  <div id="desktop-calendar">
+    <div class="header">
+      <button (click)="incrementMonth(-1)" aria-label="previous month"><</button><h2>{{getFormattedMonth()}}</h2><button (click)="incrementMonth(1)" aria-label="next month">></button>
+    </div>
+    <div class="row"><div class="day">SUN</div><div class="day">MON</div><div class="day">TUE</div><div class="day">WED</div><div class="day">THU</div><div class="day">FRI</div><div class="day">SAT</div></div>
+    <div *ngFor="let week of calendarData" class="row">
+      <div *ngFor="let day of week" class="day">
+        <div *ngIf="day[0]" class="full">
+         <div *ngIf="day[1].length; else noShowDate" class="full">
+          <div *ngIf="day[1].length < 2; else multipleShowDates" class="full">
+            <a class="full-day-link darkenfocus" href="calendar?date={{day[1][0][0]}}" title="{{day[1][0][1].time}}">{{day[0]}}</a>
+          </div>
+          <ng-template #multipleShowDates>
+            <div class="multiple-day-links">
+            {{day[0]}}
+            <div class="show-holders">
+              <a *ngFor="let show of day[1]" class="darkenfocus" href="calendar?date={{show[0]}}" title="{{show[1].time}}"></a>
+            </div>
+          </div>
+          </ng-template>
+         </div>
+         <ng-template #noShowDate>
+          {{day[0]}}
+        </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div *ngIf="showDates[date]" class="wrapper">
@@ -31,16 +68,22 @@
   </p>
 
   <div class="buy center">
-    <div *ngIf="showDates[date].ticketLink; else noTickets" >
-      <p><a href="{{ showDates[date].ticketLink }}" target="_blank" class="round-button">BUY TICKETS</a></p>
+    <div *ngIf="isShowUpcoming(showDates[date]); else showPassed">
+      <div *ngIf="showDates[date].ticketLink; else noTickets" >
+        <p><a href="{{ showDates[date].ticketLink }}" target="_blank" class="round-button">BUY TICKETS</a></p>
+      </div>
     </div>
   </div>
+
+  <ng-template #showPassed>
+    <p>This show has already passed.</p>
+  </ng-template>
 
   <ng-template #noTickets>
     <p>Tickets are not currently available for this show. Check back soon!</p>
   </ng-template>
 
-  <section class="cast" *ngIf="showDates[date].cast; else noCast">
+  <section class="cast" *ngIf="showDates[date].cast">
     <p class="role">
       <span class="name">FRANK <span class="divider"></span></span><span class="actor">{{ showDates[date].cast?.frank }}</span>
     </p>
@@ -87,5 +130,4 @@
       ><span class="actor">{{ showDates[date].cast?.runningcrew }}</span>
     </p>
   </section>
-  <ng-template #noCast><p class="center">CAST LIST TBD</p></ng-template>
 </div>
