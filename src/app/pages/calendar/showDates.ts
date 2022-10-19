@@ -31,68 +31,225 @@ export type Day = [number, [string, Show][]] | [number, []];
 export type Week = [Day, Day, Day, Day, Day, Day, Day];
 
 export const showDates: Dates = {
-  "1014": {
+  "021122": {
+    date: new Date('February 11, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/"
+  },
+  "021222": {
+    date: new Date('February 12, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/"
+  },
+  "031122": {
+    date: new Date('March 11, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/"
+  },
+  "031222": {
+    date: new Date('March 12, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/"
+  },
+  "051322": {
+    date: new Date('May 13, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/"
+  },
+  "051422": {
+    date: new Date('May 14, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/"
+  },
+  "061022": {
+    date: new Date('June 10, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/"
+  },
+  "061122": {
+    date: new Date('June 11, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/"
+  },
+  "070822": {
+    date: new Date('July 8, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/"
+  },
+  "070922": {
+    date: new Date('July 9, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/"
+  },
+  "081222": {
+    date: new Date('August 12, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/"
+  },
+  "081322": {
+    date: new Date('August 13, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/"
+  },
+  "090922": {
+    date: new Date('September 9, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/"
+  },
+  "091022": {
+    date: new Date('September 10, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/"
+  },
+  "101422": {
     date: new Date('October 14, 2022'),
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: "https://tickets.fandango.com/MobileExpress/Checkout?row_count=378081735&mid=146&chainCode=L&sdate=2022-10-28%2023:55&tid=AAREF",
     cast: {
       frank: "Ali",
       janet: "Reagan",
       brad: "Kat",
-      riff: "Mary",
-      magenta: "Kelly H",
-      columbia: "Donna",
-      rocky: "Damia",
-      eddie: "Mike 1.0",
-      scott: "Caitlyn",
+      riff: "Mike 2.0",
+      magenta: "Lindsay",
+      columbia: "Damia",
+      rocky: "Oscar",
+      eddie: "Lilka",
+      scott: "nuAlli",
       crim: "n/a",
-      trixie: "Donna",
+      trixie: "nuAlli",
       lights: "Lee",
-      stagemanager: "Relle",
-      runningcrew: "Mike 1.0, Caitlyn, Brad, Grace, Conall, Spencer, Nat, Zoe, Emy, Henry, Lilka, Bryan, Haik"
+      stagemanager: "Leandra",
+      runningcrew: "Bryan, Caitlyn, Emy, Henry, Lilka, nuAlli, Spencer"
     }
   },
-  "1015": {
+  "101522": {
     date: new Date('October 15, 2022'),
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: "https://tickets.fandango.com/MobileExpress/Checkout?row_count=378081735&mid=146&chainCode=L&sdate=2022-10-28%2023:55&tid=AAREF",
+    cast: {
+      frank: "Ali",
+      janet: "nuAlli",
+      brad: "Kat",
+      riff: "Mike 2.0",
+      magenta: "Lindsay",
+      columbia: "Donna",
+      rocky: "Damia",
+      eddie: "Lilka",
+      scott: "Caitlyn",
+      crim: "Geoff",
+      trixie: "Donna",
+      lights: "Lee",
+      stagemanager: "Leandra",
+      runningcrew: "Bryan, Caitlyn, Emy, Henry, Lilka, Spencer"
+    }
   },
-  "1115": {
-    date: new Date('November 15, 2022'),
+  "102822": {
+    date: new Date('October 28, 2022'),
     time: "11:55pm",
-    location: "Landmark's E Street Cinema"
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
+    ticketLink: "https://tickets.fandango.com/MobileExpress/TicketBoxOffice?mid=146&tid=AAREF&chainCode=L&penumber=115",
+    cast: {
+      frank: "Ali",
+      janet: "nuAlli",
+      brad: "Oscar",
+      riff: "Brad",
+      magenta: "Kelly",
+      columbia: "Damia",
+      rocky: "Kat",
+      eddie: "Mike 2.0",
+      scott: "Caitlyn",
+      crim: "Leandra",
+      trixie: "Donna",
+      lights: "Lee",
+      stagemanager: "Relle",
+      runningcrew: "Bryan, Caitlyn, Emerson, Lilka, Mike 1, Mike 2, Zoe"
+    }
   },
-  "10131": {
-    date: new Date('October 13, 2022'),
+  "102922": {
+    date: new Date('October 29, 2022'),
     time: "11:55pm",
-    location: "Landmark's E Street Cinema"
-  },
-  "10132": {
-    date: new Date('October 13, 2022'),
-    time: "5:55pm",
-    location: "Landmark's E Street Cinema"
-  },
-  "123": {
-    date: new Date('October 19, 2022'),
-    time: "5:55pm",
     location: "Landmark's E Street Cinema",
-    ticketLink: "example.com"
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
+    ticketLink: "https://tickets.fandango.com/MobileExpress/Checkout?row_count=382010152&mid=146&chainCode=L&sdate=2022-10-29%2023:55&tid=AAREF",
+    cast: {
+      frank: "Ali",
+      janet: "Mike 1.0",
+      brad: "Kat",
+      riff: "Brad",
+      magenta: "Lindsay",
+      columbia: "Damia",
+      rocky: "Kelly",
+      eddie: "Lilka",
+      scott: "Caitlyn",
+      crim: "Mike 2.0",
+      trixie: "Emerson",
+      lights: "Lee",
+      stagemanager: "Leandra",
+      runningcrew: "Bryan, Caitlyn, Emerson, Lilka"
+    }
   },
-  "1234": {
-    date: new Date('October 18, 2022'),
-    time: "5:55pm",
+  "103022": {
+    date: new Date('October 30, 2022'),
+    time: "8:00pm",
     location: "Landmark's E Street Cinema",
-    ticketLink: "example.com"
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
+    ticketLink: "https://tickets.fandango.com/MobileExpress/Checkout?row_count=378081703&mid=146&chainCode=L&sdate=2022-10-30%2020:00&tid=AAREF",
+    cast: {
+      frank: "Ali",
+      janet: "Kelly",
+      brad: "Kat",
+      riff: "Mike 2.0",
+      magenta: "Lindsay",
+      columbia: "Donna",
+      rocky: "Oscar",
+      eddie: "Mike 1.0",
+      scott: "Damia",
+      crim: "Caitlyn",
+      trixie: "nuAlli",
+      lights: "Lee",
+      stagemanager: "Leandra",
+      runningcrew: "Brad, Conall, Damia, Emerson, Henry, Mike1, nuAlli, Zoe"
+    }
   },
-  "12345": {
-    date: new Date('October 20, 2022'),
-    time: "5:55pm",
+  "111122": {
+    date: new Date('November 11, 2022'),
+    time: "11:55pm",
     location: "Landmark's E Street Cinema",
-    ticketLink: "example.com"
-
-  }
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
+  },
+  "111222": {
+    date: new Date('November 12, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
+  },
+  "120922": {
+    date: new Date('December 9, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
+  },
+  "121022": {
+    date: new Date('December 10, 2022'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
+  },
 }
