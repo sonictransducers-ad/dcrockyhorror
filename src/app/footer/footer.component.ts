@@ -8,11 +8,13 @@ import { Event, NavigationStart, Router } from '@angular/router';
 })
 export class FooterComponent {
   onHome = true;
+  onLinks = false;
 
   constructor(private router: Router) {
     router.events.subscribe((event: Event) => {
       if(event instanceof NavigationStart) {
-        this.onHome = event.url === "/"
+        this.onHome = event.url === "/";
+        this.onLinks = event.url === "/links";
       }
     })
   }

@@ -12,6 +12,7 @@ import { JoinUsComponent } from './pages/joinus/joinus.component';
 import { HomeComponent } from './home/home.component';
 import { CastComponent } from './pages/cast/cast.component';
 import { PropsComponent } from './pages/props/props.component';
+import { LinksComponent } from './pages/links/links.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PropsComponent } from './pages/props/props.component';
     JoinUsComponent,
     HomeComponent,
     CastComponent,
-    PropsComponent
+    PropsComponent,
+    LinksComponent
   ],
   imports: [
     BrowserModule,
