@@ -11,9 +11,11 @@ export class CalendarComponent implements OnInit {
   date: string = "";
   showDates = showDates;
   currentMonth = new Date();
+  today = new Date();
   months = ["January","February","March","April","May","June","July",
   "August","September","October","November","December"];
   calendarData: Week[] = [];
+  isCurrentMonth = true;
 
   constructor(private route: ActivatedRoute) {}
 
@@ -25,8 +27,7 @@ export class CalendarComponent implements OnInit {
   }
 
   isShowUpcoming(show: Show) {
-    const today = new Date();
-    return show.date > new Date(today.getFullYear(), today.getMonth(), today.getDate() - 1);
+    return show.date > new Date(this.today.getFullYear(), this.today.getMonth(), this.today.getDate() - 1);
   }
 
   getFormattedMonth() {
@@ -40,6 +41,7 @@ export class CalendarComponent implements OnInit {
     const newYear = this.currentMonth.getFullYear();
     this.currentMonth = new Date(newYear, newMonth, 1)
     this.populateCalendar();
+    this.isCurrentMonth = (this.today.getMonth() === this.currentMonth.getMonth() && this.today.getFullYear() === this.currentMonth.getFullYear());
   }
 
   getShowsInCurrentMonth() {
@@ -88,5 +90,9 @@ export class CalendarComponent implements OnInit {
       }
       this.calendarData.push(week as Week);
     }
+  }
+
+  isToday(day: number) {
+    return this.today.getDate() === day;
   }
 }
