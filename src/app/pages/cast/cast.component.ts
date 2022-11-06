@@ -24,8 +24,6 @@ export class CastComponent implements OnInit {
       yearJoined: "2017",
       roles: "Criminologist, Dr. Scott, and Riff Raff",
       whyJoin: "I LOVE ROCKY HORROR. PERIOD.",
-      twitter: "fakelink.com",
-      instagram: "fakelink.com"
     },
     {
       name: "Ali",
@@ -63,7 +61,7 @@ export class CastComponent implements OnInit {
     {
       name: "Jessie",
       pronouns: "(she/her)",
-      photoUrl: "assets/cast/placeholder.png",
+      photoUrl: "assets/cast/placeholder2.png",
       yearJoined: "2017",
       roles: "Tech, Eddie, and Magenta",
       whyJoin: "Because I have a serious job and I thought it would be fun to let loose... plus I LOVE Rocky Horror!!!"
@@ -79,7 +77,7 @@ export class CastComponent implements OnInit {
     {
       name: "Lindsay",
       pronouns: "(she/her)",
-      photoUrl: "assets/cast/placeholder.png",
+      photoUrl: "assets/cast/placeholder2.png",
       yearJoined: "2017",
       roles: "Magenta",
       whyJoin: "To meet like minded sick fucks!"
@@ -87,7 +85,7 @@ export class CastComponent implements OnInit {
     {
       name: "Relle",
       pronouns: "(she/her)",
-      photoUrl: "assets/cast/placeholder.png",
+      photoUrl: "assets/cast/placeholder2.png",
       yearJoined: "2017",
       roles: "Magenta",
       whyJoin: "I do what Leandra tells me to do; it's safer that way. The only thing scarier than what happens if I catch you touching the props is Leandra's epic stink eye."
@@ -98,7 +96,9 @@ export class CastComponent implements OnInit {
     //   photoUrl: "assets/cast/placeholder.png",
     //   yearJoined: 2020,
     //   roles: "",
-    //   whyJoin: ""
+    //   whyJoin: "",
+    // twitter: "fakelink.com",
+    // instagram: "fakelink.com"
     // }
   ]
 

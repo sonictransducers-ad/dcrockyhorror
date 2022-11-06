@@ -17,7 +17,7 @@ const routes: Routes = [
   { path: 'cast', component: CastComponent },
   { path: 'join-us', component: JoinUsComponent },
   { path: 'prop-guide', component: PropsComponent },
-  { path: 'links', component: LinksComponent}
+  { path: 'hello', component: LinksComponent}
 ];
 
 @NgModule({
