@@ -32,9 +32,9 @@ You cannot commit directly to the main branch, so you need to create a new branc
 3. Make your changes! You can use any text editor, I use [VS Code](https://code.visualstudio.com/). Once you make your changes, save them and run the local development server with `npm start`. If everything looks good, you can move on. 
 4. Stage your changes for commit by running `git add -A`.
 5. Commit your changes with `git commit -m "DESCRIPTION OF CHANGES"`(change the description of changes to be whatever you changed)
-6. Push your changes with `git push`. Terminal will ask you if you want to create a new remote branch (you do) and will give you a link to open a pull request (do it).
+6. Push your changes with `git push`. Terminal will ask you if you want to create a new upstream branch (you do, it'll give you a command like `git push --set-upstream origin BRANCHNAME`, run it!) and will give you a link to open a pull request (do it).
 7. On Github, open a pull request from your branch to the main branch. When that is merged in, the deployed site will update automatically. 
 
-## Next Steps
+## Future Enhancements
 
 - possible 404 page? 
