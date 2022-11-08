@@ -13,7 +13,7 @@ export class CastComponent implements OnInit {
       pronouns: "(she/her)",
       photoUrl: "assets/cast/leandra.png",
       title: "cast lead",
-      yearJoined: "2011",
+      yearJoined: "2009",
       roles: "Magenta, Brad, Frank, Riff Raff, Eddie, Dr. Scott, Columbia, Transylvanian, Trixie, MC, Criminologist, and Janet",
       whyJoin: "I don't know... I've been doing it for a million years and I'm sure I had a great reason at the time. It was probably some teenage rebellion thing. I keep doing it for the money, the fame, and all the fringe benefits of dressing in my underwear in front of strangers."
     },
@@ -59,14 +59,6 @@ export class CastComponent implements OnInit {
       whyJoin: "What better way to express myself then through song and dance?"
     },
     {
-      name: "Jessie",
-      pronouns: "(she/her)",
-      photoUrl: "assets/cast/placeholder2.png",
-      yearJoined: "2017",
-      roles: "Tech, Eddie, and Magenta",
-      whyJoin: "Because I have a serious job and I thought it would be fun to let loose... plus I LOVE Rocky Horror!!!"
-    },
-    {
       name: "Kelly",
       pronouns: "(she/her)",
       photoUrl: "assets/cast/placeholder.png",
@@ -89,7 +81,16 @@ export class CastComponent implements OnInit {
       yearJoined: "2017",
       roles: "Magenta",
       whyJoin: "I do what Leandra tells me to do; it's safer that way. The only thing scarier than what happens if I catch you touching the props is Leandra's epic stink eye."
+    },    
+    {
+      name: "new person",
+      pronouns: "(he/him)",
+      photoUrl: "assets/cast/placeholder2.png",
+      yearJoined: "2011",
+      roles: "lots",
+      whyJoin: "because reasons.",
     },
+
     // {
     //   name: "",
     //   pronouns: "()",
