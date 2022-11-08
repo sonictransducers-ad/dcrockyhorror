@@ -13,8 +13,8 @@ export class FooterComponent {
   constructor(private router: Router) {
     router.events.subscribe((event: Event) => {
       if(event instanceof NavigationStart) {
-        this.onHome = event.url === "/";
-        this.onLinks = event.url === "/links";
+        this.onHome = event.url.split('?')[0] === "/";
+        this.onLinks = event.url.split('?')[0] === "/hello";
       }
     })
   }

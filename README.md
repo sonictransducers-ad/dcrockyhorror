@@ -35,4 +35,6 @@ You cannot commit directly to the main branch, so you need to create a new branc
 6. Push your changes with `git push`. Terminal will ask you if you want to create a new remote branch (you do) and will give you a link to open a pull request (do it).
 7. On Github, open a pull request from your branch to the main branch. When that is merged in, the deployed site will update automatically. 
 
+## Next Steps
 
+- possible 404 page? 
