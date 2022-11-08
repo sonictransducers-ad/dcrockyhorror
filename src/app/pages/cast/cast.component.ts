@@ -11,7 +11,7 @@ export class CastComponent implements OnInit {
     {
       name: "Leandra",
       pronouns: "(she/her)",
-      photoUrl: "assets/cast/leandra.png",
+      photoUrl: "assets/cast/leandra.png","131215884_933490503724578_5634215199573546675_n.jpg"
       title: "cast lead",
       yearJoined: "2009",
       roles: "Magenta, Brad, Frank, Riff Raff, Eddie, Dr. Scott, Columbia, Transylvanian, Trixie, MC, Criminologist, and Janet",
@@ -61,7 +61,8 @@ export class CastComponent implements OnInit {
     {
       name: "Kelly",
       pronouns: "(she/her)",
-      photoUrl: "assets/cast/placeholder.png",
+      photoUrl: "131215884_933490503724578_5634215199573546675_n.jpg",
+      title: "cast lead"
       yearJoined: "2017",
       roles: "Trixie, Magenta, and Janet",
       whyJoin: "I love this movie and I love attention!"
