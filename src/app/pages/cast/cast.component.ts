@@ -83,15 +83,7 @@ export class CastComponent implements OnInit {
       roles: "Magenta",
       whyJoin: "I do what Leandra tells me to do; it's safer that way. The only thing scarier than what happens if I catch you touching the props is Leandra's epic stink eye."
     },    
-    {
-      name: "new person",
-      pronouns: "(he/him)",
-      photoUrl: "assets/cast/placeholder2.png",
-      yearJoined: "2011",
-      roles: "lots",
-      whyJoin: "because reasons.",
-    },
-
+  
     // {
     //   name: "",
     //   pronouns: "()",
