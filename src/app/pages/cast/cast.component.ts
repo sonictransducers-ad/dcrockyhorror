@@ -62,7 +62,7 @@ export class CastComponent implements OnInit {
       name: "Kelly",
       pronouns: "(she/her)",
       photoUrl: "/assets/cast/131215884_933490503724578_5634215199573546675_n.jpg",
-      title: "cast lead"
+      title: "cast lead",
       yearJoined: "2017",
       roles: "Trixie, Magenta, and Janet",
       whyJoin: "I love this movie and I love attention!"
