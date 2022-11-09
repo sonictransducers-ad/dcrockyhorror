@@ -8,6 +8,7 @@ import { LocationComponent } from './pages/location/location.component';
 import { CastComponent } from './pages/cast/cast.component';
 import { PropsComponent } from './pages/props/props.component';
 import { LinksComponent } from './pages/links/links.component';
+import { MissingComponent } from './pages/missing/missing.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: 'cast', component: CastComponent },
   { path: 'join-us', component: JoinUsComponent },
   { path: 'prop-guide', component: PropsComponent },
-  { path: 'hello', component: LinksComponent}
+  { path: 'hello', component: LinksComponent},
+  { path: '**', component: MissingComponent}
 ];
 
 @NgModule({

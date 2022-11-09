@@ -1,0 +1,25 @@
+@use "src/variables" as v;
+
+.inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 8rem;
+    line-height: 8rem;
+  }
+}
+
+p {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+a.clear-button {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 2px;
+  font-weight: bold;
+  padding: v.$small v.$medium;
+}

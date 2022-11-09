@@ -37,4 +37,5 @@ You cannot commit directly to the main branch, so you need to create a new branc
 
 ## Future Enhancements
 
-- possible 404 page? 
+- [x] 404 page
+- [ ] Contact Us page
