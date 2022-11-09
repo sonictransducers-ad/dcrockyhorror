@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { CastComponent } from './pages/cast/cast.component';
 import { PropsComponent } from './pages/props/props.component';
 import { LinksComponent } from './pages/links/links.component';
+import { MissingComponent } from './pages/missing/missing.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LinksComponent } from './pages/links/links.component';
     HomeComponent,
     CastComponent,
     PropsComponent,
-    LinksComponent
+    LinksComponent,
+    MissingComponent
   ],
   imports: [
     BrowserModule,
