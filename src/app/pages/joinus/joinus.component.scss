@@ -1,17 +1,3 @@
-@use "src/variables" as v;
-
 img {
   width: 100%;
-}
-
-.button-wrapper {
-  display: flex;
-  margin: 4rem 0;
-  justify-content: center;
-  font-size: v.$large-text;
-  a {
-    text-transform: uppercase;
-    border-radius: v.$medium;
-    padding: v.$medium v.$verylarge;
-  }
 }
