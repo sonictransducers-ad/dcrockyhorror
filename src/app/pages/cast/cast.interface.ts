@@ -5,7 +5,9 @@ export interface Member {
   title?: string;
   yearJoined: string;
   roles: string;
-  whyJoin: string;
+  whyJoin?: string;
+  favCallback?: string;
+  aboutMe?: string;
   facebook?: string;
   twitter?: string;
   instagram?: string;
