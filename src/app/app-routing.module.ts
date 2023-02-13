@@ -8,6 +8,7 @@ import { LocationComponent } from './pages/location/location.component';
 import { CastComponent } from './pages/cast/cast.component';
 import { PropsComponent } from './pages/props/props.component';
 import { LinksComponent } from './pages/links/links.component';
+import { ContactUsComponent } from './pages/contactus/contactus.component';
 import { MissingComponent } from './pages/missing/missing.component';
 
 const routes: Routes = [
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'join-us', component: JoinUsComponent },
   { path: 'prop-guide', component: PropsComponent },
   { path: 'hello', component: LinksComponent},
+  { path: 'contact-us', component: ContactUsComponent},
   { path: '**', component: MissingComponent}
 ];
 
