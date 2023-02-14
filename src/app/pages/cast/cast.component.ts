@@ -6,11 +6,11 @@ import { Member } from './cast.interface';
   templateUrl: './cast.component.html',
   styleUrls: ['./cast.component.scss']
 })
-export class CastComponent implements OnInit {
+export class CastComponent {
   castList: Member[] = [
     {
       name: "Leandra",
-      pronouns: "(she/her)",
+      pronouns: "",
       photoUrl: "assets/cast/leandra.png",
       title: "cast lead",
       yearJoined: "June 2011",
@@ -19,7 +19,7 @@ export class CastComponent implements OnInit {
     },
     {
       name: "Kelly",
-      pronouns: "(she/her)",
+      pronouns: "",
       photoUrl: "/assets/cast/kelly.jpg",
       title: "cast lead",
       yearJoined: "Sep 2017",
@@ -28,7 +28,7 @@ export class CastComponent implements OnInit {
     },
     {
       name: "Ali",
-      pronouns: "(she/her)",
+      pronouns: "",
       photoUrl: "assets/cast/ali.png",
       title: "cast lead",
       yearJoined: "May 2017",
@@ -37,7 +37,7 @@ export class CastComponent implements OnInit {
     },
     {
       name: "Akeem",
-      pronouns: "he/him",
+      pronouns: "",
       photoUrl: "assets/cast/akeem.png",
       yearJoined: "July 2017",
       roles: "Criminologist, Dr. Scott, and Riff Raff",
@@ -45,7 +45,7 @@ export class CastComponent implements OnInit {
     },
     {
       name: "Damia",
-      pronouns: "any pronouns",
+      pronouns: "",
       photoUrl: "assets/cast/damia.png",
       yearJoined: "Oct 2017",
       roles: "Crew, Transylvanian, Dr. Scott, Crim",
@@ -53,7 +53,7 @@ export class CastComponent implements OnInit {
     },
     {
       name: "Geoffrey",
-      pronouns: "he/him",
+      pronouns: "",
       photoUrl: "assets/cast/placeholder2.png",
       yearJoined: "Sep 2017",
       roles: "Dr. Scott and Criminologist",
@@ -61,7 +61,7 @@ export class CastComponent implements OnInit {
     },
     {
       name: "Jake",
-      pronouns: "he/him",
+      pronouns: "",
       photoUrl: "assets/cast/jake.png",
       yearJoined: "Nov 2017",
       roles: "Tech, Crew, and Rocky",
@@ -69,7 +69,7 @@ export class CastComponent implements OnInit {
     },
     {
       name: "Lindsay",
-      pronouns: "she/her",
+      pronouns: "",
       photoUrl: "assets/cast/placeholder1.png",
       yearJoined: "June 2017",
       roles: "Magenta",
@@ -77,14 +77,14 @@ export class CastComponent implements OnInit {
     },
     {
       name: "Relle",
-      pronouns: "she/her",
+      pronouns: "",
       photoUrl: "assets/cast/placeholder5.png",
-      yearJoined: "?",
+      yearJoined: "??",
       roles: "Stage Manager",
       whyJoin: "I do what Leandra tells me to do; it's safer that way. The only thing scarier than what happens if I catch you touching the props is Leandra's epic stink eye."
     },   
     {
-      name: "raygun",
+      name: "Raygun",
       pronouns: "she/her",
       photoUrl: "assets/cast/raygun.png",
       yearJoined: "Dec 2017",
@@ -117,24 +117,31 @@ export class CastComponent implements OnInit {
       roles: "Dr. Scott, Ralph, and Transylvanian",
       whyJoin: "",
       aboutMe: "Weird and Fun Loving. Love to meet new people and do activities with them. You're now my new best friend."
+    },
+    {
+      name: "Lilka",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/lilka.jpg",
+      yearJoined: "Sep 2022",
+      roles: "Eddie, Crim, Dr. Scott, Translyvanian",
+      favCallback: "Hey Frank, say something in Klingon!"
     }
-
   
     // {
     //   name: "",
-    //   pronouns: "()",
+    //   pronouns: "",
     //   photoUrl: "assets/cast/placeholder.png",
-    //   yearJoined: 2020,
+    //   yearJoined: "Aug 2020",
     //   roles: "",
     //   whyJoin: "",
-    // twitter: "fakelink.com",
-    // instagram: "fakelink.com"
+    //   twitter: "fakelink.com",
+    //   instagram: "fakelink.com"
     // }
   ]
 
-  constructor() { }
-
-  ngOnInit(): void {
+  sliceCastList(cols: number, index: number) {
+    return this.castList.filter((member, curIndex) => {
+      return curIndex % cols === index; 
+    })    
   }
-
 }

@@ -40,5 +40,5 @@ You cannot commit directly to the main branch, so you need to create a new branc
 - [x] 404 page
 - [x] better placeholder images
 - [x] Contact Us page
+- [x] (new functionality) ensure the cast bios sort the same way, regardless of screensize
 - [ ] Add in 2023 show dates
-- [ ] (new functionality) ensure the cast bios sort the same way, regardless of screensize

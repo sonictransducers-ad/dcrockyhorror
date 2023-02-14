@@ -4,21 +4,21 @@
   <section class="cast-bios">
     <div class="threecol">
       <div class="col">
-        <div class="member" *ngFor="let member of castList.slice(0, 4)">
+        <div class="member" *ngFor="let member of sliceCastList(3,0)">
           <ng-container
             *ngTemplateOutlet="memberTemplate; context: { member: member }"
           ></ng-container>
         </div>
       </div>
       <div class="col">
-        <div class="member" *ngFor="let member of castList.slice(4, 8)">
+        <div class="member" *ngFor="let member of sliceCastList(3,1)">
           <ng-container
             *ngTemplateOutlet="memberTemplate; context: { member: member }"
           ></ng-container>
         </div>
       </div>
       <div class="col">
-        <div class="member" *ngFor="let member of castList.slice(8)">
+        <div class="member" *ngFor="let member of sliceCastList(3,2)">
           <ng-container
             *ngTemplateOutlet="memberTemplate; context: { member: member }"
           ></ng-container>
@@ -27,14 +27,14 @@
     </div>
     <div class="twocol">
       <div class="col">
-        <div class="member" *ngFor="let member of castList.slice(0, 6)">
+        <div class="member" *ngFor="let member of sliceCastList(2,0)">
           <ng-container
             *ngTemplateOutlet="memberTemplate; context: { member: member }"
           ></ng-container>
         </div>
       </div>
       <div class="col">
-        <div class="member" *ngFor="let member of castList.slice(6)">
+        <div class="member" *ngFor="let member of sliceCastList(2,1)">
           <ng-container
             *ngTemplateOutlet="memberTemplate; context: { member: member }"
           ></ng-container>
