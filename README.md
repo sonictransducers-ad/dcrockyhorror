@@ -41,4 +41,4 @@ You cannot commit directly to the main branch, so you need to create a new branc
 - [x] better placeholder images
 - [x] Contact Us page
 - [x] (new functionality) ensure the cast bios sort the same way, regardless of screensize
-- [ ] Add in 2023 show dates
+- [x] Add in 2023 show dates
