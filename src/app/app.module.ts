@@ -14,6 +14,7 @@ import { CastComponent } from './pages/cast/cast.component';
 import { PropsComponent } from './pages/props/props.component';
 import { LinksComponent } from './pages/links/links.component';
 import { MissingComponent } from './pages/missing/missing.component';
+import { ContactUsComponent } from './pages/contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { MissingComponent } from './pages/missing/missing.component';
     CastComponent,
     PropsComponent,
     LinksComponent,
-    MissingComponent
+    MissingComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,

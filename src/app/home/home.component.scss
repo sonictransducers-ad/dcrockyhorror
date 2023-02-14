@@ -1,7 +1,8 @@
 @use "src/variables" as v;
 
 .home-wrapper {
-  min-height: calc(46vw + 56px);
+  min-height: calc(46vw);
+  margin-top: 56px;
   padding: v.$medium;
   margin-left: 5%;
   box-sizing: border-box;
