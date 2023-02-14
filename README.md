@@ -38,4 +38,4 @@ You cannot commit directly to the main branch, so you need to create a new branc
 ## Future Enhancements
 
 - [x] 404 page
-- [ ] Contact Us page
+- [x] Contact Us page
