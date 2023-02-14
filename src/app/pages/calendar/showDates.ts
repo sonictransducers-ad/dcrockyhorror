@@ -148,12 +148,12 @@ export const showDates: Dates = {
       brad: "Kat",
       riff: "Mike 2.0",
       magenta: "Lindsay",
-      columbia: "Donna",
+      columbia: "Lady Morgan",
       rocky: "Damia",
       eddie: "Lilka",
       scott: "Caitlyn",
       crim: "Geoff",
-      trixie: "Donna",
+      trixie: "Lady Morgan",
       lights: "Lee",
       stagemanager: "Leandra",
       runningcrew: "Bryan, Caitlyn, Emy, Henry, Lilka, Spencer"
@@ -176,7 +176,7 @@ export const showDates: Dates = {
       eddie: "Mike 2.0",
       scott: "Caitlyn",
       crim: "Leandra",
-      trixie: "Donna",
+      trixie: "Lady Morgan",
       lights: "Lee",
       stagemanager: "Relle",
       runningcrew: "Bryan, Caitlyn, Emerson, Lilka, Mike 1, Mike 2, Zoe"
@@ -217,7 +217,7 @@ export const showDates: Dates = {
       brad: "Kat",
       riff: "Mike 2.0",
       magenta: "Lindsay",
-      columbia: "Donna",
+      columbia: "Lady Morgan",
       rocky: "Oscar",
       eddie: "Mike 1.0",
       scott: "Damia",
@@ -233,25 +233,59 @@ export const showDates: Dates = {
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/a54dc2ca-4610-4a92-ad3e-9d6c32ad2934"
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/a54dc2ca-4610-4a92-ad3e-9d6c32ad2934",
+    cast: {
+      frank: "Ali",
+      janet: "Raygun",
+      brad: "Oscar",
+      riff: "Mike 2.0",
+      magenta: "Lindsay",
+      columbia: "Lady Morgan",
+      rocky: "Kat",
+      eddie: "Lilka",
+      scott: "Lilka",
+      crim: "Zoe",
+      trixie: "Spencer",
+      lights: "Lee",
+      stagemanager: "Relle",
+      runningcrew: "Bryan, Henry, Leandra, Lilka, Spencer, Alex, Mercer, Kara"
+    }
   },
   "111222": {
     date: new Date('November 12, 2022'),
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/4469e8c9-bce6-47f0-a9fd-c3dcb013d640"
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/4469e8c9-bce6-47f0-a9fd-c3dcb013d640",
+    cast: {
+      frank: "Leandra",
+      janet: "Raygun",
+      brad: "Kat",
+      riff: "Brad",
+      magenta: "Kelly",
+      columbia: "nuAlli",
+      rocky: "Damia",
+      eddie: "Mike 2.0",
+      scott: "Henry",
+      crim: "Geoff",
+      trixie: "Emerson",
+      lights: "Lee",
+      stagemanager: "Ali",
+      runningcrew: "Bryan, Emerson Henry, Lilka, Mike2, Spencer, Oscar, Alex"
+    }
   },
   "120922": {
     date: new Date('December 9, 2022'),
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/66e1d731-7ac6-4a12-bc34-2a87dee94435"
   },
   "121022": {
     date: new Date('December 10, 2022'),
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/6a77eba5-4d61-49ac-add2-a007ac0e27a3"
   },
 }
