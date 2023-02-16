@@ -13,7 +13,7 @@ export class CastComponent {
       pronouns: "",
       photoUrl: "assets/cast/leandra.png",
       title: "cast lead",
-      yearJoined: "June 2011",
+      yearJoined: "2009",
       roles: "Magenta, Brad, Frank, Riff Raff, Eddie, Dr. Scott, Columbia, Transylvanian, Trixie, MC, Criminologist, and Janet",
       whyJoin: "I don't know... I've been doing it for a million years and I'm sure I had a great reason at the time. It was probably some teenage rebellion thing. I keep doing it for the money, the fame, and all the fringe benefits of dressing in my underwear in front of strangers."
     },
