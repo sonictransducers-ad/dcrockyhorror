@@ -4,21 +4,21 @@
   <section class="cast-bios">
     <div class="threecol">
       <div class="col">
-        <div class="member" *ngFor="let member of sliceCastList(3,0)">
+        <div class="member" *ngFor="let member of sliceCastList(3, 0)">
           <ng-container
             *ngTemplateOutlet="memberTemplate; context: { member: member }"
           ></ng-container>
         </div>
       </div>
       <div class="col">
-        <div class="member" *ngFor="let member of sliceCastList(3,1)">
+        <div class="member" *ngFor="let member of sliceCastList(3, 1)">
           <ng-container
             *ngTemplateOutlet="memberTemplate; context: { member: member }"
           ></ng-container>
         </div>
       </div>
       <div class="col">
-        <div class="member" *ngFor="let member of sliceCastList(3,2)">
+        <div class="member" *ngFor="let member of sliceCastList(3, 2)">
           <ng-container
             *ngTemplateOutlet="memberTemplate; context: { member: member }"
           ></ng-container>
@@ -27,14 +27,14 @@
     </div>
     <div class="twocol">
       <div class="col">
-        <div class="member" *ngFor="let member of sliceCastList(2,0)">
+        <div class="member" *ngFor="let member of sliceCastList(2, 0)">
           <ng-container
             *ngTemplateOutlet="memberTemplate; context: { member: member }"
           ></ng-container>
         </div>
       </div>
       <div class="col">
-        <div class="member" *ngFor="let member of sliceCastList(2,1)">
+        <div class="member" *ngFor="let member of sliceCastList(2, 1)">
           <ng-container
             *ngTemplateOutlet="memberTemplate; context: { member: member }"
           ></ng-container>
@@ -55,9 +55,12 @@
 
 <ng-template #memberTemplate let-member="member">
   <img class="headshot" src="{{ member.photoUrl }}" alt="{{ member.name }}" />
-  <h2 class="name">{{ member.name }}</h2>
+  <h2 class="name">
+    {{ member.name }}
+    <span *ngIf="member.pronouns">({{ member.pronouns }})</span>
+  </h2>
   <p class="title">
-    <i>{{ member.title }} {{ member.pronouns }}</i>
+    <i>{{ member.title }}</i>
   </p>
   <p><i>Member since: </i><span class="space"></span>{{ member.yearJoined }}</p>
   <p><i>Roles: </i><span class="space"></span>{{ member.roles }}</p>
@@ -65,7 +68,8 @@
     <i>Why did you join? </i><span class="space"></span>{{ member.whyJoin }}
   </p>
   <p *ngIf="member.favCallback">
-    <i>Favorite callback? </i><span class="space"></span>{{ member.favCallback }}
+    <i>Favorite callback? </i><span class="space"></span
+    >{{ member.favCallback }}
   </p>
   <p *ngIf="member.aboutMe">
     <i>About me: </i><span class="space"></span>{{ member.aboutMe }}
