@@ -112,7 +112,7 @@ export class CastComponent {
       favCallback: "Hey Frank, say something in Klingon!"
     },
     {
-      name: "Oscar",
+      name: "Oscar Soto Jr.",
       pronouns: "he/him",
       photoUrl: "assets/cast/oscar.png",
       title: "Cast Consultant",
