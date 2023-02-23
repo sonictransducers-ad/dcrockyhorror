@@ -36,14 +36,6 @@ export class CastComponent {
       whyJoin: "I'm desperate for attention and I like hanging out with weirdos. Also because I can tap dance."
     },
     {
-      name: "Akeem",
-      pronouns: "",
-      photoUrl: "assets/cast/akeem.png",
-      yearJoined: "July 2017",
-      roles: "Criminologist, Dr. Scott, and Riff Raff",
-      whyJoin: "I LOVE ROCKY HORROR. PERIOD.",
-    },
-    {
       name: "Damia",
       pronouns: "",
       photoUrl: "assets/cast/damia.png",
@@ -58,14 +50,6 @@ export class CastComponent {
       yearJoined: "Sep 2017",
       roles: "Dr. Scott and Criminologist",
       whyJoin: "Because waving a fiery torch and fronting a fire circus wasn't enough of a theatrical challenge."
-    },
-    {
-      name: "Jake",
-      pronouns: "",
-      photoUrl: "assets/cast/jake.png",
-      yearJoined: "Nov 2017",
-      roles: "Tech, Crew, and Rocky",
-      whyJoin: "What better way to express myself then through song and dance?"
     },
     {
       name: "Lindsay",
@@ -125,6 +109,14 @@ export class CastComponent {
       yearJoined: "Sep 2022",
       roles: "Eddie, Crim, Dr. Scott, Translyvanian",
       favCallback: "Hey Frank, say something in Klingon!"
+    },
+    {
+      name: "Jake",
+      pronouns: "",
+      photoUrl: "assets/cast/jake.png",
+      yearJoined: "Nov 2017",
+      roles: "Tech, Crew, and Rocky",
+      whyJoin: "What better way to express myself then through song and dance?"
     }
   
     // {
