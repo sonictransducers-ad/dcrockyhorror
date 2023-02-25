@@ -10,21 +10,23 @@ export class CastComponent {
   castList: Member[] = [
     {
       name: "Kelly",
-      pronouns: "",
+      pronouns: "she/her",
       photoUrl: "/assets/cast/kelly.jpg",
       title: "cast lead",
       yearJoined: "Sep 2017",
-      roles: "Trixie, Magenta, and Janet",
+      roles: "Trixie, Magenta, Janet, Frank, and Rocky",
+      favCallback: "Say, have you seen my bicycle horn?",
       whyJoin: "I love this movie and I love attention!"
     },
     {
       name: "Leandra",
-      pronouns: "",
+      pronouns: "she/they",
       photoUrl: "assets/cast/leandra.png",
-      title: "cast lead",
-      yearJoined: "2009",
-      roles: "Magenta, Brad, Frank, Riff Raff, Eddie, Dr. Scott, Columbia, Transylvanian, Trixie, MC, Criminologist, and Janet",
-      whyJoin: "I don't know... I've been doing it for a million years and I'm sure I had a great reason at the time. It was probably some teenage rebellion thing. I keep doing it for the money, the fame, and all the fringe benefits of dressing in my underwear in front of strangers."
+      title: "Fearless Leader",
+      yearJoined: "June (?) 2009",
+      roles: "All of them! I'm usually the MC too, so if you're reading this, have been to our show, and loved/hated the pre-show, that was probably my fault. Thank you/ sorry/ no refunds!",
+      favCallback: "What's it like when you're outside in the rain?",
+      aboutMe: "I also have a podcast with Kelly! Check us out at rockyhorrorminute.com! And Oscar is NOT a cast consultant, despite what he may say in his bio."
     },
     {
       name: "Ali",
@@ -40,7 +42,7 @@ export class CastComponent {
       pronouns: "",
       photoUrl: "assets/cast/damia.png",
       yearJoined: "Oct 2017",
-      roles: "Crew, Transylvanian, Dr. Scott, Crim",
+      roles: "Crew, Rocky, Columbia, Dr. Scott, Eddie, Crim, and Transylvanian",
       whyJoin: "So. Much. Fun! And to come out of my performing shell with great people to a fab soundtrack in front of an awesome, engaged, audience."
     },
     {
@@ -127,7 +129,8 @@ export class CastComponent {
       photoUrl: "assets/cast/mike2.jpg",
       yearJoined: "Feb 2022",
       roles: "Riff, Brad, Eddie, and Crim",
-      favCallback: "What's the worst city in Maryland? Columbia."
+      favCallback: "What's the worst city in Maryland? Columbia.",
+      aboutMe: "I used to shop quite frequently in the worst city in Maryland."
     },
     {
       name: "Spencer",
@@ -136,6 +139,7 @@ export class CastComponent {
       yearJoined: "Sep 2022",
       roles: "Trixie and Rocky",
       whyJoin: "Because I'm an attention whore!!",
+      favCallback: `Riff: "Say good bye to all of this!" Audience: "Good bye all of this!"`,
     },
     {
       name: "Jake",
