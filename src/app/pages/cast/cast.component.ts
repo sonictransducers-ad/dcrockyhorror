@@ -99,20 +99,20 @@ export class CastComponent {
       aboutMe: "Weird and Fun Loving. Love to meet new people and do activities with them. You're now my new best friend."
     },
     {
-      name: "Lady Morgan",
-      pronouns: "she/any",
-      photoUrl: "assets/cast/ladym.jpg",
-      yearJoined: "Oct 2021",
-      roles: "Columbia & Trixie...for now",
-      aboutMe: "I realized from the first time I saw Frank standing on the globe singing 'Don't dream it...be it,' that this show was going to change my life. This philosophy has led me to perform over 400 times, before thousands of people. It's fueled decisions that have led me to have some amazing adventures! It's also picked me up from some hard tragedies as well. The RHPS family is Welcoming, fierce, and home to some of the most amazing people I've ever met. ",
-    },
-    {
       name: "Lilka",
       pronouns: "she/her",
       photoUrl: "assets/cast/lilka.jpg",
       yearJoined: "Sep 2022",
       roles: "Eddie, Crim, Dr. Scott, Translyvanian",
       favCallback: "Hey Frank, say something in Klingon!"
+    },
+    {
+      name: "Lady Morgan",
+      pronouns: "she/any",
+      photoUrl: "assets/cast/ladym.jpg",
+      yearJoined: "Oct 2021",
+      roles: "Columbia & Trixie...for now",
+      aboutMe: "I realized from the first time I saw Frank standing on the globe singing 'Don't dream it...be it,' that this show was going to change my life. This philosophy has led me to perform over 400 times, before thousands of people. It's fueled decisions that have led me to have some amazing adventures! It's also picked me up from some hard tragedies as well. The RHPS family is Welcoming, fierce, and home to some of the most amazing people I've ever met. ",
     },
     {
       name: "Oscar Soto Jr.",
@@ -149,17 +149,31 @@ export class CastComponent {
       yearJoined: "Nov 2017",
       roles: "Tech, Crew, and Rocky",
       whyJoin: "What better way to express myself then through song and dance?"
+    },
+    {
+      name: "Lee",
+      pronouns: "he/him",
+      photoUrl: "assets/cast/lee.jpeg",
+      title: "Technical Director",
+      yearJoined: "Aug 2017",
+      roles: "Lights, Crew",
+      whyJoin: `I married into it. Well, really my first show was our third date, she proposed to me during a pre-show, and now I can yell "MA WIFE!" any time I want because it's still 2006.`,
+      favCallback: "What's the last sound Amelia Earhart heard?"
     }
-  
+
     // {
     //   name: "",
     //   pronouns: "",
     //   photoUrl: "assets/cast/placeholder.png",
+    //   title: "",
     //   yearJoined: "Aug 2020",
     //   roles: "",
     //   whyJoin: "",
+    //   favCallback: "",
+    //   aboutMe: "",
     //   twitter: "fakelink.com",
-    //   instagram: "fakelink.com"
+    //   instagram: "fakelink.com",
+    //   facebook: ""
     // }
   ]
 
