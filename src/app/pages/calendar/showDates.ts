@@ -59,6 +59,7 @@ export type Week = [Day, Day, Day, Day, Day, Day, Day];
 // NOTE : not everyone uses their real name for the site. Check against bios before posting a cast list. 
 // D**** => Lady Morgan
 // R***** => Raygun
+// A** => Eden
 
 export const showDates: Dates = {
   "011323": {
