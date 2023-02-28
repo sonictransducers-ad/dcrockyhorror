@@ -12,7 +12,7 @@ export class CastComponent {
       name: "Kelly",
       pronouns: "she/her",
       photoUrl: "/assets/cast/kelly.jpg",
-      title: "cast lead",
+      title: "Cast Lead",
       yearJoined: "Sep 2017",
       roles: "Trixie, Magenta, Janet, Frank, and Rocky",
       favCallback: "Say, have you seen my bicycle horn?",
@@ -29,13 +29,14 @@ export class CastComponent {
       aboutMe: "I also have a podcast with Kelly! Check us out at rockyhorrorminute.com! And Oscar is NOT a cast consultant, despite what he may say in his bio."
     },
     {
-      name: "Ali",
-      pronouns: "",
-      photoUrl: "assets/cast/ali.png",
-      title: "cast lead",
-      yearJoined: "May 2017",
-      roles: "Columbia, Frank",
-      whyJoin: "I'm desperate for attention and I like hanging out with weirdos. Also because I can tap dance."
+      name: "Eden",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/eden.jpeg",
+      title: "Cast Lead",
+      yearJoined: "June 2017",
+      roles: "Frank, Columbia, Riff Raff, Stage Manager, Tech Crew",
+      aboutMe: `My Frank N. Furter isn't a strict imitation of Tim Curry's performance. It's more like: "What if Frank wasn't so much a toxic narcissist as slightly cringe, desperate for attention, and here to make it everyone's problem?" Columbia, on the other hand, is so close to my actual personality that I hardly deviate from what's on the screen, except that I keep my nipples inside my corset.`,
+      instagram: "https://www.instagram.com/edenkitch3n/"
     },
     {
       name: "Damia",
