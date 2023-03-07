@@ -75,13 +75,13 @@
     <i>About me: </i><span class="space"></span>{{ member.aboutMe }}
   </p>
   <div class="socials">
-    <a *ngIf="member.facebook" href="{{ member.facebook }}"
+    <a *ngIf="member.facebook" href="{{ member.facebook }}" target="_blank"
       ><img src="assets/facebook.png" alt="{{ member.name }} facebook"
     /></a>
-    <a *ngIf="member.twitter" href="{{ member.twitter }}"
+    <a *ngIf="member.twitter" href="{{ member.twitter }}" target="_blank"
       ><img src="assets/twitter.png" alt="{{ member.name }} twitter"
     /></a>
-    <a *ngIf="member.instagram" href="{{ member.instagram }}"
+    <a *ngIf="member.instagram" href="{{ member.instagram }}" target="_blank"
       ><img src="assets/instagram.png" alt="{{ member.name }} instagram"
     /></a>
   </div>
