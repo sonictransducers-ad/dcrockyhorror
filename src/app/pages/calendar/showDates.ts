@@ -121,7 +121,7 @@ export const showDates: Dates = {
       brad: "Lilka",
       riff: "Mike 2.0",
       magenta: "Lindsay",
-      columbia: "Lady Mordan",
+      columbia: "Lady Morgan",
       rocky: "Kat",
       eddie: "Mike1",
       scott: "Caitlyn",
