@@ -39,20 +39,20 @@ export type Week = [Day, Day, Day, Day, Day, Day, Day];
 //   locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
 //   ticketLink: ""
 //   cast: {
-//     frank: "Ali",
-//     janet: "Raygun",
-//     brad: "Kat",
-//     riff: "Mike 2.0",
-//     magenta: "Lindsay",
-//     columbia: "Damia",
-//     rocky: "Oscar",
-//     eddie: "Lilka",
-//     scott: "nuAlli",
-//     crim: "n/a",
-//     trixie: "nuAlli",
-//     lights: "Lee",
-//     stagemanager: "Leandra",
-//     runningcrew: "Bryan, Caitlyn, Emy, Henry, Lilka, nuAlli, Spencer"
+//      frank: "",
+//      janet: "",
+//      brad: "",
+//      riff: "",
+//      magenta: "",
+//      columbia: "",
+//      rocky: "",
+//      eddie: "",
+//      scott: "",
+//      crim: "",
+//      trixie: "",
+//      lights: "",
+//      stagemanager: "",
+//      runningcrew: ""
 //   }
 // }
 
@@ -91,14 +91,46 @@ export const showDates: Dates = {
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/d0d63e51-9efe-459c-ab74-f9c640a613fe"
+    ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/d0d63e51-9efe-459c-ab74-f9c640a613fe",
+    cast: {
+      frank: "Kelly",
+      janet: "Kat",
+      brad: "Oscar",
+      riff: "Brad",
+      magenta: "Caitlyn",
+      columbia: "Damia",
+      rocky: "Spencer",
+      eddie: "Zoe",
+      scott: "Bryan",
+      crim: "Mike 2.0",
+      trixie: "Emerson",
+      lights: "Lee",
+      stagemanager: "Relle",
+      runningcrew: "Eden, Bryan, Emerson, Henry, Kate, Lilka, Mark, Mike1, Nat, Paulina, Zoe"
+    }
   },
   "031123": {
     date: new Date('March 11, 2023'),
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/5acb3054-695a-486c-91f6-eed17d4ff1a5"
+    ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/5acb3054-695a-486c-91f6-eed17d4ff1a5",
+    cast: {
+      frank: "Eden",
+      janet: "Kelly",
+      brad: "Lilka",
+      riff: "Mike 2.0",
+      magenta: "Lindsay",
+      columbia: "Lady Mordan",
+      rocky: "Kat",
+      eddie: "Mike1",
+      scott: "Caitlyn",
+      crim: "Geoff",
+      trixie: "Spencer",
+      lights: "Lee",
+      stagemanager: "Damia",
+      runningcrew: "Brad, Bryan, Mike1, Sam, Spencer"
+    }
   },
   "041423": {
     date: new Date('April 14, 2023'),
