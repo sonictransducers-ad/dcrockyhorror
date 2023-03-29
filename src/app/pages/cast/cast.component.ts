@@ -27,6 +27,7 @@ export class CastComponent {
       roles: "All of them! I'm usually the MC too, so if you're reading this, have been to our show, and loved/hated the pre-show, that was probably my fault. Thank you/ sorry/ no refunds!",
       favCallback: "What's it like when you're outside in the rain?",
       aboutMe: "I also have a podcast with Kelly! Check us out at rockyhorrorminute.com! And Oscar is NOT a cast consultant, despite what he may say in his bio."
+      instagram: "https://www.instagram.com/rockyhorrorminute/"
     },
     {
       name: "Eden",
