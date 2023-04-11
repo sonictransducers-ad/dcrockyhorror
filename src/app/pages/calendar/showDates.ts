@@ -172,10 +172,10 @@ export const showDates: Dates = {
       eddie: "Caitlyn",
       scott: "Francisco",
       crim: "Lindsay",
-      trixie: "TBD",
+      trixie: "Shenanigans",
       lights: "Lee",
       stagemanager: "Leandra",
-      runningcrew: "Eden, Bryan, Caitlyn, Kelly"
+      runningcrew: "Eden, Bryan, Caitlyn, Kat, Kelly, Lilka"
     }
   },
   "051223": {
