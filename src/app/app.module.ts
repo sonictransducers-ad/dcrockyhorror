@@ -15,6 +15,7 @@ import { PropsComponent } from './pages/props/props.component';
 import { LinksComponent } from './pages/links/links.component';
 import { MissingComponent } from './pages/missing/missing.component';
 import { ContactUsComponent } from './pages/contactus/contactus.component';
+import { CookiesComponent } from './cookies/cookies.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ContactUsComponent } from './pages/contactus/contactus.component';
     PropsComponent,
     LinksComponent,
     MissingComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    CookiesComponent
   ],
   imports: [
     BrowserModule,
