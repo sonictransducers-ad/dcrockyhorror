@@ -1,0 +1,14 @@
+<div id="cookie-banner" *ngIf="!isConsented">
+  <p>
+    Heads up! We use Google Analytics to collect data. We need this data to
+    understand how you use our website so we can improve its design and
+    functionality. By using our site, you agree that you're cool with that. You
+    can read more about how Google collects data in their
+    <a href="https://www.google.com/policies/privacy/partners/"
+      >privacy policy</a
+    >.
+  </p>
+  <div class="buttonholder">
+    <button (click)="acceptBanner()">Ok</button>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+@use "src/variables" as v;
+
+#cookie-banner {
+  background-color: rgba(20,20,20,0.9);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  p {
+    margin-bottom: 0.5em;
+  }
+  a {
+    color: rgb(200,200,200);
+  }
+  button {
+    background-color: v.$red;
+    border: none;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+  }
+  .buttonholder {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
