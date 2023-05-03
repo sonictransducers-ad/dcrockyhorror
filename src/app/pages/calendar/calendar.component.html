@@ -12,6 +12,8 @@
     >
     to buy tickets now.
   </p>
+  <!-- special hedwig announcement -->
+  <p>We also have some special shows coming up, we'll be shadowcasting <a class="hedwig-link" href="hedwig"><b>Hedwig and the Angry Inch</b></a> on June 16<sup>th</sup> and 17<sup>th</sup>!</p>
 
   <div id="mobile-calendar">
     <div class="header">
@@ -32,7 +34,8 @@
         <div *ngIf="day[0]" class="full">
          <div *ngIf="day[1].length; else noShowDate" class="full">
           <div *ngIf="day[1].length < 2; else multipleShowDates" class="full">
-            <a class="full-day-link darkenfocus" href="calendar?date={{day[1][0][0]}}" title="{{day[1][0][1].time}}">{{day[0]}}</a>
+            <a class="full-day-link darkenfocus" *ngIf="(day[1][0][0]).indexOf('hedwig') === -1" href="calendar?date={{day[1][0][0]}}" title="{{day[1][0][1].time}}">{{day[0]}}</a>
+            <a class="full-day-link darkenfocus hedwig-show" *ngIf="(day[1][0][0]).indexOf('hedwig') !== -1" href="hedwig" title="{{day[1][0][1].time}}">{{day[0]}}</a>
           </div>
           <ng-template #multipleShowDates>
             <div class="multiple-day-links">
