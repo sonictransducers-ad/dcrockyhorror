@@ -16,6 +16,7 @@ import { LinksComponent } from './pages/links/links.component';
 import { MissingComponent } from './pages/missing/missing.component';
 import { ContactUsComponent } from './pages/contactus/contactus.component';
 import { CookiesComponent } from './cookies/cookies.component';
+import { HedwigPageComponent } from './pages/hedwig-page/hedwig-page.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { CookiesComponent } from './cookies/cookies.component';
     LinksComponent,
     MissingComponent,
     ContactUsComponent,
-    CookiesComponent
+    CookiesComponent,
+    HedwigPageComponent
   ],
   imports: [
     BrowserModule,

@@ -14,6 +14,10 @@
   color: v.$red;
 }
 
+.hedwig-link {
+  color: #f8e560;
+}
+
 .location {
   color: inherit;
   font-weight: bold;
@@ -77,6 +81,10 @@
         width: 60px;
         color: white;
         text-decoration: none;
+        &.hedwig-show {
+          background-color: #f8e560;
+          color: black;
+        }
       }
       .multiple-day-links {
         position: relative;
@@ -111,6 +119,18 @@
   &:hover,
   &:focus {
     background-color: v.$darkred !important;
+  }
+}
+
+.hedwig-show {
+  background-color: #f8e560;
+  color: black;
+}
+
+.hedwig-show {
+  &:hover,
+  &:focus {
+    background-color: #b3a749 !important;
   }
 }
 

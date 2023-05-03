@@ -206,6 +206,20 @@ export const showDates: Dates = {
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
     ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/c38f2034-bd02-4aab-8726-5565d4ec3be3"
   },
+  "hedwig1": {
+    date: new Date('June 16, 2023'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
+    ticketLink: ""
+  },
+  "hedwig2": {
+    date: new Date('June 17, 2023'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
+    ticketLink: ""
+  },
   "071423": {
     date: new Date('July 14, 2023'),
     time: "11:55pm",
