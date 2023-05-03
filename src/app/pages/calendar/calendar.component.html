@@ -20,7 +20,8 @@
       <button (click)="incrementMonth(-1)"><</button><h2>{{getFormattedMonth()}}</h2><button (click)="incrementMonth(1)">></button>
     </div>
     <div *ngFor="let show of getShowsInCurrentMonth()" class="shows">
-      <a href="calendar?date={{show[0]}}" class="round-button">{{getFormattedDate(show[1].date, false) + ' ' + show[1].time}}</a>
+      <a href="calendar?date={{show[0]}}" class="round-button"  *ngIf="(show[0]).indexOf('hedwig') === -1">{{getFormattedDate(show[1].date, false) + ' ' + show[1].time}}</a>
+      <a href="hedwig" class="round-button hedwig-show" *ngIf="(show[0]).indexOf('hedwig') !== -1"><i>Hedwig and the Angry Inch</i><br>{{getFormattedDate(show[1].date, false) + ' ' + show[1].time}}</a>
     </div>
   </div>
 
