@@ -185,7 +185,7 @@ export const showDates: Dates = {
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
     ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/edb0efe3-b148-47ad-8109-96bb772d7d96",
     cast: {
-      frank: "Ali",
+      frank: "Eden",
       janet: "NuAlli",
       brad: "Mike2",
       riff: "Damia",
@@ -208,7 +208,7 @@ export const showDates: Dates = {
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
     ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/cf7b6053-07a7-4258-b695-1330edd937db",
     cast: {
-      frank: "Ali",
+      frank: "Eden",
       janet: "NuAlli",
       brad: "Oscar",
       riff: "Peaches",
