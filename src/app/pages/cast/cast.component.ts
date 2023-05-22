@@ -160,6 +160,16 @@ export class CastComponent {
       roles: "Lights, Crew",
       whyJoin: `I married into it. Well, really my first show was our third date, she proposed to me during a pre-show, and now I can yell "MA WIFE!" any time I want because it's still 2006.`,
       favCallback: "What's the last sound Amelia Earhart heard?"
+    },
+    {
+      name: "Cosmic",
+      pronouns: "he/him",
+      photoUrl: "assets/cast/cosmic.jpeg",
+      yearJoined: "May 2023",
+      roles: "Crew",
+      instagram: "https://www.instagram.com/etrealofficial/",
+      whyJoin: `I'm a huge fan of The Rocky Horror Picture Show and I love acting.`,
+      aboutMe: "I am a future thespian and rap/rock artist"
     }
 
     // {

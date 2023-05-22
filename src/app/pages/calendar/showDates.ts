@@ -60,6 +60,7 @@ export type Week = [Day, Day, Day, Day, Day, Day, Day];
 // D**** => Lady Morgan
 // R***** => Raygun
 // A** => Eden
+// E**** => Cosmic
 
 export const showDates: Dates = {
   "011323": {
