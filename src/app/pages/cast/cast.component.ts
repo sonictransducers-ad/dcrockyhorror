@@ -77,7 +77,7 @@ export class CastComponent {
       photoUrl: "assets/cast/raygun.png",
       title: "PR Director",
       yearJoined: "Dec 2017",
-      roles: "Janet",
+      roles: "Janet, Magenta",
       aboutMe: "I've never lost a sock in the laundry.",
       favCallback: "Buy an umbrella you cheap bitch!"
     }, 
@@ -121,7 +121,7 @@ export class CastComponent {
       photoUrl: "assets/cast/oscar.png",
       title: "Cast Consultant",
       yearJoined: "Aug 2010",
-      roles: "Brad, Rocky, Eddie, Dr. Scott, Trixie, Ralph, Transylvanian, and Tech Crew",
+      roles: "Brad, Janet, Rocky, Eddie, Dr. Scott, Trixie, Ralph, Transylvanian, and Tech Crew",
       favCallback: `It's such a silly one, when Frank says “seal of approval”, and then you clap and bark like an actual seal. So dumb, but it tickles me every time.`,
       instagram: "https://www.instagram.com/CROCODLLE/"
     },
@@ -133,15 +133,6 @@ export class CastComponent {
       roles: "Riff, Brad, Eddie, and Crim",
       favCallback: "What's the worst city in Maryland? Columbia.",
       aboutMe: "I used to shop quite frequently in the worst city in Maryland."
-    },
-    {
-      name: "Spencer",
-      pronouns: "he/him",
-      photoUrl: "assets/cast/spencer.jpg",
-      yearJoined: "Sep 2022",
-      roles: "Trixie and Rocky",
-      whyJoin: "Because I'm an attention whore!!",
-      favCallback: `Riff: "Say good bye to all of this!" Audience: "Good bye all of this!"`,
     },
     {
       name: "Jake",
@@ -162,16 +153,25 @@ export class CastComponent {
       favCallback: "What's the last sound Amelia Earhart heard?"
     },
     {
+      name: "Spencer",
+      pronouns: "he/him",
+      photoUrl: "assets/cast/spencer.jpg",
+      yearJoined: "Sep 2022",
+      roles: "Trixie and Rocky",
+      whyJoin: "Because I'm an attention whore!!",
+      favCallback: `Riff: "Say good bye to all of this!" Audience: "Good bye all of this!"`,
+    },
+    {
       name: "Cosmic",
       pronouns: "he/him",
       photoUrl: "assets/cast/cosmic.jpeg",
       yearJoined: "May 2023",
-      roles: "Crew",
+      roles: "Crim, Crew",
       instagram: "https://www.instagram.com/etrealofficial/",
       whyJoin: `I'm a huge fan of The Rocky Horror Picture Show and I love acting.`,
-      aboutMe: "I am a future thespian and rap/rock artist"
+      aboutMe: "I am a future thespian and rap/rock artist",
+      favCallback: "Should I tell them I'm Superman?"
     }
-
     // {
     //   name: "",
     //   pronouns: "",
