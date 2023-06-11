@@ -176,15 +176,11 @@ export class CastComponent {
       name: "Emerson",
       pronouns: "they/them",
       photoUrl: "assets/cast/emerson.png",
-      title: "",
       yearJoined: "Aug 2022",
       roles: "Janet and Trixie",
       whyJoin: "I had just moved D.C. and need to find some freaky queers to hangout with. Plus I've wanted to join a cast ever since I was a kid.",
-      favCallback: "",
       aboutMe: "I'm currently a Political Science/American Studies major at American University. Apart from flashing crowds at Landmark, I love playing bass and screaming (loudly) in my band Blunda.",
-      twitter: "",
       instagram: "https://www.instagram.com/spiiritditch/",
-      facebook: ""
     }
     // {
     //   name: "",
