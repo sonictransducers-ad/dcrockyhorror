@@ -153,9 +153,9 @@ export class CastComponent {
       whyJoin: "What better way to express myself then through song and dance?"
     },
     {
-      name: "Spencer",
+      name: "Stewart",
       pronouns: "he/him",
-      photoUrl: "assets/cast/spencer.jpg",
+      photoUrl: "assets/cast/stewart.jpg",
       yearJoined: "Sep 2022",
       roles: "Trixie and Rocky",
       whyJoin: "Because I'm an attention whore!!",
