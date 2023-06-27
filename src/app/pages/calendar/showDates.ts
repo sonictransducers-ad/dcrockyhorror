@@ -61,6 +61,7 @@ export type Week = [Day, Day, Day, Day, Day, Day, Day];
 // R***** => Raygun
 // A** => Eden
 // E**** => Cosmic
+// S****** => Stewart
 
 export const showDates: Dates = {
   "011323": {
@@ -100,7 +101,7 @@ export const showDates: Dates = {
       riff: "Brad",
       magenta: "Caitlyn",
       columbia: "Damia",
-      rocky: "Spencer",
+      rocky: "Stewart",
       eddie: "Zoe",
       scott: "Bryan",
       crim: "Mike 2.0",
@@ -127,10 +128,10 @@ export const showDates: Dates = {
       eddie: "Mike1",
       scott: "Caitlyn",
       crim: "Geoff",
-      trixie: "Spencer",
+      trixie: "Stewart",
       lights: "Lee",
       stagemanager: "Damia",
-      runningcrew: "Brad, Bryan, Mike1, Sam, Spencer"
+      runningcrew: "Brad, Bryan, Mike1, Sam, Stewart"
     }
   },
   "041423": {
@@ -145,7 +146,7 @@ export const showDates: Dates = {
       brad: "Brad",
       riff: "Damia",
       magenta: "Lilka",
-      columbia: "Spencer",
+      columbia: "Stewart",
       rocky: "The Mikes",
       eddie: "Nat",
       scott: "Francisco",
@@ -168,7 +169,7 @@ export const showDates: Dates = {
       brad: "Brad",
       riff: "Damia",
       magenta: "Raygun",
-      columbia: "Spencer",
+      columbia: "Stewart",
       rocky: "The Mikes",
       eddie: "Caitlyn",
       scott: "Francisco",
@@ -191,7 +192,7 @@ export const showDates: Dates = {
       brad: "Mike2",
       riff: "Damia",
       magenta: "Caitlyn",
-      columbia: "Spencer",
+      columbia: "Stewart",
       rocky: "Kat",
       eddie: "Nat",
       scott: "Nat",
@@ -215,7 +216,7 @@ export const showDates: Dates = {
       riff: "Peaches",
       magenta: "Lindsay",
       columbia: "Lady Morgan",
-      rocky: "Spencer",
+      rocky: "Stewart",
       eddie: "Caitlyn",
       scott: "Damia",
       crim: "Geoff",
@@ -238,7 +239,7 @@ export const showDates: Dates = {
       riff: "Mike2",
       magenta: "Lilka",
       columbia: "Eden",
-      rocky: "Spencer",
+      rocky: "Stewart",
       eddie: "Mike1",
       scott: "Caitlyn",
       crim: "Lindsay",
@@ -261,7 +262,7 @@ export const showDates: Dates = {
       riff: "Peaches",
       magenta: "Lindsay",
       columbia: "nuAlli",
-      rocky: "Spencer",
+      rocky: "Stewart",
       eddie: "Leandra",
       scott: "Caitlyn",
       crim: "Cosmic",
