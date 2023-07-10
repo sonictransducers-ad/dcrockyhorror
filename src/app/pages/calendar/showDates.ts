@@ -291,14 +291,46 @@ export const showDates: Dates = {
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/e4c0bd0d-4600-400c-a97e-0f0cea342367"
+    ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/e4c0bd0d-4600-400c-a97e-0f0cea342367",
+    cast: {
+     frank: "Kat",
+     janet: "Oscar",
+     brad: "Mike2",
+     riff: "Mary",
+     magenta: "Raygun",
+     columbia: "Eden",
+     rocky: "Damia",
+     eddie: "Lilka",
+     scott: "Nat",
+     crim: "Lindsay",
+     trixie: "Kate",
+     lights: "Lee",
+     stagemanager: "Relle",
+     runningcrew: "Frankie, Kate, Lilka, Mike1, Nat, Peaches, Stewart"
+    }
   },
   "071523": {
     date: new Date('July 15, 2023'),
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/70dcb738-08ae-4b9b-8374-f59948ed68e2"
+    ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/70dcb738-08ae-4b9b-8374-f59948ed68e2",
+    cast: {
+     frank: "Eden",
+     janet: "nuAlli",
+     brad: "Kat",
+     riff: "Peaches",
+     magenta: "Lilka",
+     columbia: "Lady Morgan",
+     rocky: "Stewart",
+     eddie: "Mike1",
+     scott: "Geoff",
+     crim: "Lindsay",
+     trixie: "Lady Morgan",
+     lights: "Lee",
+     stagemanager: "Damia",
+     runningcrew: "Alina, Chance, Frankie, Geoff, Leandra, Mike1"
+   }
   },
   "081123": {
     date: new Date('August 11, 2023'),
