@@ -40,6 +40,19 @@ export class CastComponent {
       instagram: "https://www.instagram.com/edenkitch3n/"
     },
     {
+      name: "Kat G",
+      pronouns: "any pronouns",
+      photoUrl: "assets/cast/kat.jpg",
+      title: "Cast Lead",
+      yearJoined: "June 2017",
+      roles: "Brad, Janet, Frank, Rocky, Eddie, Dr. Scott, Tech Crew",
+      whyJoin: "It started with one show on our 10th Anniversary on Valentines Day 2014.  In a few months, we went again.  And again.  Forward to October 2016, when we decided to go to all five October shows.  After that, we were like I guess we go to all the shows now.  And then, one dark and stormy night, we asked if we could use their telephone...",
+      favCallback: "",
+      aboutMe: "",
+      instagram: "https://www.instagram.com/wizzardcalledkat/",
+      facebook: "https://www.facebook.com/kat.glosenger?mibextid=ZbWKwL"
+    },
+    {
       name: "Damia",
       pronouns: "",
       photoUrl: "assets/cast/damia.png",
@@ -47,6 +60,16 @@ export class CastComponent {
       roles: "Crew, Rocky, Columbia, Dr. Scott, Eddie, Crim, and Transylvanian",
       whyJoin: "So. Much. Fun! And to come out of my performing shell with great people to a fab soundtrack in front of an awesome, engaged, audience."
     },
+    {
+      name: "Raygun",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/raygun.png",
+      title: "PR Director",
+      yearJoined: "Dec 2017",
+      roles: "Janet, Magenta",
+      aboutMe: "I've never lost a sock in the laundry.",
+      favCallback: "Buy an umbrella you cheap bitch!"
+    }, 
     {
       name: "Geoffrey",
       pronouns: "",
@@ -71,16 +94,6 @@ export class CastComponent {
       roles: "Magenta",
       whyJoin: "To meet like minded sick fucks!"
     },
-    {
-      name: "Raygun",
-      pronouns: "she/her",
-      photoUrl: "assets/cast/raygun.png",
-      title: "PR Director",
-      yearJoined: "Dec 2017",
-      roles: "Janet, Magenta",
-      aboutMe: "I've never lost a sock in the laundry.",
-      favCallback: "Buy an umbrella you cheap bitch!"
-    }, 
     {
       name: "nuAlli",
       pronouns: "she/her",
@@ -108,14 +121,6 @@ export class CastComponent {
       aboutMe: "I realized from the first time I saw Frank standing on the globe singing 'Don't dream it...be it,' that this show was going to change my life. This philosophy has led me to perform over 400 times, before thousands of people. It's fueled decisions that have led me to have some amazing adventures! It's also picked me up from some hard tragedies as well. The RHPS family is Welcoming, fierce, and home to some of the most amazing people I've ever met. ",
     },
     {
-      name: "Lilka",
-      pronouns: "she/her",
-      photoUrl: "assets/cast/lilka.jpg",
-      yearJoined: "Sep 2022",
-      roles: "Eddie, Crim, Dr. Scott, Translyvanian",
-      favCallback: "Hey Frank, say something in Klingon!"
-    },
-    {
       name: "Oscar Soto Jr.",
       pronouns: "he/him",
       photoUrl: "assets/cast/oscar.png",
@@ -124,6 +129,14 @@ export class CastComponent {
       roles: "Brad, Janet, Rocky, Eddie, Dr. Scott, Trixie, Ralph, Transylvanian, and Tech Crew",
       favCallback: `It's such a silly one, when Frank says “seal of approval”, and then you clap and bark like an actual seal. So dumb, but it tickles me every time.`,
       instagram: "https://www.instagram.com/CROCODLLE/"
+    },
+    {
+      name: "Lilka",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/lilka.jpg",
+      yearJoined: "Sep 2022",
+      roles: "Eddie, Crim, Dr. Scott, Translyvanian",
+      favCallback: "Hey Frank, say something in Klingon!"
     },
     {
       name: "Mike",
@@ -181,7 +194,7 @@ export class CastComponent {
       whyJoin: "I had just moved D.C. and need to find some freaky queers to hangout with. Plus I've wanted to join a cast ever since I was a kid.",
       aboutMe: "I'm currently a Political Science/American Studies major at American University. Apart from flashing crowds at Landmark, I love playing bass and screaming (loudly) in my band Blunda.",
       instagram: "https://www.instagram.com/spiiritditch/",
-    }
+    },
     // {
     //   name: "",
     //   pronouns: "",
