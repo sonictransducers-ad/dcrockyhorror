@@ -60,7 +60,6 @@ export type Week = [Day, Day, Day, Day, Day, Day, Day];
 // D**** => Lady Morgan
 // R***** => Raygun
 // A** => Eden
-// E**** => Cosmic
 // S****** => Stewart
 
 export const showDates: Dates = {
@@ -337,14 +336,46 @@ export const showDates: Dates = {
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/24b76a20-6967-46d0-a2a1-ced5100a953d"
+    ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/24b76a20-6967-46d0-a2a1-ced5100a953d",
+    cast: {
+      frank: "Eden",
+      janet: "Raygun",
+      brad: "Kat",
+      riff: "Damia",
+      magenta: "Kelly",
+      columbia: "nuAlli",
+      rocky: "Leandra",
+      eddie: "Nat",
+      scott: "Augustus",
+      crim: "Lindsay",
+      trixie: "Kate",
+      lights: "Lee",
+      stagemanager: "Brad",
+      runningcrew: "Augustus, Kate, Lilka, Makenzie, Mike1, Mike2, Nat, Peaches, Stewart, Mary, Ruby"
+    }
   },
   "081223": {
     date: new Date('August 12, 2023'),
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/d716ede8-652d-4ecf-ba92-fded4891cfa1"
+    ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/d716ede8-652d-4ecf-ba92-fded4891cfa1",
+    cast: {
+      frank: "Giorgio (Guest)",
+      janet: "Kelly",
+      brad: "Kat",
+      riff: "Brad",
+      magenta: "Lindsay",
+      columbia: "Eden",
+      rocky: "Stewart",
+      eddie: "Leandra",
+      scott: "nuAlli",
+      crim: "Mike1",
+      trixie: "nuAlli",
+      lights: "Lee",
+      stagemanager: "Damia",
+      runningcrew: "Leandra, Lilka, Makenzie, nuAlli, Peaches, Tatiana, Mary, Ruby"
+    }
   },
   "090823": {
     date: new Date('September 8, 2023'),

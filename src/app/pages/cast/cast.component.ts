@@ -119,6 +119,14 @@ export class CastComponent {
       aboutMe: "I realized from the first time I saw Frank standing on the globe singing 'Don't dream it...be it,' that this show was going to change my life. This philosophy has led me to perform over 400 times, before thousands of people. It's fueled decisions that have led me to have some amazing adventures! It's also picked me up from some hard tragedies as well. The RHPS family is Welcoming, fierce, and home to some of the most amazing people I've ever met. ",
     },
     {
+      name: "Lilka",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/lilka.jpg",
+      yearJoined: "Sep 2022",
+      roles: "Eddie, Crim, Dr. Scott, Translyvanian",
+      favCallback: "Hey Frank, say something in Klingon!"
+    },
+    {
       name: "Oscar Soto Jr.",
       pronouns: "he/him",
       photoUrl: "assets/cast/oscar.png",
@@ -127,14 +135,6 @@ export class CastComponent {
       roles: "Brad, Janet, Rocky, Eddie, Dr. Scott, Trixie, Ralph, Transylvanian, and Tech Crew",
       favCallback: `It's such a silly one, when Frank says “seal of approval”, and then you clap and bark like an actual seal. So dumb, but it tickles me every time.`,
       instagram: "https://www.instagram.com/CROCODLLE/"
-    },
-    {
-      name: "Lilka",
-      pronouns: "she/her",
-      photoUrl: "assets/cast/lilka.jpg",
-      yearJoined: "Sep 2022",
-      roles: "Eddie, Crim, Dr. Scott, Translyvanian",
-      favCallback: "Hey Frank, say something in Klingon!"
     },
     {
       name: "Mike",
@@ -156,12 +156,14 @@ export class CastComponent {
       favCallback: "What's the last sound Amelia Earhart heard?"
     },
     {
-      name: "Jake",
-      pronouns: "",
-      photoUrl: "assets/cast/jake.png",
-      yearJoined: "Nov 2017",
-      roles: "Tech, Crew, and Rocky",
-      whyJoin: "What better way to express myself then through song and dance?"
+      name: "Emerson",
+      pronouns: "they/them",
+      photoUrl: "assets/cast/emerson.png",
+      yearJoined: "Aug 2022",
+      roles: "Janet and Trixie",
+      whyJoin: "I had just moved D.C. and need to find some freaky queers to hangout with. Plus I've wanted to join a cast ever since I was a kid.",
+      aboutMe: "I'm currently a Political Science/American Studies major at American University. Apart from flashing crowds at Landmark, I love playing bass and screaming (loudly) in my band Blunda.",
+      instagram: "https://www.instagram.com/spiiritditch/",
     },
     {
       name: "Stewart",
@@ -173,25 +175,12 @@ export class CastComponent {
       favCallback: `Riff: "Say good bye to all of this!" Audience: "Good bye all of this!"`,
     },
     {
-      name: "Cosmic",
-      pronouns: "he/him",
-      photoUrl: "assets/cast/cosmic.jpeg",
-      yearJoined: "May 2023",
-      roles: "Crim, Crew",
-      instagram: "https://www.instagram.com/etrealofficial/",
-      whyJoin: `I'm a huge fan of The Rocky Horror Picture Show and I love acting.`,
-      aboutMe: "I am a future thespian and rap/rock artist",
-      favCallback: "Should I tell them I'm Superman?"
-    },
-    {
-      name: "Emerson",
-      pronouns: "they/them",
-      photoUrl: "assets/cast/emerson.png",
-      yearJoined: "Aug 2022",
-      roles: "Janet and Trixie",
-      whyJoin: "I had just moved D.C. and need to find some freaky queers to hangout with. Plus I've wanted to join a cast ever since I was a kid.",
-      aboutMe: "I'm currently a Political Science/American Studies major at American University. Apart from flashing crowds at Landmark, I love playing bass and screaming (loudly) in my band Blunda.",
-      instagram: "https://www.instagram.com/spiiritditch/",
+      name: "Jake",
+      pronouns: "",
+      photoUrl: "assets/cast/jake.png",
+      yearJoined: "Nov 2017",
+      roles: "Tech, Crew, and Rocky",
+      whyJoin: "What better way to express myself then through song and dance?"
     }
     // {
     //   name: "",
