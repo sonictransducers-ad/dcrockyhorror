@@ -95,7 +95,7 @@ export class CastComponent {
     {
       name: "nuAlli",
       pronouns: "she/her",
-      photoUrl: "assets/cast/placeholder4.png",
+      photoUrl: "assets/cast/nualli.jpg",
       yearJoined: "Feb 2022",
       roles: "Columbia, Janet, and Trixie",
       whyJoin: "I'm a slut for applause and an insomniac.",
