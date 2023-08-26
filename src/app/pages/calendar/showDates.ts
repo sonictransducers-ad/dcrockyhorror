@@ -382,28 +382,49 @@ export const showDates: Dates = {
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: ""
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/0c01b447-3fa3-455d-9080-5db1ea2c3b0e"
   },
   "090923": {
     date: new Date('September 9, 2023'),
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: ""
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/a6507445-7de7-49c5-8e83-785da06cb466"
   },
   "101323": {
     date: new Date('October 13, 2023'),
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: ""
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/a609ca9d-d873-47a6-8e38-7dced3c15968"
   },
   "101423": {
     date: new Date('October 14, 2023'),
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: ""
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/ec997bd7-d083-48a0-97d1-4fbf68a411e4"
+  },
+  "102723": {
+    date: new Date('October 27, 2023'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/c2aeba7a-751e-4484-aa46-3c90cee3daa1"
+  },
+  "102823": {
+    date: new Date('October 28, 2023'),
+    time: "11:55pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/272903b4-1114-405c-a796-eeed0de28990"
+  },
+  "102923": {
+    date: new Date('October 29, 2023'),
+    time: "8:00pm",
+    location: "Landmark's E Street Cinema",
+    locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/47c6aff7-c6f4-4a27-b902-c2117901effc"
   },
   "111023": {
     date: new Date('November 10, 2023'),
