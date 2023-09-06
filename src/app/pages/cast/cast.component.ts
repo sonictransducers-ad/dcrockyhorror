@@ -123,8 +123,9 @@ export class CastComponent {
       pronouns: "she/her",
       photoUrl: "assets/cast/lilka.jpg",
       yearJoined: "Sep 2022",
-      roles: "Eddie, Crim, Dr. Scott, Translyvanian",
-      favCallback: "Hey Frank, say something in Klingon!"
+      roles: "Magenta, Brad, Eddie, Dr. Scott, Crim",
+      favCallback: "Hey Frank, say something in Klingon!",
+      whyJoin: "I like to make people laugh. Even if it's just me laughing."
     },
     {
       name: "Oscar Soto Jr.",
