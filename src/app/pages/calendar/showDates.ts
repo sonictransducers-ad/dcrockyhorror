@@ -382,14 +382,46 @@ export const showDates: Dates = {
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/0c01b447-3fa3-455d-9080-5db1ea2c3b0e"
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/0c01b447-3fa3-455d-9080-5db1ea2c3b0e",
+    cast: {
+           frank: "Kelly",
+           janet: "nuAlli",
+           brad: "Brad",
+           riff: "Mike2",
+           magenta: "Lindsay",
+           columbia: "Eden",
+           rocky: "Stewart",
+           eddie: "Lilka",
+           scott: "Caitlyn",
+           crim: "Relle",
+           trixie: "Stewart",
+           lights: "Lee",
+           stagemanager: "Damia",
+           runningcrew: "Augustus, Caitlyn, Leandra, Lilka, Peaches, Zoe, Cas, Mike1.0"
+        }
   },
   "090923": {
     date: new Date('September 9, 2023'),
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/a6507445-7de7-49c5-8e83-785da06cb466"
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/a6507445-7de7-49c5-8e83-785da06cb466",
+    cast: {
+           frank: "Eden",
+           janet: "Kelly",
+           brad: "Lilka",
+           riff: "Peaches",
+           magenta: "Leandra",
+           columbia: "Lady Morgan",
+           rocky: "Kat",
+           eddie: "Kate",
+           scott: "Augustus",
+           crim: "Lindsay",
+           trixie: "Emerson",
+           lights: "Lee",
+           stagemanager: "Brad",
+           runningcrew: "Henry, Augustus, nuAlli, Stewart, Kate, Stephanie, Zoe, Mike1, Mike2, Caitlyn, Cas"
+        }
   },
   "101323": {
     date: new Date('October 13, 2023'),
