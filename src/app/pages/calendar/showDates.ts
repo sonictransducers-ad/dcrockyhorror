@@ -458,6 +458,13 @@ export const showDates: Dates = {
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
     ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/47c6aff7-c6f4-4a27-b902-c2117901effc"
   },
+  "103123": {
+    date: new Date('October 31, 2023'),
+    time: "8:00pm",
+    location: "Lincoln Theatre",
+    locationLink: "https://www.thelincolndc.com/e/the-rocky-horror-picture-show-48th-anniversary-spectacular-tour/",
+    ticketLink: "https://www.thelincolndc.com/e/the-rocky-horror-picture-show-48th-anniversary-spectacular-tour/"
+  },
   "111023": {
     date: new Date('November 10, 2023'),
     time: "11:55pm",
