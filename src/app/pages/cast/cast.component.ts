@@ -157,6 +157,15 @@ export class CastComponent {
       favCallback: "What's the last sound Amelia Earhart heard?"
     },
     {
+      name: "Stewart",
+      pronouns: "he/him",
+      photoUrl: "assets/cast/stewart.jpg",
+      yearJoined: "Sep 2022",
+      roles: "Trixie and Rocky",
+      whyJoin: "Because I'm an attention whore!!",
+      favCallback: `Riff: "Say good bye to all of this!" Audience: "Good bye all of this!"`,
+    },
+    {
       name: "Emerson",
       pronouns: "they/them",
       photoUrl: "assets/cast/emerson.png",
@@ -167,22 +176,22 @@ export class CastComponent {
       instagram: "https://www.instagram.com/spiiritditch/",
     },
     {
-      name: "Stewart",
-      pronouns: "he/him",
-      photoUrl: "assets/cast/stewart.jpg",
-      yearJoined: "Sep 2022",
-      roles: "Trixie and Rocky",
-      whyJoin: "Because I'm an attention whore!!",
-      favCallback: `Riff: "Say good bye to all of this!" Audience: "Good bye all of this!"`,
-    },
-    {
       name: "Jake",
       pronouns: "",
       photoUrl: "assets/cast/jake.png",
       yearJoined: "Nov 2017",
       roles: "Tech, Crew, and Rocky",
       whyJoin: "What better way to express myself then through song and dance?"
-    }
+    },
+    {
+      name: "Alina",
+      pronouns: "they/she",
+      photoUrl: "assets/cast/alina.jpg",
+      yearJoined: "May 2023",
+      roles: "Lights, Crew",
+      favCallback: "AUGH !! GEORGE SANTOS !!",
+      instagram: "https://www.instagram.com/exucariba/",
+    },
     // {
     //   name: "",
     //   pronouns: "",
