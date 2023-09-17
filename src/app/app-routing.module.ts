@@ -11,6 +11,7 @@ import { LinksComponent } from './pages/links/links.component';
 import { ContactUsComponent } from './pages/contactus/contactus.component';
 import { MissingComponent } from './pages/missing/missing.component';
 import { HedwigPageComponent } from './pages/hedwig-page/hedwig-page.component';
+import { LincolnshowComponent } from './pages/lincolnshow/lincolnshow.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'prop-guide', component: PropsComponent },
   { path: 'hello', component: LinksComponent},
   { path: 'contact-us', component: ContactUsComponent},
+  { path: 'halloween', component: LincolnshowComponent},
   // { path: 'hedwig', component: HedwigPageComponent},
   { path: '**', component: MissingComponent}
 ];
