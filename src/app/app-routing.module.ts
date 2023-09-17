@@ -22,7 +22,7 @@ const routes: Routes = [
   { path: 'prop-guide', component: PropsComponent },
   { path: 'hello', component: LinksComponent},
   { path: 'contact-us', component: ContactUsComponent},
-  { path: 'hedwig', component: HedwigPageComponent},
+  // { path: 'hedwig', component: HedwigPageComponent},
   { path: '**', component: MissingComponent}
 ];
 

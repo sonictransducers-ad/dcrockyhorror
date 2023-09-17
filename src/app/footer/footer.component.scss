@@ -53,7 +53,9 @@ footer {
 
 .frank {
   position: absolute;
-  width: 40%;
+  // THIS IS TEMPORARY TO ALLOW FOR THE LINCOLN PROMO IMAGE
+  // width: 40%;
+  height: 250px; // CHANGE BACK TO WIDTH 40% AND REMOVE THIS WHEN DONE
   bottom: 100%;
   right: 0;
   z-index: -1;
