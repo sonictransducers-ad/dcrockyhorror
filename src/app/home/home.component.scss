@@ -5,12 +5,17 @@
   margin-top: 56px;
   padding: v.$medium;
   margin-left: 5%;
+  margin-left: auto; // THIS IS TEMPORARY FOR THE LINCOLN PROMO. REMOVE WHEN DONE
+  margin-right: auto; // THIS IS TEMPORARY FOR THE LINCOLN PROMO. REMOVE WHEN DONE
+  margin-bottom: 200px; // THIS IS TEMPORARY FOR THE LINCOLN PROMO. REMOVE WHEN DONE
   box-sizing: border-box;
-  width: 55%;
+  // width: 55%;
+  width: 80%; // THIS IS TEMPORARY FOR THE LINCOLN PROMO. REVERT TO 55% WHEN DONE
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  // align-items: flex-start;
+  align-items: center; // THIS IS TEMPORARY FOR THE LINCOLN PROMO. REVERT TO flex-start WHEN DONE
   p {
     font-size: v.$large-text;
     line-height: v.$large-text-lh;
@@ -21,15 +26,13 @@ h1 {
   margin-bottom: 2rem;
 }
 
-img {
-  width: 400px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+#lincolnpromo {
+  width: 60%;
 }
 
 a {
   margin-top: v.$medium;
+  color: inherit;
 }
 
 @media only screen and (max-width: 700px) {
@@ -44,6 +47,9 @@ a {
     }
     p, a {
       text-align: center;
+    }
+    #lincolnpromo {
+      width: 100%;
     }
   }
 }
