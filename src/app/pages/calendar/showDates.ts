@@ -4,6 +4,7 @@ export interface Show {
   location: string;
   locationLink?: string;
   ticketLink?: string;
+  doubleCast?: boolean;
   cast?: {
     frank: string;
     janet: string;
@@ -474,21 +475,71 @@ export const showDates: Dates = {
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/c2aeba7a-751e-4484-aa46-3c90cee3daa1"
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/c2aeba7a-751e-4484-aa46-3c90cee3daa1",
+    cast: {
+      frank: "Eden",
+      janet: "Raygun",
+      brad: "Kat",
+      riff: "Mike2",
+      magenta: "Leandra",
+      columbia: "Lady Morgan",
+      rocky: "Oscar",
+      eddie: "Kate",
+      scott: "Caitlyn",
+      crim: "Lindsay",
+      trixie: "Kate",
+      lights: "Lee",
+      stagemanager: "Damia",
+      runningcrew: "Lilka, Peaches, Zoe, Sam, Henry, Kate, Tatiana, Caitlyn"
+    }
   },
   "102823": {
     date: new Date('October 28, 2023'),
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/272903b4-1114-405c-a796-eeed0de28990"
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/272903b4-1114-405c-a796-eeed0de28990",
+    doubleCast: true,
+    cast: {
+      frank: "Eden",
+      janet: "nuAlli, Emerson",
+      brad: "Kat",
+      riff: "Damia",
+      magenta: "Caitlyn",
+      columbia: "Stewart",
+      rocky: "Mike2",
+      eddie: "Lilka",
+      scott: "Peaches",
+      crim: "Zoe",
+      trixie: "Emerson",
+      lights: "Lee & Alina",
+      stagemanager: "Leandra",
+      runningcrew: "Lilka, Peaches, Sam, Mike1, Henry"
+    }
   },
   "102923": {
     date: new Date('October 29, 2023'),
     time: "8:00pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/47c6aff7-c6f4-4a27-b902-c2117901effc"
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/47c6aff7-c6f4-4a27-b902-c2117901effc",
+    doubleCast: true,
+    cast: {
+      frank: "Kelly, Eden",
+      janet: "nuAlli, Emerson",
+      brad: "Lilka",
+      riff: "Peaches",
+      magenta: "Lindsay",
+      columbia: "Lady Morgan",
+      rocky: "Stewart",
+      eddie: "Mike1",
+      scott: "Caitlyn",
+      crim: "Zoe",
+      trixie: "Emerson",
+      lights: "Lee",
+      stagemanager: "Brad",
+      runningcrew: "Kat, Mike2, Tatiana, Damia, Caitlyn, Sam, Henry, Makenzie"
+    }
   },
   "halloween": {
     date: new Date('October 31, 2023'),
