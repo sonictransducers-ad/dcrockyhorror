@@ -87,6 +87,8 @@
     <p>Tickets are not currently available for this show. Check back soon!</p>
   </ng-template>
 
+  <p *ngIf="showDates[date].doubleCast">Some roles for this performance are double-cast! For roles with two names listed, the second name will perform the role from floorshow onward.</p>
+
   <section class="cast" *ngIf="showDates[date].cast">
     <p class="role">
       <span class="name">FRANK <span class="divider"></span></span><span class="actor">{{ showDates[date].cast?.frank }}</span>
