@@ -176,14 +176,6 @@ export class CastComponent {
       instagram: "https://www.instagram.com/spiiritditch/",
     },
     {
-      name: "Zoe",
-      pronouns: "she/her",
-      photoUrl: "assets/cast/zoe.jpeg",
-      yearJoined: "Sep 2022",
-      roles: "Tech Crew, Transylvanian, Crim, Eddie",
-      whyJoin: "I saw the main characters in The Perks of Being a Wallflower shadowcasting Rocky and it seemed like the coolest thing ever!!!"
-    },
-    {
       name: "Alina",
       pronouns: "they/she",
       photoUrl: "assets/cast/alina.jpg",
@@ -191,6 +183,23 @@ export class CastComponent {
       roles: "Lights, Crew",
       favCallback: "AUGH !! GEORGE SANTOS !!",
       instagram: "https://www.instagram.com/exucariba/",
+    },
+    {
+      name: "Kay Ray",
+      pronouns: "they/them",
+      photoUrl: "assets/cast/kayray.jpeg",
+      yearJoined: "Oct 2022",
+      roles: "Transylvanian, Trixie, Eddie, Crew",
+      whyJoin: "To honor my 15-year old self, who felt so much queer and trans joy the first time they saw a RHPS shadow-cast!",
+      favCallback: "Hey Janet! Watch out for the slut eating tree!",
+    },
+    {
+      name: "Zoe",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/zoe.jpeg",
+      yearJoined: "Sep 2022",
+      roles: "Tech Crew, Transylvanian, Crim, Eddie",
+      whyJoin: "I saw the main characters in The Perks of Being a Wallflower shadowcasting Rocky and it seemed like the coolest thing ever!!!"
     },
     {
       name: "Jake",

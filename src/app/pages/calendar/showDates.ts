@@ -62,6 +62,7 @@ export type Week = [Day, Day, Day, Day, Day, Day, Day];
 // R***** => Raygun
 // A** => Eden
 // S****** => Stewart
+// K*** => Kay Ray
 
 export const showDates: Dates = {
   "011323": {
@@ -108,7 +109,7 @@ export const showDates: Dates = {
       trixie: "Emerson",
       lights: "Lee",
       stagemanager: "Relle",
-      runningcrew: "Eden, Bryan, Emerson, Henry, Kate, Lilka, Mark, Mike1, Nat, Paulina, Zoe"
+      runningcrew: "Eden, Bryan, Emerson, Henry, Kay Ray, Lilka, Mark, Mike1, Nat, Paulina, Zoe"
     }
   },
   "031123": {
@@ -151,10 +152,10 @@ export const showDates: Dates = {
       eddie: "Nat",
       scott: "Francisco",
       crim: "Relle",
-      trixie: "Kate",
+      trixie: "Kay Ray",
       lights: "Lee",
       stagemanager: "Leandra",
-      runningcrew: "Eden, Bryan, Caitlyn, Kate, Kelly, Nat, Sam"
+      runningcrew: "Eden, Bryan, Caitlyn, Kay Ray, Kelly, Nat, Sam"
     }
   },
   "041523": {
@@ -197,10 +198,10 @@ export const showDates: Dates = {
       eddie: "Nat",
       scott: "Nat",
       crim: "Lindsay",
-      trixie: "Kate",
+      trixie: "Kay Ray",
       lights: "Lee and Waltz",
       stagemanager: "Leandra",
-      runningcrew: "Gus, Mike1, Nat, Kate, Alina, Edwin, Stephanie"
+      runningcrew: "Gus, Mike1, Nat, Kay Ray, Alina, Edwin, Stephanie"
     }
   },
   "051323": {
@@ -303,10 +304,10 @@ export const showDates: Dates = {
      eddie: "Lilka",
      scott: "Nat",
      crim: "Lindsay",
-     trixie: "Kate",
+     trixie: "Kay Ray",
      lights: "Lee",
      stagemanager: "Relle",
-     runningcrew: "Frankie, Kate, Lilka, Mike1, Nat, Peaches, Stewart"
+     runningcrew: "Frankie, Kay Ray, Lilka, Mike1, Nat, Peaches, Stewart"
     }
   },
   "071523": {
@@ -349,10 +350,10 @@ export const showDates: Dates = {
       eddie: "Nat",
       scott: "Augustus",
       crim: "Lindsay",
-      trixie: "Kate",
+      trixie: "Kay Ray",
       lights: "Lee",
       stagemanager: "Brad",
-      runningcrew: "Augustus, Kate, Lilka, Makenzie, Mike1, Mike2, Nat, Peaches, Stewart, Mary, Ruby"
+      runningcrew: "Augustus, Kay Ray, Lilka, Makenzie, Mike1, Mike2, Nat, Peaches, Stewart, Mary, Ruby"
     }
   },
   "081223": {
@@ -415,13 +416,13 @@ export const showDates: Dates = {
            magenta: "Leandra",
            columbia: "Lady Morgan",
            rocky: "Kat",
-           eddie: "Kate",
+           eddie: "Kay Ray",
            scott: "Augustus",
            crim: "Lindsay",
            trixie: "Emerson",
            lights: "Lee",
            stagemanager: "Brad",
-           runningcrew: "Henry, Augustus, nuAlli, Stewart, Kate, Stephanie, Zoe, Mike1, Mike2, Caitlyn, Cas"
+           runningcrew: "Henry, Augustus, nuAlli, Stewart, Kay Ray, Stephanie, Zoe, Mike1, Mike2, Caitlyn, Cas"
         }
   },
   "101323": {
@@ -467,7 +468,7 @@ export const showDates: Dates = {
            trixie: "Lady Morgan",
            lights: "Lee / Alina",
            stagemanager: "Damia",
-           runningcrew: "Mike2, Tatiana, Zoe, Peaches, Kate, Frankie, Makenzie, Mike1"
+           runningcrew: "Mike2, Tatiana, Zoe, Peaches, Kay Ray, Frankie, Makenzie, Mike1"
         }
   },
   "102723": {
@@ -484,13 +485,13 @@ export const showDates: Dates = {
       magenta: "Leandra",
       columbia: "Lady Morgan",
       rocky: "Oscar",
-      eddie: "Kate",
+      eddie: "Kay Ray",
       scott: "Caitlyn",
       crim: "Lindsay",
-      trixie: "Kate",
+      trixie: "Kay Ray",
       lights: "Lee",
       stagemanager: "Damia",
-      runningcrew: "Lilka, Peaches, Zoe, Sam, Henry, Kate, Tatiana, Caitlyn"
+      runningcrew: "Lilka, Peaches, Zoe, Sam, Henry, Kay Ray, Tatiana, Caitlyn"
     }
   },
   "102823": {
