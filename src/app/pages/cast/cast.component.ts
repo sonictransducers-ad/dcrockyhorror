@@ -176,12 +176,12 @@ export class CastComponent {
       instagram: "https://www.instagram.com/spiiritditch/",
     },
     {
-      name: "Jake",
-      pronouns: "",
-      photoUrl: "assets/cast/jake.png",
-      yearJoined: "Nov 2017",
-      roles: "Tech, Crew, and Rocky",
-      whyJoin: "What better way to express myself then through song and dance?"
+      name: "Zoe",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/zoe.jpeg",
+      yearJoined: "Sep 2022",
+      roles: "Tech Crew, Transylvanian, Crim, Eddie",
+      whyJoin: "I saw the main characters in The Perks of Being a Wallflower shadowcasting Rocky and it seemed like the coolest thing ever!!!"
     },
     {
       name: "Alina",
@@ -192,6 +192,14 @@ export class CastComponent {
       favCallback: "AUGH !! GEORGE SANTOS !!",
       instagram: "https://www.instagram.com/exucariba/",
     },
+    {
+      name: "Jake",
+      pronouns: "",
+      photoUrl: "assets/cast/jake.png",
+      yearJoined: "Nov 2017",
+      roles: "Tech, Crew, and Rocky",
+      whyJoin: "What better way to express myself then through song and dance?"
+    }
     // {
     //   name: "",
     //   pronouns: "",
