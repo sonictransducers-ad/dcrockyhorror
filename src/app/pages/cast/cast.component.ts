@@ -40,17 +40,6 @@ export class CastComponent {
       instagram: "https://www.instagram.com/edenkitch3n/"
     },
     {
-      name: "Kat G",
-      pronouns: "any pronouns",
-      photoUrl: "assets/cast/kat.jpg",
-      title: "Cast Lead",
-      yearJoined: "June 2017",
-      roles: "Brad, Janet, Frank, Rocky, Eddie, Dr. Scott, Tech Crew",
-      whyJoin: "It started with one show on our 10th Anniversary on Valentines Day 2014.  In a few months, we went again.  And again.  Forward to October 2016, when we decided to go to all five October shows.  After that, we were like I guess we go to all the shows now.  And then, one dark and stormy night, we asked if we could use their telephone...",
-      instagram: "https://www.instagram.com/wizzardcalledkat/",
-      facebook: "https://www.facebook.com/kat.glosenger?mibextid=ZbWKwL"
-    },
-    {
       name: "Damia",
       pronouns: "",
       photoUrl: "assets/cast/damia.png",
