@@ -480,7 +480,7 @@ export const showDates: Dates = {
     cast: {
       frank: "Eden",
       janet: "Raygun",
-      brad: "Kat",
+      brad: "Lilka",
       riff: "Mike2",
       magenta: "Leandra",
       columbia: "Lady Morgan",
@@ -491,7 +491,7 @@ export const showDates: Dates = {
       trixie: "Kay Ray",
       lights: "Lee",
       stagemanager: "Damia",
-      runningcrew: "Lilka, Peaches, Zoe, Sam, Henry, Kay Ray, Tatiana, Caitlyn"
+      runningcrew: "Peaches, Zoe, Sam, Henry, Kay Ray, Tatiana, Caitlyn"
     }
   },
   "102823": {
@@ -500,11 +500,10 @@ export const showDates: Dates = {
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
     ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/272903b4-1114-405c-a796-eeed0de28990",
-    doubleCast: true,
     cast: {
       frank: "Eden",
-      janet: "nuAlli, Emerson",
-      brad: "Kat",
+      janet: "nuAlli",
+      brad: "Leandra",
       riff: "Damia",
       magenta: "Caitlyn",
       columbia: "Stewart",
@@ -512,10 +511,10 @@ export const showDates: Dates = {
       eddie: "Lilka",
       scott: "Peaches",
       crim: "Zoe",
-      trixie: "Emerson",
+      trixie: "Stewart",
       lights: "Lee & Alina",
-      stagemanager: "Leandra",
-      runningcrew: "Lilka, Peaches, Sam, Mike1, Henry"
+      stagemanager: "Lilka",
+      runningcrew: "Peaches, Sam, Mike1, Henry"
     }
   },
   "102923": {
@@ -529,7 +528,7 @@ export const showDates: Dates = {
       frank: "Kelly, Eden",
       janet: "nuAlli, Emerson",
       brad: "Lilka",
-      riff: "Peaches",
+      riff: "Mike2",
       magenta: "Lindsay",
       columbia: "Lady Morgan",
       rocky: "Stewart",
@@ -539,7 +538,7 @@ export const showDates: Dates = {
       trixie: "Emerson",
       lights: "Lee",
       stagemanager: "Brad",
-      runningcrew: "Kat, Mike2, Tatiana, Damia, Caitlyn, Sam, Henry, Makenzie"
+      runningcrew: "Peaches, Tatiana, Damia, Caitlyn, Sam, Henry, Makenzie"
     }
   },
   "halloween": {
