@@ -183,20 +183,20 @@ export class CastComponent {
       favCallback: "Hey Janet! Watch out for the slut eating tree!",
     },
     {
-      name: "Zoe",
-      pronouns: "she/her",
-      photoUrl: "assets/cast/zoe.jpeg",
-      yearJoined: "Sep 2022",
-      roles: "Tech Crew, Transylvanian, Crim, Eddie",
-      whyJoin: "I saw the main characters in The Perks of Being a Wallflower shadowcasting Rocky and it seemed like the coolest thing ever!!!"
-    },
-    {
       name: "Jake",
       pronouns: "",
       photoUrl: "assets/cast/jake.png",
       yearJoined: "Nov 2017",
       roles: "Tech, Crew, and Rocky",
       whyJoin: "What better way to express myself then through song and dance?"
+    },
+    {
+      name: "Zoe",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/zoe.jpeg",
+      yearJoined: "Sep 2022",
+      roles: "Tech Crew, Transylvanian, Crim, Eddie",
+      whyJoin: "I saw the main characters in The Perks of Being a Wallflower shadowcasting Rocky and it seemed like the coolest thing ever!!!"
     }
     // {
     //   name: "",
