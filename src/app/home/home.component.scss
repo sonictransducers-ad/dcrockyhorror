@@ -5,17 +5,12 @@
   margin-top: 56px;
   padding: v.$medium;
   margin-left: 5%;
-  margin-left: auto; // THIS IS TEMPORARY FOR THE LINCOLN PROMO. REMOVE WHEN DONE
-  margin-right: auto; // THIS IS TEMPORARY FOR THE LINCOLN PROMO. REMOVE WHEN DONE
-  margin-bottom: 200px; // THIS IS TEMPORARY FOR THE LINCOLN PROMO. REMOVE WHEN DONE
   box-sizing: border-box;
-  // width: 55%;
-  width: 80%; // THIS IS TEMPORARY FOR THE LINCOLN PROMO. REVERT TO 55% WHEN DONE
+  width: 55%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // align-items: flex-start;
-  align-items: center; // THIS IS TEMPORARY FOR THE LINCOLN PROMO. REVERT TO flex-start WHEN DONE
+  align-items: flex-start;
   p {
     font-size: v.$large-text;
     line-height: v.$large-text-lh;
