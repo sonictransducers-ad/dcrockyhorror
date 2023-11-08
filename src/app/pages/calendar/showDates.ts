@@ -553,27 +553,59 @@ export const showDates: Dates = {
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: ""
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/89bf089b-e98a-42ee-a211-5cda035a5998",
+    cast: {
+      frank: "Kelly",
+      janet: "Emerson",
+      brad: "Brad",
+      riff: "Mike2",
+      magenta: "Lindsay",
+      columbia: "Eden",
+      rocky: "Stewart",
+      eddie: "Lilka",
+      scott: "Kay Ray",
+      crim: "Nat",
+      trixie: "Sam",
+      lights: "Lee",
+      stagemanager: "Damia",
+      runningcrew: "Peaches, Lilka, Sam, Jack, Leandra, Henry, Makenzie, Kay Ray, Zoe, Caitlyn, Ciela, Tyler"
+   }
   },
   "111123": {
     date: new Date('November 11, 2023'),
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: ""
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/9e90a739-ced3-4210-ae83-54fa91ae8b21",
+    cast: {
+      frank: "Eden",
+      janet: "nuAlli",
+      brad: "Mike2",
+      riff: "Damia",
+      magenta: "Kelly",
+      columbia: "Stewart",
+      rocky: "Leandra",
+      eddie: "Zoe",
+      scott: "Makenzie",
+      crim: "Lindsay",
+      trixie: "Lady Morgan",
+      lights: "Lee",
+      stagemanager: "Brad",
+      runningcrew: "Peaches, Lilka, Henry, Emerson, Makenzie, Zoe, Caitlyn, Tatiana, Ciela"
+   }
   },
   "120823": {
     date: new Date('December 8, 2023'),
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: ""
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/ef2c899e-015d-4fc2-bf66-ef400996028d"
   },
   "120923": {
     date: new Date('December 9, 2023'),
     time: "11:55pm",
     location: "Landmark's E Street Cinema",
     locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-    ticketLink: ""
+    ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/fbb047b5-ea26-446a-a4f3-2d149feab3c7"
   }
 }
