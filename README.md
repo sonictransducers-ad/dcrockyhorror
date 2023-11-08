@@ -1,10 +1,18 @@
 # The Sonic Transducers - DC Rocky Horror
 
-This is a work in progress website for the Sonic Transducers. We're currently in a _beta_ phase, where we feel out how feasible it would be to do this from scratch and make updates in this Github. If you have any quesions or feedback, reach out to Reagan at reaganhenke@gmail.com, or on discord (ifthencreate#3654).
+This is the website for the Sonic Trandsducers and is live at [dcrockyhorror.com](https://dcrockyhorror.com/). If you have any quesions or feedback, reach out to Reagan at reaganhenke@gmail.com, or on discord (ifthencreate).
 
 This project is written with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
 
-A preview of the site is currently deployed on [Netlify](https://www.netlify.com/) at [https://main--endearing-peony-61e7f3.netlify.app/](https://main--endearing-peony-61e7f3.netlify.app/)
+Deployments occur automatically with [Netlify](https://www.netlify.com/) when a change is commited to the `main` branch. 
+
+## TODO
+
+- [ ] Add in 2024 show dates - _UNASSIGNED_
+- [ ] Add in navigation to the bottom of show date pages to more easily navigate to the previous and next show without needing to go back to the whole calendar - _UNASSIGNED_
+- [ ] Make the "BUY TICKETS NOW" button conditional, check if Landmark has added the next show's tickets. If now, replace with something like "SEE UPCOMING SHOWS" and link to the calendar page instead - _UNASSIGNED_
+- [ ] Make the calendar state persist in the URL (so people can link to the Oct page, and navigation goes back and forth, etc) - _UNASSIGNED_
+
 
 ## Getting Started
 
@@ -34,11 +42,3 @@ You cannot commit directly to the main branch, so you need to create a new branc
 5. Commit your changes with `git commit -m "DESCRIPTION OF CHANGES"`(change the description of changes to be whatever you changed)
 6. Push your changes with `git push`. Terminal will ask you if you want to create a new upstream branch (you do, it'll give you a command like `git push --set-upstream origin BRANCHNAME`, run it!) and will give you a link to open a pull request (do it).
 7. On Github, open a pull request from your branch to the main branch. When that is merged in, the deployed site will update automatically. 
-
-## Future Enhancements
-
-- [x] 404 page
-- [x] better placeholder images
-- [x] Contact Us page
-- [x] (new functionality) ensure the cast bios sort the same way, regardless of screensize
-- [x] Add in 2023 show dates
