@@ -131,7 +131,7 @@ export class CastComponent {
       pronouns: "any pronouns",
       photoUrl: "assets/cast/mike2.jpg",
       yearJoined: "Feb 2022",
-      roles: "Riff, Brad, Eddie, and Crim",
+      roles: "Riff, Brad, Rocky, Eddie, and Crim",
       favCallback: "What's the worst city in Maryland? Columbia.",
       aboutMe: "I used to shop quite frequently in the worst city in Maryland."
     },
@@ -197,6 +197,14 @@ export class CastComponent {
       yearJoined: "Sep 2022",
       roles: "Tech Crew, Transylvanian, Crim, Eddie",
       whyJoin: "I saw the main characters in The Perks of Being a Wallflower shadowcasting Rocky and it seemed like the coolest thing ever!!!"
+    },
+    {
+      name: "Sam",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/sam.jpeg",
+      yearJoined: "Feb 2022",
+      roles: "Trixie, Transylvanian, Crew",
+      whyJoin: "I love this movie and crave attention!"
     }
     // {
     //   name: "",
