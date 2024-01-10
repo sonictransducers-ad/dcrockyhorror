@@ -70,14 +70,46 @@ export const showDates: Dates = {
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/f5382d51-6b6d-41a3-9740-b261926ab845"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/f5382d51-6b6d-41a3-9740-b261926ab845",
+      cast: {
+        frank: "Eden",
+        janet: "Emerson",
+        brad: "Mike2",
+        riff: "Brad",
+        magenta: "Caitlyn",
+        columbia: "Damia",
+        rocky: "Kelly",
+        eddie: "Makenzie",
+        scott: "Sam",
+        crim: "Lindsay",
+        trixie: "Sam",
+        lights: "Lee",
+        stagemanager: "Leandra",
+        runningcrew: "Stewart, Peaches, Makenzie, Lilka, Sam, Henry"
+      }
     },
     "011324": {
       date: new Date('January 13, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/f5382d51-6b6d-41a3-9740-b261926ab845"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/f5382d51-6b6d-41a3-9740-b261926ab845",
+      cast: {
+        frank: "Eden",
+        janet: "Kelly",
+        brad: "Lilka",
+        riff: "Brad",
+        magenta: "Lindsay",
+        columbia: "Damia",
+        rocky: "Oscar",
+        eddie: "Nat",
+        scott: "Jack",
+        crim: "Kay Ray",
+        trixie: "Lady Morgan",
+        lights: "Lee",
+        stagemanager: "Leandra",
+        runningcrew: "Stewart, Peaches, Makenzie, Lady Morgan, Nat, Jack"
+      }
     },
     "020924": {
       date: new Date('February 9, 2024'),
