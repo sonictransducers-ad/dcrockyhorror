@@ -86,7 +86,7 @@ export class CastComponent {
       pronouns: "she/her",
       photoUrl: "assets/cast/nualli.jpg",
       yearJoined: "Feb 2022",
-      roles: "Columbia, Janet, and Trixie",
+      roles: "Frank, Columbia, Janet, and Trixie",
       whyJoin: "I'm a slut for applause and an insomniac.",
       favCallback: "Show us how a butterfly masturbates!"
     },
