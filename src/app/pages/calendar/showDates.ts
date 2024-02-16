@@ -162,10 +162,24 @@ export const showDates: Dates = {
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: ""
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/9d2705fe-055e-4aa5-8ab5-0d956f542ab7"
     },
     "030924": {
       date: new Date('March 9, 2024'),
+      time: "11:55pm",
+      location: "Landmark's E Street Cinema",
+      locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/5a90d856-7426-4053-b3a7-ea054159d637"
+    },
+    "phantom29": {
+      date: new Date('March 29, 2024'),
+      time: "11:55pm",
+      location: "Landmark's E Street Cinema",
+      locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
+      ticketLink: ""
+    },
+    "phantom30": {
+      date: new Date('March 30, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
@@ -176,14 +190,14 @@ export const showDates: Dates = {
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: ""
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/032d5845-d462-4e66-8496-b17a1958ccc9"
     },
     "041324": {
       date: new Date('April 13, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: ""
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/cd2330d0-51de-4deb-8678-da4fd5cb71d4"
     },
     "051024": {
       date: new Date('May 10, 2024'),

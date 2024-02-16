@@ -1,0 +1,49 @@
+@use "src/variables" as v;
+
+h2 {
+  text-align: left;
+}
+
+.left-text {
+  width: 60%;
+}
+
+.image-holder {
+  width: 40%;
+  img {
+    max-width: 100%;
+    padding-left: v.$large;
+    box-sizing: border-box;
+  }
+}
+
+a {
+  color: #b6b600;
+  font-weight: bold;
+}
+
+a.round-button {
+  background-color: #b6b600;
+  color: black;
+  display: block;
+  transition: all 0.2s;
+  &:hover,
+  &:focus {
+    background-color: #989800 !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .left-text {
+    width: 100%;
+  }
+  
+  .image-holder {
+    max-height: 300px;
+    overflow: hidden;
+    width: 100%;
+    img {
+      padding-left: 0;
+    }
+  }
+}
