@@ -134,6 +134,17 @@
   }
 }
 
+.phantom-show {
+  background-color: #b6b600 !important;
+  color: black !important;
+}
+.phantom-show {
+  &:hover,
+  &:focus {
+    background-color: #989800 !important;
+  }
+}
+
 #mobile-calendar {
   display: none;
   .header {

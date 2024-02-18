@@ -10,8 +10,9 @@ import { PropsComponent } from './pages/props/props.component';
 import { LinksComponent } from './pages/links/links.component';
 import { ContactUsComponent } from './pages/contactus/contactus.component';
 import { MissingComponent } from './pages/missing/missing.component';
-import { HedwigPageComponent } from './pages/hedwig-page/hedwig-page.component';
+// import { HedwigPageComponent } from './pages/hedwig-page/hedwig-page.component';
 import { LincolnshowComponent } from './pages/lincolnshow/lincolnshow.component';
+import { PhantomPageComponent } from './pages/phantom-page/phantom-page.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'hello', component: LinksComponent},
   { path: 'contact-us', component: ContactUsComponent},
   { path: 'halloween', component: LincolnshowComponent},
+  { path: 'phantom', component: PhantomPageComponent},
   // { path: 'hedwig', component: HedwigPageComponent},
   { path: '**', component: MissingComponent}
 ];

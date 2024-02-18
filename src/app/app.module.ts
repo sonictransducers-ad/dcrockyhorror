@@ -16,8 +16,9 @@ import { LinksComponent } from './pages/links/links.component';
 import { MissingComponent } from './pages/missing/missing.component';
 import { ContactUsComponent } from './pages/contactus/contactus.component';
 import { CookiesComponent } from './cookies/cookies.component';
-import { HedwigPageComponent } from './pages/hedwig-page/hedwig-page.component';
+// import { HedwigPageComponent } from './pages/hedwig-page/hedwig-page.component';
 import { LincolnshowComponent } from './pages/lincolnshow/lincolnshow.component';
+import { PhantomPageComponent } from './pages/phantom-page/phantom-page.component';
 
 @NgModule({
   declarations: [
@@ -35,8 +36,9 @@ import { LincolnshowComponent } from './pages/lincolnshow/lincolnshow.component'
     MissingComponent,
     ContactUsComponent,
     CookiesComponent,
-    HedwigPageComponent,
-    LincolnshowComponent
+    // HedwigPageComponent,
+    LincolnshowComponent,
+    PhantomPageComponent
   ],
   imports: [
     BrowserModule,
