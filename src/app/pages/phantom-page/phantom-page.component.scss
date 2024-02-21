@@ -37,9 +37,9 @@ a.round-button {
   .left-text {
     width: 100%;
   }
-  
+
   .image-holder {
-    max-height: 300px;
+    max-height: 510px; //previous 300px - increase to 500 to prevent cutoff
     overflow: hidden;
     width: 100%;
     img {
