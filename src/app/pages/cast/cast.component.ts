@@ -155,6 +155,15 @@ export class CastComponent {
       favCallback: `Riff: "Say good bye to all of this!" Audience: "Good bye all of this!"`,
     },
     {
+      name: "Alina",
+      pronouns: "they/she",
+      photoUrl: "assets/cast/alina.jpg",
+      yearJoined: "May 2023",
+      roles: "Lights, Crew",
+      favCallback: "AUGH !! GEORGE SANTOS !!",
+      instagram: "https://www.instagram.com/exucariba/",
+    },
+    {
       name: "Emerson",
       pronouns: "they/them",
       photoUrl: "assets/cast/emerson.png",
@@ -163,15 +172,6 @@ export class CastComponent {
       whyJoin: "I had just moved D.C. and need to find some freaky queers to hangout with. Plus I've wanted to join a cast ever since I was a kid.",
       aboutMe: "I'm currently a Political Science/American Studies major at American University. Apart from flashing crowds at Landmark, I love playing bass and screaming (loudly) in my band Blunda.",
       instagram: "https://www.instagram.com/spiiritditch/",
-    },
-    {
-      name: "Alina",
-      pronouns: "they/she",
-      photoUrl: "assets/cast/alina.jpg",
-      yearJoined: "May 2023",
-      roles: "Lights, Crew",
-      favCallback: "AUGH !! GEORGE SANTOS !!",
-      instagram: "https://www.instagram.com/exucariba/",
     },
     {
       name: "Kay Ray",
@@ -199,14 +199,6 @@ export class CastComponent {
       whyJoin: "I saw the main characters in The Perks of Being a Wallflower shadowcasting Rocky and it seemed like the coolest thing ever!!!"
     },
     {
-      name: "Sam",
-      pronouns: "she/her",
-      photoUrl: "assets/cast/sam.jpeg",
-      yearJoined: "Feb 2022",
-      roles: "Trixie, Transylvanian, Crew",
-      whyJoin: "I love this movie and crave attention!"
-    },
-    {
       name: "Brad",
       pronouns: "he/him",
       photoUrl: "assets/cast/brad.jpg",
@@ -215,6 +207,14 @@ export class CastComponent {
       whyJoin: "I enjoyed going to the shows and I thought it would be fun to get involved. And get this, it is!",
       favCallback: "Nice save, Riff",
       aboutMe: "I'm an avid old school horror movie fan",
+    },
+    {
+      name: "Sam",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/sam.jpeg",
+      yearJoined: "Feb 2022",
+      roles: "Trixie, Transylvanian, Crew",
+      whyJoin: "I love this movie and crave attention!"
     }
     // {
     //   name: "",
