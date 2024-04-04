@@ -48,9 +48,9 @@ export class CastComponent {
       whyJoin: "So. Much. Fun! And to come out of my performing shell with great people to a fab soundtrack in front of an awesome, engaged, audience."
     },
     {
-      name: "Raygun",
+      name: "Roswell",
       pronouns: "she/her",
-      photoUrl: "assets/cast/raygun.png",
+      photoUrl: "assets/cast/roswell.png",
       title: "PR Director",
       yearJoined: "Dec 2017",
       roles: "Janet, Magenta",
@@ -75,11 +75,12 @@ export class CastComponent {
     },
     {
       name: "Lindsay",
-      pronouns: "",
-      photoUrl: "assets/cast/placeholder1.png",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/lindsay.jpg",
       yearJoined: "June 2017",
-      roles: "Magenta",
-      whyJoin: "To meet like minded sick fucks!"
+      roles: "Magenta, Crim, Dr. Scott",
+      whyJoin: "To meet likewise weirdos and entertain people",
+      aboutMe: "I'm a part time actress and fashionista  entertainer"
     },
     {
       name: "nuAlli",

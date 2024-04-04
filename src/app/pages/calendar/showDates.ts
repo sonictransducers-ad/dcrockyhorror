@@ -59,7 +59,7 @@ export type Week = [Day, Day, Day, Day, Day, Day, Day];
 
 // NOTE : not everyone uses their real name for the site. Check against bios before posting a cast list. 
 // D**** => Lady Morgan
-// R***** => Raygun
+// R***** => Roswell
 // A** => Eden
 // S****** => Stewart
 // K*** => Kay Ray
@@ -119,7 +119,7 @@ export const showDates: Dates = {
       ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/878ab341-33e9-4157-b115-e10fa8b670e5",
       cast: {
         frank: "nuAlli",
-        janet: "Raygun",
+        janet: "Roswell",
         brad: "Leandra",
         riff: "Damia",
         magenta: "Caitlyn",

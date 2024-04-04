@@ -8,7 +8,7 @@ Deployments occur automatically with [Netlify](https://www.netlify.com/) when a 
 
 ## TODO
 
-- [x] Add in 2024 show dates - raygun
+- [x] Add in 2024 show dates 
 - [ ] Add in navigation to the bottom of show date pages to more easily navigate to the previous and next show without needing to go back to the whole calendar - _UNASSIGNED_
 - [ ] Make the "BUY TICKETS NOW" button conditional, check if Landmark has added the next show's tickets. If now, replace with something like "SEE UPCOMING SHOWS" and link to the calendar page instead - _UNASSIGNED_
 - [ ] Make the calendar state persist in the URL (so people can link to the Oct page, and navigation goes back and forth, etc) - _UNASSIGNED_
