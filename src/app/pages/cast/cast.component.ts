@@ -196,7 +196,7 @@ export class CastComponent {
       pronouns: "she/her",
       photoUrl: "assets/cast/zoe.jpeg",
       yearJoined: "Sep 2022",
-      roles: "Tech Crew, Transylvanian, Crim, Eddie",
+      roles: "Crim, Eddie, Riff Raff, Transylvanian, Tech Crew",
       whyJoin: "I saw the main characters in The Perks of Being a Wallflower shadowcasting Rocky and it seemed like the coolest thing ever!!!"
     },
     {
