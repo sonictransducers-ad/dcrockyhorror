@@ -64,6 +64,8 @@ export type Week = [Day, Day, Day, Day, Day, Day, Day];
 // S****** => Stewart
 // K*** => Kay Ray
 
+// New recruits/returning shouldn't be included here
+
 export const showDates: Dates = {
   "011224": {
       date: new Date('January 12, 2024'),
@@ -190,14 +192,46 @@ export const showDates: Dates = {
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/032d5845-d462-4e66-8496-b17a1958ccc9"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/032d5845-d462-4e66-8496-b17a1958ccc9",
+      cast: {
+        frank: "Oscar",
+        janet: "Stewart",
+        brad: "Kelly",
+        riff: "Zoe",
+        magenta: "Damia",
+        columbia: "Nat",
+        rocky: "Kay Ray",
+        eddie: "Petra",
+        scott: "Harrison",
+        crim: "Brad",
+        trixie: "nuAlli",
+        lights: "Lee, Brian",
+        stagemanager: "Eden",
+        runningcrew: "Lilka, Augustus, Becca, Jack, nuAlli, Mike2, Harrison, Peaches, Petra, Zoe"
+      }
     },
     "041324": {
       date: new Date('April 13, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/cd2330d0-51de-4deb-8678-da4fd5cb71d4"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/cd2330d0-51de-4deb-8678-da4fd5cb71d4",
+      cast: {
+        frank: "Oscar",
+        janet: "Stewart",
+        brad: "Kelly",
+        riff: "Jeff",
+        magenta: "Damia",
+        columbia: "Makenzie",
+        rocky: "Jack",
+        eddie: "Peaches",
+        scott: "Lindsay",
+        crim: "Brad",
+        trixie: "nuAlli",
+        lights: "Lee, Brian",
+        stagemanager: "Eden",
+        runningcrew: "Lilka, Augustus, Geoff, nuAlli, Petra, Caitlyn, Becca, Chance, Lady Morgan, Lindsay, Peaches, Zoe"
+      }
     },
     "051024": {
       date: new Date('May 10, 2024'),
