@@ -9,16 +9,6 @@ import { Member } from './cast.interface';
 export class CastComponent {
   castList: Member[] = [
     {
-      name: "Kelly",
-      pronouns: "she/her",
-      photoUrl: "/assets/cast/kelly.jpg",
-      title: "Cast Lead",
-      yearJoined: "Sep 2017",
-      roles: "Trixie, Magenta, Janet, Frank, and Rocky",
-      favCallback: "Say, have you seen my bicycle horn?",
-      whyJoin: "I love this movie and I love attention!"
-    },
-    {
       name: "Leandra",
       pronouns: "she/they",
       photoUrl: "assets/cast/leandra.png",
@@ -28,6 +18,16 @@ export class CastComponent {
       favCallback: "What's it like when you're outside in the rain?",
       aboutMe: "I also have a podcast with Kelly! Check us out at rockyhorrorminute.com! And Oscar is NOT a cast consultant, despite what he may say in his bio.",
       instagram: "https://www.instagram.com/rockyhorrorminute/"
+    },
+    {
+      name: "Kelly",
+      pronouns: "she/her",
+      photoUrl: "/assets/cast/kelly.jpg",
+      title: "Cast Lead",
+      yearJoined: "Sep 2017",
+      roles: "Trixie, Magenta, Janet, Brad, Frank, and Rocky. I'm usually Co-MC too!",
+      favCallback: "Say, have you seen my bicycle horn?",
+      whyJoin: "I love this movie and I love attention!"
     },
     {
       name: "Eden",
@@ -194,7 +194,7 @@ export class CastComponent {
     {
       name: "Zoe",
       pronouns: "she/her",
-      photoUrl: "assets/cast/zoe.jpeg",
+      photoUrl: "assets/cast/zoe.jpg",
       yearJoined: "Sep 2022",
       roles: "Crim, Eddie, Riff Raff, Transylvanian, Tech Crew",
       whyJoin: "I saw the main characters in The Perks of Being a Wallflower shadowcasting Rocky and it seemed like the coolest thing ever!!!"
@@ -204,10 +204,10 @@ export class CastComponent {
       pronouns: "he/him",
       photoUrl: "assets/cast/brad.jpg",
       yearJoined: "Aug 2019",
-      roles: "Riff, Brad, Stage Manager and Tech",
+      roles: "Riff, Brad, The Criminologist, Stage Manager and Tech",
       whyJoin: "I enjoyed going to the shows and I thought it would be fun to get involved. And get this, it is!",
       favCallback: "Nice save, Riff",
-      aboutMe: "I'm an avid old school horror movie fan",
+      aboutMe: "I'm an avid old school horror movie fan, go watch Suspiria!",
     },
     {
       name: "Sam",
