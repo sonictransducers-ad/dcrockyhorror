@@ -156,15 +156,6 @@ export class CastComponent {
       favCallback: `Riff: "Say good bye to all of this!" Audience: "Good bye all of this!"`,
     },
     {
-      name: "Alina",
-      pronouns: "they/she",
-      photoUrl: "assets/cast/alina.jpg",
-      yearJoined: "May 2023",
-      roles: "Lights, Crew",
-      favCallback: "AUGH !! GEORGE SANTOS !!",
-      instagram: "https://www.instagram.com/exucariba/",
-    },
-    {
       name: "Emerson",
       pronouns: "they/them",
       photoUrl: "assets/cast/emerson.png",
@@ -175,13 +166,13 @@ export class CastComponent {
       instagram: "https://www.instagram.com/spiiritditch/",
     },
     {
-      name: "Kay Ray",
-      pronouns: "they/them",
-      photoUrl: "assets/cast/kayray.jpeg",
-      yearJoined: "Oct 2022",
-      roles: "Transylvanian, Trixie, Eddie, Crew",
-      whyJoin: "To honor my 15-year old self, who felt so much queer and trans joy the first time they saw a RHPS shadow-cast!",
-      favCallback: "Hey Janet! Watch out for the slut eating tree!",
+      name: "Alina",
+      pronouns: "they/she",
+      photoUrl: "assets/cast/alina.jpg",
+      yearJoined: "May 2023",
+      roles: "Lights, Crew",
+      favCallback: "AUGH !! GEORGE SANTOS !!",
+      instagram: "https://www.instagram.com/exucariba/",
     },
     {
       name: "Jake",
@@ -190,6 +181,15 @@ export class CastComponent {
       yearJoined: "Nov 2017",
       roles: "Tech, Crew, and Rocky",
       whyJoin: "What better way to express myself then through song and dance?"
+    },
+    {
+      name: "Kay Ray",
+      pronouns: "they/them",
+      photoUrl: "assets/cast/kayray.jpeg",
+      yearJoined: "Oct 2022",
+      roles: "Transylvanian, Trixie, Eddie, Crew",
+      whyJoin: "To honor my 15-year old self, who felt so much queer and trans joy the first time they saw a RHPS shadow-cast!",
+      favCallback: "Hey Janet! Watch out for the slut eating tree!",
     },
     {
       name: "Zoe",
