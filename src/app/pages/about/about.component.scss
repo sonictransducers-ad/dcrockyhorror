@@ -9,11 +9,22 @@ h2 {
 }
 
 .image-holder {
+  position: relative;
   width: 50%;
   img {
     max-width: 100%;
     padding-left: v.$large;
     box-sizing: border-box;
+  }
+    .image-credit {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background-color: v.$black;
+      color: v.$light-gray;
+      padding: 5px 10px;
+      font-size: 0.8rem;
+      font-family: Arial, sans-serif;
   }
 }
 
@@ -63,7 +74,7 @@ h2 {
 .rules {
   background-color: white;
   border-left: 5px solid v.$red;
-  color: black;
+  color: v.$black;
   padding: v.$large;
   margin: v.$verylarge 0;
   line-height: 2.5rem;
@@ -81,7 +92,7 @@ h2 {
   .left-text {
     width: 100%;
   }
-  
+
   .image-holder {
     max-height: 300px;
     overflow: hidden;
