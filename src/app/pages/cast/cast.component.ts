@@ -120,7 +120,7 @@ export class CastComponent {
     {
       name: "Oscar Soto Jr.",
       pronouns: "he/him",
-      photoUrl: "assets/cast/oscar.png",
+      photoUrl: "assets/cast/oscar.jpg",
       title: "Cast Consultant",
       yearJoined: "Aug 2010",
       roles: "Brad, Janet, Rocky, Eddie, Dr. Scott, Trixie, Ralph, Transylvanian, and Tech Crew",
@@ -216,6 +216,15 @@ export class CastComponent {
       yearJoined: "Feb 2022",
       roles: "Trixie, Transylvanian, Crew",
       whyJoin: "I love this movie and crave attention!"
+    },
+    {
+      name: "Petra",
+      pronouns: "she/he",
+      photoUrl: "assets/cast/petra.jpg",
+      yearJoined: "Jan 2024",
+      roles: "Tech, Transylvanian, Dr. Scott, Eddie",
+      whyJoin: "To make my mom proud one missed cue at a time",
+      favCallback: '"You did right!" Did you just call me a big dyke?'
     }
     // {
     //   name: "",
