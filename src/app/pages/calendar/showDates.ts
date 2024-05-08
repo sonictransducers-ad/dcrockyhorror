@@ -238,28 +238,60 @@ export const showDates: Dates = {
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: ""
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/6e8a7a22-ef21-43ab-91c8-02ce3ef85c7b",
+      cast: {
+        frank: "Eden",
+        janet: "nuAlli",
+        brad: "Lilka",
+        riff: "Zoe",
+        magenta: "Kelly",
+        columbia: "Makenzie",
+        rocky: "Kay Ray",
+        eddie: "Nat",
+        scott: "Jack",
+        crim: "Lindsay",
+        trixie: "Kay Ray",
+        lights: "Lee, Brian",
+        stagemanager: "Brad",
+        runningcrew: "Aster, Augustus, Edwin, Fatima, Jack, Nat, Peaches, Petra, Rachel, Relle, Tatiana"
+      }
     },
     "051124": {
       date: new Date('May 11, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: ""
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/4db559a8-f9ce-4970-8a6c-0692305bf129",
+      cast: {
+        frank: "Oscar",
+        janet: "nuAlli",
+        brad: "Kelly",
+        riff: "Zoe",
+        magenta: "Lilka",
+        columbia: "Giorgio",
+        rocky: "Jack",
+        eddie: "Petra",
+        scott: "Rachel",
+        crim: "Brad",
+        trixie: "Lady Morgan",
+        lights: "Lee, Brian",
+        stagemanager: "Eden",
+        runningcrew: "Aster, Augustus, Edwin, Fatima, Geoff, Makenzie, Peaches, Petra, Rachel, Sam, Tatiana"
+      }
     },
     "061424": {
       date: new Date('June 14, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: ""
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/78e3c61e-0e89-44e3-ae1f-a230c8e621ee"
     },
     "061524": {
       date: new Date('June 15, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: ""
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/ea8252b4-98bf-4424-b018-cf642f787baa"
     },
     "071224": {
       date: new Date('July 12, 2024'),
