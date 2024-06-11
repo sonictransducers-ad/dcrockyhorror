@@ -57,7 +57,7 @@ export type Week = [Day, Day, Day, Day, Day, Day, Day];
 //   }
 // }
 
-// NOTE : not everyone uses their real name for the site. Check against bios before posting a cast list. 
+// NOTE : not everyone uses their real name for the site. Check against bios before posting a cast list.
 // D**** => Lady Morgan
 // R***** => Roswell
 // A** => Eden
@@ -300,7 +300,8 @@ export const showDates: Dates = {
         lights: "Lee, Stewart",
         stagemanager: "Brad",
         runningcrew: "Aster, Augustus, Becca, Cate, Edwin, Lemon, Lindsay, Mitch, Nat, Panda, Petra, Tatiana"
-     
+        }
+      },
       "061524": {
       date: new Date('June 15, 2024'),
       time: "11:55pm",
@@ -322,20 +323,8 @@ export const showDates: Dates = {
         lights: "Lee, Brian",
         stagemanager: "Leandra",
         runningcrew: "Aster, Augustus, Becca, Cas, Cate, Edwin, Lemon, Manon, Panda, Petra"
-
-        : new Date('June 14, 2024'),
-      time: "11:55pm",
-      location: "Landmark's E Street Cinema",
-      locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/78e3c61e-0e89-44e3-ae1f-a230c8e621ee"
-    },
-    "061524": {
-      date: new Date('June 15, 2024'),
-      time: "11:55pm",
-      location: "Landmark's E Street Cinema",
-      locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/ea8252b4-98bf-4424-b018-cf642f787baa"
-    },
+        }
+      },
     "071224": {
       date: new Date('July 12, 2024'),
       time: "11:55pm",
