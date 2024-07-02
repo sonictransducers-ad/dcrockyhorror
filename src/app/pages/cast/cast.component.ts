@@ -200,6 +200,14 @@ export class CastComponent {
       whyJoin: "I saw the main characters in The Perks of Being a Wallflower shadowcasting Rocky and it seemed like the coolest thing ever!!!"
     },
     {
+      name: "Sam",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/sam.jpeg",
+      yearJoined: "Feb 2022",
+      roles: "Trixie, Transylvanian, Crew",
+      whyJoin: "I love this movie and crave attention!"
+    },
+    {
       name: "Brad",
       pronouns: "he/him",
       photoUrl: "assets/cast/brad.jpg",
@@ -210,14 +218,6 @@ export class CastComponent {
       aboutMe: "I'm an avid old school horror movie fan, go watch Suspiria!",
     },
     {
-      name: "Sam",
-      pronouns: "she/her",
-      photoUrl: "assets/cast/sam.jpeg",
-      yearJoined: "Feb 2022",
-      roles: "Trixie, Transylvanian, Crew",
-      whyJoin: "I love this movie and crave attention!"
-    },
-    {
       name: "Petra",
       pronouns: "she/he",
       photoUrl: "assets/cast/petra.jpg",
@@ -225,6 +225,15 @@ export class CastComponent {
       roles: "Tech, Transylvanian, Dr. Scott, Eddie",
       whyJoin: "To make my mom proud one missed cue at a time",
       favCallback: '"You did right!" Did you just call me a big dyke?'
+    },
+    {
+      name: "Rachel",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/rachel.jpg",
+      yearJoined: "Apr 2024",
+      roles: "Janet, Dr. Scott, Transylvanian, tech",
+      whyJoin: "I've loved Rocky Horror and wanted to join a shadow cast ever since I was a young gay kid growing up in the Deep South. Finally found my Rocky home with the Sonic Transducers!",
+      favCallback: "Only assholes write on doors!"
     }
     // {
     //   name: "",
