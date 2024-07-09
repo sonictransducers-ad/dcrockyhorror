@@ -300,9 +300,9 @@ export const showDates: Dates = {
         lights: "Lee, Stewart",
         stagemanager: "Brad",
         runningcrew: "Aster, Augustus, Becca, Cate, Edwin, Lemon, Lindsay, Mitch, Nat, Panda, Petra, Tatiana"
-        }
-      },
-      "061524": {
+      }
+    },
+    "061524": {
       date: new Date('June 15, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
@@ -323,21 +323,53 @@ export const showDates: Dates = {
         lights: "Lee, Brian",
         stagemanager: "Leandra",
         runningcrew: "Aster, Augustus, Becca, Cas, Cate, Edwin, Lemon, Manon, Panda, Petra"
-        }
-      },
+      }
+    },
     "071224": {
       date: new Date('July 12, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/a324c285-0473-4e96-a7f4-7819ba3a04c0"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/a324c285-0473-4e96-a7f4-7819ba3a04c0",
+      cast: {
+        frank: "NuAlli",
+        janet: "Rachel",
+        brad: "Oscar",
+        riff: "Mike",
+        magenta: "Lindsay",
+        columbia: "Eden",
+        rocky: "Stewart",
+        eddie: "Lilka",
+        scott: "Harrison",
+        crim: "Manon",
+        trixie: "Petra",
+        lights: "Lee, Brian, Cate",
+        stagemanager: "Damia",
+        runningcrew: "Peaches, Sara, Aliye, Augustus, Petra, Lilka, Harrison, Edwin"        
+      }
     },
     "071324": {
       date: new Date('July 13, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/d2f3c30e-af5c-493d-97a7-00397053837f"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/d2f3c30e-af5c-493d-97a7-00397053837f",
+      cast: {
+        frank: "Leandra",
+        janet: "nuAlli",
+        brad: "Lilka",
+        riff: "Damia",
+        magenta: "Lindsay",
+        columbia: "Nat",
+        rocky: "Stewart",
+        eddie: "Kay Ray",
+        scott: "Augustus",
+        crim: "Manon",
+        trixie: "Lady Morgan",
+        lights: "Lee, Brian",
+        stagemanager: "Eden",
+        runningcrew: "Peaches, Rachel, Aliye, Petra, Augustus, Kate, Lady Morgan, Cate"        
+      }
     },
     "080924": {
       date: new Date('August 9, 2024'),
