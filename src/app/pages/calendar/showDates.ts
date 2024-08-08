@@ -376,14 +376,46 @@ export const showDates: Dates = {
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/1db9a114-3ec6-49f5-b56e-cdbe2c327c7a"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/1db9a114-3ec6-49f5-b56e-cdbe2c327c7a",
+      cast: {
+        frank: "",
+        janet: "",
+        brad: "",
+        riff: "",
+        magenta: "",
+        columbia: "",
+        rocky: "",
+        eddie: "",
+        scott: "",
+        crim: "",
+        trixie: "",
+        lights: "",
+        stagemanager: "",
+        runningcrew: ""
+      }
     },
     "081024": {
       date: new Date('August 10, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/0507830a-38e2-4031-a50a-ffaa42e74feb"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/0507830a-38e2-4031-a50a-ffaa42e74feb",
+      cast: {
+        frank: "",
+        janet: "",
+        brad: "",
+        riff: "",
+        magenta: "",
+        columbia: "",
+        rocky: "",
+        eddie: "",
+        scott: "",
+        crim: "",
+        trixie: "",
+        lights: "",
+        stagemanager: "",
+        runningcrew: ""
+      }
     },
     "091324": {
       date: new Date('September 13, 2024'),
@@ -412,6 +444,13 @@ export const showDates: Dates = {
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
       ticketLink: ""
+    },
+    "halloween": {
+      date: new Date('October 31, 2024'),
+      time: "8:00pm",
+      location: "The Lincoln Theatre",
+      locationLink: "https://www.thelincolndc.com/e/rocky-horror-picture-show-the-49th-anniversary-spectaular-tour/",
+      ticketLink: "https://www.thelincolndc.com/e/rocky-horror-picture-show-the-49th-anniversary-spectaular-tour/"
     },
     "110824": {
       date: new Date('November 8, 2024'),
