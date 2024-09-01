@@ -422,49 +422,49 @@ export const showDates: Dates = {
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/7db97537-74a5-4ca4-99bd-e1fe146b1865"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/7db97537-74a5-4ca4-99bd-e1fe146b1865"
     },
     "091424": {
       date: new Date('September 14, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/f53f14ae-e357-43cc-981b-dbd8401b3284"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/f53f14ae-e357-43cc-981b-dbd8401b3284"
     },
     "101124": {
       date: new Date('October 11, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/d95d0509-6281-4648-9f99-b6431ecf94c7"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/d95d0509-6281-4648-9f99-b6431ecf94c7"
     },
     "101224": {
       date: new Date('October 12, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/1a7755c5-2f00-46bf-b4d3-f1e2684e81b6"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/1a7755c5-2f00-46bf-b4d3-f1e2684e81b6"
     },
     "102524": {
       date: new Date('October 25, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/410705de-c64e-491c-a967-553271ba1580"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/410705de-c64e-491c-a967-553271ba1580"
     },
     "102624": {
       date: new Date('October 26, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/abf70089-9a91-423a-b416-814136354e0f"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/abf70089-9a91-423a-b416-814136354e0f"
     },
     "102724": {
       date: new Date('October 27, 2024'),
       time: "8:00pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/seats/eee2e699-1c65-471d-b808-c9fcacae2ec7/b5176584-349b-42ce-bcff-8b59740605c0"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/b5176584-349b-42ce-bcff-8b59740605c0"
     },
     "halloween": {
       date: new Date('October 31, 2024'),
