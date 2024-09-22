@@ -422,14 +422,46 @@ export const showDates: Dates = {
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/7db97537-74a5-4ca4-99bd-e1fe146b1865"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/7db97537-74a5-4ca4-99bd-e1fe146b1865",
+      cast: {
+        frank: "Oscar",
+        janet: "Rachel",
+        brad: "Lilka",
+        riff: "Brad",
+        magenta: "Leandra",
+        columbia: "Stewart",
+        rocky: "Jack",
+        eddie: "Mike",
+        scott: "nuAlli",
+        crim: "Sara",
+        trixie: "Manon",
+        lights: "Lee, Brian, Cate",
+        stagemanager: "Damia",
+        runningcrew: "Eden, Aliye, Becca, Benji, Cris, Jack, Lauryn, Manon, Maria, Mike, nuAlli, Peaches, Wren"
+      }
     },
     "091424": {
       date: new Date('September 14, 2024'),
       time: "11:55pm",
       location: "Landmark's E Street Cinema",
       locationLink: "https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/",
-      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/f53f14ae-e357-43cc-981b-dbd8401b3284"
+      ticketLink: "https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/f53f14ae-e357-43cc-981b-dbd8401b3284",
+      cast: {
+        frank: "Eden",
+        janet: "nuAlli",
+        brad: "Oscar",
+        riff: "Petra",
+        magenta: "Leandra",
+        columbia: "Lady Morgan",
+        rocky: "Jack",
+        eddie: "Evan P",
+        scott: "Geoff",
+        crim: "Becca",
+        trixie: "Stewart",
+        lights: "Lee, Brian, Brad",
+        stagemanager: "Lilka",
+        runningcrew: "Aliye, Aster, Benji, Cate, Evan P, Sara, Stewart, Wren"
+      }
     },
     "101124": {
       date: new Date('October 11, 2024'),
