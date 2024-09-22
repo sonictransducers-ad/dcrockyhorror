@@ -12,7 +12,7 @@ export class CastComponent {
       name: "Leandra",
       pronouns: "she/they",
       photoUrl: "assets/cast/leandra.png",
-      title: "Fearless Leader",
+      title: "Big Mommy",
       yearJoined: "June (?) 2009",
       roles: "All of them! I'm usually the MC too, so if you're reading this, have been to our show, and loved/hated the pre-show, that was probably my fault. Thank you/ sorry/ no refunds!",
       favCallback: "What's it like when you're outside in the rain?",
@@ -175,21 +175,12 @@ export class CastComponent {
       instagram: "https://www.instagram.com/exucariba/",
     },
     {
-      name: "Jake",
-      pronouns: "",
-      photoUrl: "assets/cast/jake.png",
-      yearJoined: "Nov 2017",
-      roles: "Tech, Crew, and Rocky",
-      whyJoin: "What better way to express myself then through song and dance?"
-    },
-    {
-      name: "Kay Ray",
-      pronouns: "they/them",
-      photoUrl: "assets/cast/kayray.jpeg",
-      yearJoined: "Oct 2022",
-      roles: "Transylvanian, Trixie, Eddie, Crew",
-      whyJoin: "To honor my 15-year old self, who felt so much queer and trans joy the first time they saw a RHPS shadow-cast!",
-      favCallback: "Hey Janet! Watch out for the slut eating tree!",
+      name: "Sam",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/sam.jpeg",
+      yearJoined: "Feb 2022",
+      roles: "Trixie, Transylvanian, Crew",
+      whyJoin: "I love this movie and crave attention!"
     },
     {
       name: "Zoe",
@@ -200,12 +191,13 @@ export class CastComponent {
       whyJoin: "I saw the main characters in The Perks of Being a Wallflower shadowcasting Rocky and it seemed like the coolest thing ever!!!"
     },
     {
-      name: "Sam",
-      pronouns: "she/her",
-      photoUrl: "assets/cast/sam.jpeg",
-      yearJoined: "Feb 2022",
-      roles: "Trixie, Transylvanian, Crew",
-      whyJoin: "I love this movie and crave attention!"
+      name: "Kay Ray",
+      pronouns: "they/them",
+      photoUrl: "assets/cast/kayray.jpeg",
+      yearJoined: "Oct 2022",
+      roles: "Transylvanian, Trixie, Eddie, Crew",
+      whyJoin: "To honor my 15-year old self, who felt so much queer and trans joy the first time they saw a RHPS shadow-cast!",
+      favCallback: "Hey Janet! Watch out for the slut eating tree!",
     },
     {
       name: "Brad",
@@ -222,9 +214,9 @@ export class CastComponent {
       pronouns: "she/he",
       photoUrl: "assets/cast/petra.jpg",
       yearJoined: "Jan 2024",
-      roles: "Tech, Transylvanian, Dr. Scott, Eddie",
+      roles: "Tech, Transylvanian, Dr. Scott, Eddie, Riff Raff",
       whyJoin: "To make my mom proud one missed cue at a time",
-      favCallback: '"You did right!" Did you just call me a big dyke?'
+      favCallback: 'Oh my GOD Brad smokes!'
     },
     {
       name: "Rachel",
@@ -234,6 +226,41 @@ export class CastComponent {
       roles: "Janet, Dr. Scott, Transylvanian, tech",
       whyJoin: "I've loved Rocky Horror and wanted to join a shadow cast ever since I was a young gay kid growing up in the Deep South. Finally found my Rocky home with the Sonic Transducers!",
       favCallback: "Only assholes write on doors!"
+    },
+    {
+      name: "Peaches",
+      pronouns: "",
+      photoUrl: "assets/cast/placeholder3.png",
+      yearJoined: "Sep 2022",
+      roles: "Eddie, Dr. Scott, Riff",
+      whyJoin: "My wife",
+      aboutMe: "Peaches simply is.",
+    },
+    {
+      name: "Manon",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/manon.jpg",
+      yearJoined: "May 2024",
+      roles: "Trixie, Crim, photography, social media and tech crew",
+      whyJoin: "Seeing the show as a Virgin remains to this day one of my best memories in DC... I wanted in on the insanity.",
+      aboutMe: `"It's probably some kind of hunting lodge for rich weirdos." (Oh, Mar-a-Lago?)`,
+    },
+    {
+      name: "Sara",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/sara.jpg",
+      yearJoined: "May 2024",
+      roles: "Crew, Crim, Transylvanian, and Trixie",
+      whyJoin: "To honor my bicycle, Dr. Crank N Furter",
+      aboutMe: "Baby beauty pageant queen, weird art enthusiast, wants to unionize your workplace. Ask me about my compost worms.",
+    },
+    {
+      name: "Jake",
+      pronouns: "",
+      photoUrl: "assets/cast/jake.png",
+      yearJoined: "Nov 2017",
+      roles: "Tech, Crew, and Rocky",
+      whyJoin: "What better way to express myself then through song and dance?"
     }
     // {
     //   name: "",
