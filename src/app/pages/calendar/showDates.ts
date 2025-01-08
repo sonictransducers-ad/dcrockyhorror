@@ -609,7 +609,7 @@ export const showDates: Dates = {
     location: "Landmark's E Street Cinema",
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/f4a76eff-4b8c-4ff1-ab49-eb49254baa59',
   },
   '011125': {
     date: new Date('January 11, 2025'),
@@ -617,7 +617,7 @@ export const showDates: Dates = {
     location: "Landmark's E Street Cinema",
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/b142e7ab-9ae8-4ea2-a182-1d8465396d67',
   },
   '021425': {
     date: new Date('February 14, 2025'),
@@ -625,7 +625,7 @@ export const showDates: Dates = {
     location: "Landmark's E Street Cinema",
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/be3d5499-182d-4cfe-877b-0941fc9da23c',
   },
   '021525': {
     date: new Date('February 15, 2025'),
@@ -633,7 +633,7 @@ export const showDates: Dates = {
     location: "Landmark's E Street Cinema",
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/45a131d0-988a-4971-a2c9-2e40413800e6',
   },
   '031425': {
     date: new Date('March 14, 2025'),
@@ -641,7 +641,7 @@ export const showDates: Dates = {
     location: "Landmark's E Street Cinema",
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/9e0ceae2-a8e3-4bf9-ae1b-043c99bff3e2',
   },
   '031525': {
     date: new Date('March 15, 2025'),
@@ -649,7 +649,7 @@ export const showDates: Dates = {
     location: "Landmark's E Street Cinema",
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/e15fa311-f514-4f6e-bc92-a6b1cfd4908f',
   },
   '041125': {
     date: new Date('April 11, 2025'),
