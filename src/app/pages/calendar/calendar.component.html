@@ -157,11 +157,11 @@
 
   <div *ngIf="date == '011025'">
     <p>
-      Due to winter weather, we won't be performing as a shadowcast at this show! Stay safe everyone!
+      Due to winter weather, this show is cancelled! Stay safe everyone!
     </p>
   </div>
 
-  <div class="buy center">
+  <div class="buy center" *ngIf="date != '011025'">
     <div *ngIf="isShowUpcoming(showDates[date]); else showPassed">
       <div *ngIf="showDates[date].ticketLink; else noTickets">
         <p>
