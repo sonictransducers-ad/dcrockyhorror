@@ -610,22 +610,6 @@ export const showDates: Dates = {
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
     ticketLink: 'https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/f4a76eff-4b8c-4ff1-ab49-eb49254baa59',
-    cast: {
-      frank: "Kelly",
-      janet: "Rachel",
-      brad: "Brad",
-      riff: "Mike",
-      magenta: "Lilka",
-      columbia: "RBG",
-      rocky: "Kay Ray",
-      eddie: "Cate",
-      scott: "Caitlyn",
-      crim: "Lindsay",
-      trixie: "nuAlli",
-      lights: "Lee, Brian",
-      stagemanager: "Damia",
-      runningcrew: "Eden, Virgil, Peaches, Bray, Adrian, Aliye, Manon, CG, Aster, Becca"
-    }
   },
   '011125': {
     date: new Date('January 11, 2025'),
@@ -648,7 +632,7 @@ export const showDates: Dates = {
       trixie: "Sasha",
       lights: "Lee, Brian",
       stagemanager: "Stewart",
-      runningcrew: "Leandra, Wren, Virgil, Peaches, Maria, Adrian, Sasha, Bray, Becca"
+      runningcrew: "Leandra, Wren, Peaches, Maria, Adrian, Sasha, Bray, Becca"
     }
   },
   '021425': {
