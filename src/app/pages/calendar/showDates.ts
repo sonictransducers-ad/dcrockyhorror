@@ -608,8 +608,7 @@ export const showDates: Dates = {
     time: '11:55pm',
     location: "Landmark's E Street Cinema",
     locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
-    ticketLink: 'https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/f4a76eff-4b8c-4ff1-ab49-eb49254baa59',
+      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/'
   },
   '011125': {
     date: new Date('January 11, 2025'),
