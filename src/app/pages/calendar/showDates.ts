@@ -641,6 +641,22 @@ export const showDates: Dates = {
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
     ticketLink: 'https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/be3d5499-182d-4cfe-877b-0941fc9da23c',
+    cast: {
+      frank: "Leandra",
+      janet: "Kelly",
+      brad: "Mike",
+      riff: "Petra",
+      magenta: "Lindsay",
+      columbia: "Eden",
+      rocky: "Kay Ray",
+      eddie: "Talia",
+      scott: "Caitlyn",
+      crim: "Nat",
+      trixie: "Kay Ray",
+      lights: "Lee, Brian",
+      stagemanager: "Brad",
+      runningcrew: "Adrian, Bethany, Bray, Caitlyn, Cate, Jack, MJ, Talia, Wren"
+    }
   },
   '021525': {
     date: new Date('February 15, 2025'),
@@ -649,6 +665,22 @@ export const showDates: Dates = {
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
     ticketLink: 'https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/45a131d0-988a-4971-a2c9-2e40413800e6',
+    cast: {
+      frank: "Kelly",
+      janet: "Rachel",
+      brad: "Brad",
+      riff: "Mike",
+      magenta: "Lindsay",
+      columbia: "Damia",
+      rocky: "Stewart",
+      eddie: "Petra",
+      scott: "Jack",
+      crim: "TBD",
+      trixie: "Sasha",
+      lights: "Brian, Lee",
+      stagemanager: "Leandra",
+      runningcrew: "Adrian, Bethany, CG, Jack, Maria, MJ, Petra, Sasha, Wren, Cherry"
+    }
   },
   '031425': {
     date: new Date('March 14, 2025'),
