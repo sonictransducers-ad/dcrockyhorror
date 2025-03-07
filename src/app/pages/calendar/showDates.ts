@@ -682,164 +682,146 @@ export const showDates: Dates = {
       runningcrew: "Adrian, Bethany, CG, Jack, Maria, MJ, Petra, Sasha, Wren, Cherry"
     }
   },
-  '031425': {
-    date: new Date('March 14, 2025'),
-    time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
-    // ticketLink: 'https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/9e0ceae2-a8e3-4bf9-ae1b-043c99bff3e2',
-  },
-  '031525': {
-    date: new Date('March 15, 2025'),
-    time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
-    // ticketLink: 'https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/e15fa311-f514-4f6e-bc92-a6b1cfd4908f',
-  },
+  // '031425': {
+  //   date: new Date('March 14, 2025'),
+  //   time: '11:55pm',
+  //   location: "Landmark's E Street Cinema",
+  //   locationLink:
+  //     'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+  //   // ticketLink: 'https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/9e0ceae2-a8e3-4bf9-ae1b-043c99bff3e2',
+  // },
+  // '031525': {
+  //   date: new Date('March 15, 2025'),
+  //   time: '11:55pm',
+  //   location: "Landmark's E Street Cinema",
+  //   locationLink:
+  //     'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+  //   // ticketLink: 'https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/e15fa311-f514-4f6e-bc92-a6b1cfd4908f',
+  // },
   '041125': {
     date: new Date('April 11, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '041225': {
     date: new Date('April 12, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '050925': {
     date: new Date('May 9, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '051025': {
     date: new Date('May 10, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '061325': {
     date: new Date('June 13, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '061425': {
     date: new Date('June 14, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '071125': {
     date: new Date('July 11, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '071225': {
     date: new Date('July 12, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '080825': {
     date: new Date('August 08, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '080925': {
     date: new Date('August 09, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '091225': {
     date: new Date('September 12, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '091325': {
     date: new Date('September 13, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '101025': {
     date: new Date('October 10, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '101125': {
     date: new Date('October 11, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '111425': {
     date: new Date('November 14, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '111525': {
     date: new Date('November 15, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '121225': {
     date: new Date('December 12, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
   '121325': {
     date: new Date('December 13, 2025'),
     time: '11:55pm',
-    location: "Landmark's E Street Cinema",
-    locationLink:
-      'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
   },
 };
