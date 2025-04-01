@@ -682,49 +682,33 @@ export const showDates: Dates = {
       runningcrew: "Adrian, Bethany, CG, Jack, Maria, MJ, Petra, Sasha, Wren, Cherry"
     }
   },
-  // '031425': {
-  //   date: new Date('March 14, 2025'),
-  //   time: '11:55pm',
-  //   location: "Landmark's E Street Cinema",
-  //   locationLink:
-  //     'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
-  //   // ticketLink: 'https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/9e0ceae2-a8e3-4bf9-ae1b-043c99bff3e2',
-  // },
-  // '031525': {
-  //   date: new Date('March 15, 2025'),
-  //   time: '11:55pm',
-  //   location: "Landmark's E Street Cinema",
-  //   locationLink:
-  //     'https://www.landmarktheatres.com/our-locations/x06oa-landmark-e-street-cinema/',
-  //   // ticketLink: 'https://booking.landmarktheatres.com/startticketing/eee2e699-1c65-471d-b808-c9fcacae2ec7/e15fa311-f514-4f6e-bc92-a6b1cfd4908f',
-  // },
   '041125': {
     date: new Date('April 11, 2025'),
     time: '11:55pm',
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/44fcfda4-eb38-4237-b22f-75894192c3b4',
   },
   '041225': {
     date: new Date('April 12, 2025'),
     time: '11:55pm',
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/0b3ea879-d19b-48ed-a757-5cbde6f48abf',
   },
   '050925': {
     date: new Date('May 9, 2025'),
     time: '11:55pm',
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/5c1dfb66-d04b-4b38-95c9-da9c7004941a',
   },
   '051025': {
     date: new Date('May 10, 2025'),
     time: '11:55pm',
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/13badd1c-dbbc-4e4a-9130-429af9286347',
   },
   '061325': {
     date: new Date('June 13, 2025'),
