@@ -237,15 +237,6 @@ export class CastComponent {
       aboutMe: "Peaches simply is.",
     },
     {
-      name: "Manon",
-      pronouns: "she/her",
-      photoUrl: "assets/cast/manon.jpg",
-      yearJoined: "May 2024",
-      roles: "Trixie, Crim, photography, social media and tech crew",
-      whyJoin: "Seeing the show as a Virgin remains to this day one of my best memories in DC... I wanted in on the insanity.",
-      favCallback: `"It's probably some kind of hunting lodge for rich weirdos." (Oh, Mar-a-Lago?)`,
-    },
-    {
       name: "Sara",
       pronouns: "she/her",
       photoUrl: "assets/cast/sara.jpg",
