@@ -10,7 +10,7 @@ export class CastComponent {
   castList: Member[] = [
     {
       name: "Leandra",
-      pronouns: "she/they",
+      pronouns: "they/them",
       photoUrl: "assets/cast/leandra.png",
       title: "Big Mommy",
       yearJoined: "June (?) 2009",
@@ -147,50 +147,6 @@ export class CastComponent {
       favCallback: "What's the last sound Amelia Earhart heard?"
     },
     {
-      name: "Stewart",
-      pronouns: "he/him",
-      photoUrl: "assets/cast/stewart.jpg",
-      yearJoined: "Sep 2022",
-      roles: "Trixie and Rocky",
-      whyJoin: "Because I'm an attention whore!!",
-      favCallback: `Riff: "Say good bye to all of this!" Audience: "Good bye all of this!"`,
-    },
-    {
-      name: "Emerson",
-      pronouns: "they/them",
-      photoUrl: "assets/cast/emerson.png",
-      yearJoined: "Aug 2022",
-      roles: "Janet and Trixie",
-      whyJoin: "I had just moved D.C. and need to find some freaky queers to hangout with. Plus I've wanted to join a cast ever since I was a kid.",
-      aboutMe: "I'm currently a Political Science/American Studies major at American University. Apart from flashing crowds at Landmark, I love playing bass and screaming (loudly) in my band Blunda.",
-      instagram: "https://www.instagram.com/spiiritditch/",
-    },
-    {
-      name: "Alina",
-      pronouns: "they/she",
-      photoUrl: "assets/cast/alina.jpg",
-      yearJoined: "May 2023",
-      roles: "Lights, Crew",
-      favCallback: "AUGH !! GEORGE SANTOS !!",
-      instagram: "https://www.instagram.com/exucariba/",
-    },
-    {
-      name: "Sam",
-      pronouns: "she/her",
-      photoUrl: "assets/cast/sam.jpeg",
-      yearJoined: "Feb 2022",
-      roles: "Trixie, Transylvanian, Crew",
-      whyJoin: "I love this movie and crave attention!"
-    },
-    {
-      name: "Zoe",
-      pronouns: "she/her",
-      photoUrl: "assets/cast/zoe.jpg",
-      yearJoined: "Sep 2022",
-      roles: "Crim, Eddie, Riff Raff, Transylvanian, Tech Crew",
-      whyJoin: "I saw the main characters in The Perks of Being a Wallflower shadowcasting Rocky and it seemed like the coolest thing ever!!!"
-    },
-    {
       name: "Kay Ray",
       pronouns: "they/them",
       photoUrl: "assets/cast/kayray.jpeg",
@@ -245,14 +201,6 @@ export class CastComponent {
       whyJoin: "To honor my bicycle, Dr. Crank N Furter",
       aboutMe: "Baby beauty pageant queen, weird art enthusiast, wants to unionize your workplace. Ask me about my compost worms.",
     },
-    {
-      name: "Jake",
-      pronouns: "",
-      photoUrl: "assets/cast/jake.png",
-      yearJoined: "Nov 2017",
-      roles: "Tech, Crew, and Rocky",
-      whyJoin: "What better way to express myself then through song and dance?"
-    }
     // {
     //   name: "",
     //   pronouns: "",
