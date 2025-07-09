@@ -61,7 +61,6 @@ export type Week = [Day, Day, Day, Day, Day, Day, Day];
 // D**** => Lady Morgan
 // R***** => Roswell
 // A** => Eden
-// S****** => Stewart
 // K*** => Kay Ray
 
 // New recruits/returning shouldn't be included here
@@ -730,6 +729,22 @@ export const showDates: Dates = {
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/68d71253-d617-40e4-8317-150c96ec625e',
+    cast: {
+      frank: "Nat",
+      janet: "Oscar",
+      brad: "Petra",
+      riff: "Mike2",
+      magenta: "Cherry",
+      columbia: "Eden",
+      rocky: "Kay Ray",
+      eddie: "Sara",
+      scott: "Lilka",
+      crim: "Lindsay",
+      trixie: "Cris",
+      lights: "Lee, Brian, Cate",
+      stagemanager: "Damia",
+      runningcrew: "Axel, Cris, Lilka, Lyla, Peaches, Rachel, Sara, Tori, Wren"
+  }
   },
   '071225': {
     date: new Date('July 12, 2025'),
@@ -737,6 +752,22 @@ export const showDates: Dates = {
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/dd85ec48-1a02-4591-ad8c-9bf289607ff4',
+    cast: {
+      frank: "nuAlli",
+      janet: "Rachel",
+      brad: "Kelly",
+      riff: "Kay Ray",
+      magenta: "Wren",
+      columbia: "Lady Morgan",
+      rocky: "Oscar",
+      eddie: "Petra",
+      scott: "Lindsay",
+      crim: "Brad",
+      trixie: "Petra",
+      lights: "Lee, Brian",
+      stagemanager: "Eden",
+      runningcrew: "Axel, CG, Cherry, Damia, Geoff, Lilka, Lyla, Maria, Mike2, Peaches, Petra"
+  }
   },
   '080825': {
     date: new Date('August 08, 2025'),
