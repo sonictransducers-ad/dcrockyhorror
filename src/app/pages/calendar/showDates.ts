@@ -774,14 +774,14 @@ export const showDates: Dates = {
     time: '10:30pm',
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/eb2247d0-0fd1-4582-9cd9-ed9552695d6c',
   },
   '080925': {
     date: new Date('August 09, 2025'),
     time: '10:30pm',
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/ec693eaf-f515-4e67-a2ba-85a8996dd6ea',
   },
   '091225': {
     date: new Date('September 12, 2025'),
