@@ -177,11 +177,11 @@ export class CastComponent {
     {
       name: "Rachel",
       pronouns: "she/her",
-      photoUrl: "assets/cast/rachel.jpg",
+      photoUrl: "assets/cast/rachel.jpeg",
       yearJoined: "Apr 2024",
-      roles: "Janet, Dr. Scott, Transylvanian, tech",
+      roles: "Janet, Frank, Rocky, Dr. Scott, Transylvanian, Running Crew",
       whyJoin: "I've loved Rocky Horror and wanted to join a shadow cast ever since I was a young gay kid growing up in the Deep South. Finally found my Rocky home with the Sonic Transducers!",
-      favCallback: "Only assholes write on doors!"
+      favCallback: "“First one in the pool gets an Oscar…last one in the pool has to be in the sequel!”"
     },
     {
       name: "Peaches",
