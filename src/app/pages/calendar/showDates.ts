@@ -744,7 +744,7 @@ export const showDates: Dates = {
       lights: "Lee, Brian, Cate",
       stagemanager: "Damia",
       runningcrew: "Axel, Cris, Lilka, Lyla, Peaches, Rachel, Sara, Tori, Wren"
-  }
+    }
   },
   '071225': {
     date: new Date('July 12, 2025'),
@@ -767,7 +767,7 @@ export const showDates: Dates = {
       lights: "Lee, Brian",
       stagemanager: "Eden",
       runningcrew: "Axel, CG, Cherry, Damia, Geoff, Lilka, Lyla, Maria, Mike2, Peaches, Petra"
-  }
+    }
   },
   '080825': {
     date: new Date('August 08, 2025'),
@@ -776,21 +776,21 @@ export const showDates: Dates = {
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/eb2247d0-0fd1-4582-9cd9-ed9552695d6c',
     cast: {
-     frank: "Rachel",
-     janet: "Oscar",
-     brad: "Leandra",
-     riff: "Petra",
-     magenta: "Wren",
-     columbia: "Eden",
-     rocky: "Jack",
-     eddie: "Cris",
-     scott: "Lindsay",
-     crim: "Kelly",
-     trixie: "Cris",
-     lights: "Lee, Brian, Cate",
-     stagemanager: "Brad",
-     runningcrew: "Axel, Cherry, Cris, Lyla, Nature, Peaches, Talia, Tori"
-  }
+      frank: "Rachel",
+      janet: "Oscar",
+      brad: "Leandra",
+      riff: "Petra",
+      magenta: "Wren",
+      columbia: "Eden",
+      rocky: "Jack",
+      eddie: "Cris",
+      scott: "Lindsay",
+      crim: "Kelly",
+      trixie: "Cris",
+      lights: "Lee, Brian, Cate",
+      stagemanager: "Brad",
+      runningcrew: "Axel, Cherry, Cris, Lyla, Nature, Peaches, Talia, Tori"
+    }
   },
   '080925': {
     date: new Date('August 09, 2025'),
@@ -799,63 +799,91 @@ export const showDates: Dates = {
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/ec693eaf-f515-4e67-a2ba-85a8996dd6ea',
     cast: {
-     frank: "Eden",
-     janet: "Rachel",
-     brad: "Petra",
-     riff: "Damia",
-     magenta: "Lindsay",
-     columbia: "Lady Morgan",
-     rocky: "Oscar",
-     eddie: "Cate",
-     scott: "Tori",
-     crim: "TBD",
-     trixie: "CG",
-     lights: "Lee, Brian",
-     stagemanager: "Leandra",
-     runningcrew: "Cate, CG, Cherry, Lyla, Peaches, Talia, Tori, Wren, Sam"
-  }
+      frank: "Eden",
+      janet: "Rachel",
+      brad: "Petra",
+      riff: "Damia",
+      magenta: "Lindsay",
+      columbia: "Lady Morgan",
+      rocky: "Oscar",
+      eddie: "Cate",
+      scott: "Tori",
+      crim: "TBD",
+      trixie: "CG",
+      lights: "Lee, Brian",
+      stagemanager: "Leandra",
+      runningcrew: "Cate, CG, Cherry, Lyla, Peaches, Talia, Tori, Wren, Sam"
+    }
   },
   '091225': {
     date: new Date('September 12, 2025'),
     time: '10:30pm',
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/fd6ed11e-b172-4518-abbf-3043ddca16dd',
   },
   '091325': {
     date: new Date('September 13, 2025'),
     time: '10:30pm',
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/89115133-aa4a-4383-838a-7a58267c2596',
+  },
+  '100225': {
+    date: new Date('October 2, 2025'),
+    time: '8:00pm',
+    location: "Warner Theatre",
+    locationLink: 'https://www.warnertheatredc.com/visit',
+    ticketLink: 'https://www.ticketmaster.com/the-rocky-horror-picture-show-50th-washington-district-of-columbia-10-02-2025/event/15006296AFA62B93'
   },
   '101025': {
     date: new Date('October 10, 2025'),
     time: '10:30pm',
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/e7069d51-9977-469e-93b7-f358cbf40176',
   },
   '101125': {
     date: new Date('October 11, 2025'),
     time: '10:30pm',
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/1fad6a17-2c0d-4a1e-9446-b4014126e591',
+  },
+  '102425': {
+    date: new Date('October 24, 2025'),
+    time: '10:30pm',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: '',
+  },
+  '102525': {
+    date: new Date('October 25, 2025'),
+    time: '10:30pm',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
+    ticketLink: '',
+  },
+  '103125': {
+    date: new Date('October 31, 2025'),
+    time: '8:00pm',
+    location: "Lincoln Theater",
+    locationLink: 'https://www.thelincolndc.com/e/the-rocky-horror-picture-show/',
+    ticketLink: 'https://www.ticketmaster.com/the-rocky-horror-picture-show-washington-district-of-columbia-10-31-2025/event/15006295B2FD7751',
   },
   '111425': {
     date: new Date('November 14, 2025'),
     time: '10:30pm',
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/4d11dbda-d2c8-4e2e-8b43-6898b331ee99',
   },
   '111525': {
     date: new Date('November 15, 2025'),
     time: '10:30pm',
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/6cad59db-aa94-4b6f-820b-685e1337502e',
   },
   '121225': {
     date: new Date('December 12, 2025'),
