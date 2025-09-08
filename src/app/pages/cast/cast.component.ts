@@ -156,6 +156,15 @@ export class CastComponent {
       favCallback: "Hey Janet! Watch out for the slut eating tree!",
     },
     {
+      name: "Petra",
+      pronouns: "she/he",
+      photoUrl: "assets/cast/petra.jpg",
+      yearJoined: "Jan 2024",
+      roles: "Tech, Transylvanian, Dr. Scott, Eddie, Riff Raff, Brad Majors",
+      whyJoin: "To make my mom proud one missed cue at a time",
+      favCallback: 'Oh my GOD Brad smokes!'
+    },
+    {
       name: "Brad",
       pronouns: "he/him",
       photoUrl: "assets/cast/brad.jpg",
@@ -164,24 +173,6 @@ export class CastComponent {
       whyJoin: "I enjoyed going to the shows and I thought it would be fun to get involved. And get this, it is!",
       favCallback: "Nice save, Riff",
       aboutMe: "I'm an avid old school horror movie fan, go watch Suspiria!",
-    },
-    {
-      name: "Petra",
-      pronouns: "she/he",
-      photoUrl: "assets/cast/petra.jpg",
-      yearJoined: "Jan 2024",
-      roles: "Tech, Transylvanian, Dr. Scott, Eddie, Riff Raff",
-      whyJoin: "To make my mom proud one missed cue at a time",
-      favCallback: 'Oh my GOD Brad smokes!'
-    },
-    {
-      name: "Rachel",
-      pronouns: "she/her",
-      photoUrl: "assets/cast/rachel.jpeg",
-      yearJoined: "Apr 2024",
-      roles: "Janet, Frank, Rocky, Dr. Scott, Transylvanian, Running Crew",
-      whyJoin: "I've loved Rocky Horror and wanted to join a shadow cast ever since I was a young gay kid growing up in the Deep South. Finally found my Rocky home with the Sonic Transducers!",
-      favCallback: "“First one in the pool gets an Oscar…last one in the pool has to be in the sequel!”"
     },
     {
       name: "Peaches",
@@ -193,6 +184,15 @@ export class CastComponent {
       aboutMe: "Peaches simply is.",
     },
     {
+      name: "Rachel",
+      pronouns: "she/her",
+      photoUrl: "assets/cast/rachel.jpeg",
+      yearJoined: "Apr 2024",
+      roles: "Janet, Frank, Rocky, Dr. Scott, Transylvanian, Running Crew",
+      whyJoin: "I've loved Rocky Horror and wanted to join a shadow cast ever since I was a young gay kid growing up in the Deep South. Finally found my Rocky home with the Sonic Transducers!",
+      favCallback: "“First one in the pool gets an Oscar…last one in the pool has to be in the sequel!”"
+    },
+    {
       name: "Sara",
       pronouns: "she/her",
       photoUrl: "assets/cast/sara.jpg",
@@ -201,6 +201,14 @@ export class CastComponent {
       whyJoin: "To honor my bicycle, Dr. Crank N Furter",
       aboutMe: "Baby beauty pageant queen, weird art enthusiast, wants to unionize your workplace. Ask me about my compost worms.",
     },
+    {
+      name: "Crowley",
+      pronouns: "any",
+      photoUrl: "assets/cast/crowley.jpeg",
+      yearJoined: "Oct 2024",
+      roles: "Trixie, Running Crew",
+      whyJoin: "My undying love for the strange spectacle that is The Rocky Horror Picture Show!"
+    }
     // {
     //   name: "",
     //   pronouns: "",
