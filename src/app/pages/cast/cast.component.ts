@@ -155,7 +155,7 @@ export class CastComponent {
       whyJoin: "To honor my 15-year old self, who felt so much queer and trans joy the first time they saw a RHPS shadow-cast!",
       favCallback: "Hey Janet! Watch out for the slut eating tree!",
     },
-        {
+    {
       name: "Petra",
       pronouns: "she/he",
       photoUrl: "assets/cast/petra.jpg",
