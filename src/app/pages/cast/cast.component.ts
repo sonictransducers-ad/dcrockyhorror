@@ -155,6 +155,15 @@ export class CastComponent {
       whyJoin: "To honor my 15-year old self, who felt so much queer and trans joy the first time they saw a RHPS shadow-cast!",
       favCallback: "Hey Janet! Watch out for the slut eating tree!",
     },
+        {
+      name: "Petra",
+      pronouns: "she/he",
+      photoUrl: "assets/cast/petra.jpg",
+      yearJoined: "Jan 2024",
+      roles: "Tech, Transylvanian, Dr. Scott, Eddie, Riff Raff, Brad Majors",
+      whyJoin: "To make my mom proud one missed cue at a time",
+      favCallback: 'Oh my GOD Brad smokes!'
+    },
     {
       name: "Brad",
       pronouns: "he/him",
@@ -166,13 +175,13 @@ export class CastComponent {
       aboutMe: "I'm an avid old school horror movie fan, go watch Suspiria!",
     },
     {
-      name: "Petra",
-      pronouns: "she/he",
-      photoUrl: "assets/cast/petra.jpg",
-      yearJoined: "Jan 2024",
-      roles: "Tech, Transylvanian, Dr. Scott, Eddie, Riff Raff",
-      whyJoin: "To make my mom proud one missed cue at a time",
-      favCallback: 'Oh my GOD Brad smokes!'
+      name: "Peaches",
+      pronouns: "",
+      photoUrl: "assets/cast/placeholder3.png",
+      yearJoined: "Sep 2022",
+      roles: "Eddie, Dr. Scott, Riff",
+      whyJoin: "My wife",
+      aboutMe: "Peaches simply is.",
     },
     {
       name: "Rachel",
@@ -184,15 +193,6 @@ export class CastComponent {
       favCallback: "“First one in the pool gets an Oscar…last one in the pool has to be in the sequel!”"
     },
     {
-      name: "Peaches",
-      pronouns: "",
-      photoUrl: "assets/cast/placeholder3.png",
-      yearJoined: "Sep 2022",
-      roles: "Eddie, Dr. Scott, Riff",
-      whyJoin: "My wife",
-      aboutMe: "Peaches simply is.",
-    },
-    {
       name: "Sara",
       pronouns: "she/her",
       photoUrl: "assets/cast/sara.jpg",
@@ -201,6 +201,14 @@ export class CastComponent {
       whyJoin: "To honor my bicycle, Dr. Crank N Furter",
       aboutMe: "Baby beauty pageant queen, weird art enthusiast, wants to unionize your workplace. Ask me about my compost worms.",
     },
+    {
+      name: "Crowley",
+      pronouns: "any",
+      photoUrl: "assets/cast/crowley.jpeg",
+      yearJoined: "Oct 2024",
+      roles: "Trixie, Running Crew",
+      whyJoin: "My undying love for the strange spectacle that is The Rocky Horror Picture Show!"
+    }
     // {
     //   name: "",
     //   pronouns: "",
