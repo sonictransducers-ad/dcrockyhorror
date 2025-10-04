@@ -62,6 +62,7 @@ export type Week = [Day, Day, Day, Day, Day, Day, Day];
 // R***** => Roswell
 // A** => Eden
 // K*** => Kay Ray
+// S**** => Crowley 
 
 // New recruits/returning shouldn't be included here
 
@@ -842,6 +843,22 @@ export const showDates: Dates = {
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/e7069d51-9977-469e-93b7-f358cbf40176',
+    cast: {
+      frank: "Oscar",
+      janet: "Leandra",
+      brad: "Lilka",
+      riff: "Damia",
+      magenta: "Wren",
+      columbia: "Jeff",
+      rocky: "Jack",
+      eddie: "Sara",
+      scott: "Lindsay",
+      crim: "Brad",
+      trixie: "Cris",
+      lights: "Lee, Eden",
+      stagemanager: "Kelly",
+      runningcrew: "CG, Cris, Emma, Hannah, Lindsay, Marco, Mariah, Maryjo, Peaches, Sara, Virgil, Cherry"
+    }
   },
   '101125': {
     date: new Date('October 11, 2025'),
@@ -849,21 +866,37 @@ export const showDates: Dates = {
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/1fad6a17-2c0d-4a1e-9446-b4014126e591',
+    cast: {
+      frank: "Jeff",
+      janet: "NuAlli",
+      brad: "Petra",
+      riff: "Brad",
+      magenta: "Lilka",
+      columbia: "Lady Morgan",
+      rocky: "Kay Ray",
+      eddie: "Nature",
+      scott: "Geoff",
+      crim: "Kelly",
+      trixie: "Oscar and Leandra",
+      lights: "Lee, Brian",
+      stagemanager: "Damia",
+      runningcrew: "Eden, CG, Cris, Emma, Geoff, Leandra, Lyla, Marco, Nature, Oscar, Peaches, Samantha, Silva, Tyler, Wren, Cherry"
+    }
   },
-  // '102425': {
-  //   date: new Date('October 24, 2025'),
-  //   time: '10:30pm',
-  //   location: "Landmark Bethesda Row Cinema",
-  //   locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-  //   ticketLink: '',
-  // },
-  // '102525': {
-  //   date: new Date('October 25, 2025'),
-  //   time: '10:30pm',
-  //   location: "Landmark Bethesda Row Cinema",
-  //   locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-  //   ticketLink: '',
-  // },
+  '102425': {
+    date: new Date('October 24, 2025'),
+    time: '10:30pm',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/baa56317-23f0-4106-b273-435bbfb80e7c',
+  },
+  '102525': {
+    date: new Date('October 25, 2025'),
+    time: '10:30pm',
+    location: "Landmark Bethesda Row Cinema",
+    locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
+    ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/12e19986-844a-40d5-a677-84d642409783',
+  },
   '103125': {
     date: new Date('October 31, 2025'),
     time: '8:00pm',
