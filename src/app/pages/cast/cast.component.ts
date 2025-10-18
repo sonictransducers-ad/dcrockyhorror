@@ -209,7 +209,7 @@ export class CastComponent {
       roles: "Trixie, Running Crew",
       whyJoin: "My undying love for the strange spectacle that is The Rocky Horror Picture Show!"
     },
-        {
+    {
       name: "Hannah",
       pronouns: "she/they",
       photoUrl: "assets/cast/placeholder1.png",
