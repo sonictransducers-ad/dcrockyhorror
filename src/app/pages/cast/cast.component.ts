@@ -208,6 +208,15 @@ export class CastComponent {
       yearJoined: "Oct 2024",
       roles: "Trixie, Running Crew",
       whyJoin: "My undying love for the strange spectacle that is The Rocky Horror Picture Show!"
+    },
+    {
+      name: "Hannah",
+      pronouns: "she/they",
+      photoUrl: "assets/cast/placeholder1.png",
+      yearJoined: "Sep 2025",
+      roles: "Transylvanian",
+      favCallback: `During floor show, I like to say "Did somebody say Tollhouse Cookies????" right before everyone slowly turns around`,
+
     }
     // {
     //   name: "",
