@@ -217,6 +217,15 @@ export class CastComponent {
       roles: "Transylvanian",
       favCallback: `During floor show, I like to say "Did somebody say Tollhouse Cookies????" right before everyone slowly turns around`,
 
+    },
+    {
+      name: "Sewrenity",
+      pronouns: "her.",
+      photoUrl: "assets/cast/sewrenity.png",
+      yearJoined: "Aug 2024",
+      roles: "Magenta",
+      whyJoin: "How could I not?",
+      favCallback: "SEX SEX SEX SEX"
     }
     // {
     //   name: "",
