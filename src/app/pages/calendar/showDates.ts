@@ -63,6 +63,7 @@ export type Week = [Day, Day, Day, Day, Day, Day, Day];
 // A** => Eden
 // K*** => Kay Ray
 // S**** => Crowley 
+// W*** => Sewrenity
 
 // New recruits/returning shouldn't be included here
 
