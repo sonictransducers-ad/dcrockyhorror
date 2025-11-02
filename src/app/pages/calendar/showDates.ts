@@ -121,7 +121,7 @@ export const showDates: Dates = {
       trixie: "Sasha",
       lights: "Lee, Brian",
       stagemanager: "Stewart",
-      runningcrew: "Leandra, Wren, Peaches, Maria, Adrian, Sasha, Bray, Becca"
+      runningcrew: "Leandra, Sewrenity, Peaches, Maria, Adrian, Sasha, Bray, Becca"
     }
   },
   '021425': {
@@ -145,7 +145,7 @@ export const showDates: Dates = {
       trixie: "Kay Ray",
       lights: "Lee, Brian",
       stagemanager: "Brad",
-      runningcrew: "Adrian, Bethany, Bray, Caitlyn, Cate, Jack, MJ, Talia, Wren"
+      runningcrew: "Adrian, Bethany, Bray, Caitlyn, Cate, Jack, MJ, Talia, Sewrenity"
     }
   },
   '021525': {
@@ -169,7 +169,7 @@ export const showDates: Dates = {
       trixie: "Sasha",
       lights: "Brian, Lee",
       stagemanager: "Leandra",
-      runningcrew: "Adrian, Bethany, CG, Jack, Maria, MJ, Petra, Sasha, Wren, Cherry"
+      runningcrew: "Adrian, Bethany, CG, Jack, Maria, MJ, Petra, Sasha, Sewrenity, Cherry"
     }
   },
   '041125': {
@@ -234,7 +234,7 @@ export const showDates: Dates = {
       trixie: "Cris",
       lights: "Lee, Brian, Cate",
       stagemanager: "Damia",
-      runningcrew: "Axel, Cris, Lilka, Lyla, Peaches, Rachel, Sara, Tori, Wren"
+      runningcrew: "Axel, Cris, Lilka, Lyla, Peaches, Rachel, Sara, Tori, Sewrenity"
     }
   },
   '071225': {
@@ -248,7 +248,7 @@ export const showDates: Dates = {
       janet: "Rachel",
       brad: "Kelly",
       riff: "Kay Ray",
-      magenta: "Wren",
+      magenta: "Sewrenity",
       columbia: "Lady Morgan",
       rocky: "Oscar",
       eddie: "Petra",
@@ -271,7 +271,7 @@ export const showDates: Dates = {
       janet: "Oscar",
       brad: "Leandra",
       riff: "Petra",
-      magenta: "Wren",
+      magenta: "Sewrenity",
       columbia: "Eden",
       rocky: "Jack",
       eddie: "Cris",
@@ -303,7 +303,7 @@ export const showDates: Dates = {
       trixie: "CG",
       lights: "Lee, Brian",
       stagemanager: "Leandra",
-      runningcrew: "Cate, CG, Cherry, Lyla, Peaches, Talia, Tori, Wren, Sam"
+      runningcrew: "Cate, CG, Cherry, Lyla, Peaches, Talia, Tori, Sewrenity, Sam"
     }
   },
   '091225': {
@@ -338,7 +338,7 @@ export const showDates: Dates = {
       janet: "Leandra",
       brad: "Lilka",
       riff: "Damia",
-      magenta: "Wren",
+      magenta: "Sewrenity",
       columbia: "Jeff",
       rocky: "Jack",
       eddie: "Sara",
@@ -370,7 +370,7 @@ export const showDates: Dates = {
       trixie: "Oscar and Leandra",
       lights: "Lee, Brian",
       stagemanager: "Damia",
-      runningcrew: "Eden, CG, Cris, Emma, Geoff, Leandra, Lyla, Marco, Nature, Oscar, Peaches, Samantha, Silva, Tyler, Wren, Cherry"
+      runningcrew: "Eden, CG, Cris, Emma, Geoff, Leandra, Lyla, Marco, Nature, Oscar, Peaches, Samantha, Silva, Tyler, Sewrenity, Cherry"
     }
   },
   '102425': {
@@ -393,7 +393,7 @@ export const showDates: Dates = {
       trixie: "Cris",
       lights: "Lee",
       stagemanager: "Leandra",
-      runningcrew: "CG, Cherry, Cris, Hannah, Jack, Lilka, Marco, Talia, Virgil, Wren"
+      runningcrew: "CG, Cherry, Cris, Hannah, Jack, Lilka, Marco, Talia, Virgil, Sewrenity"
     }
   },
   '102525': {
@@ -416,7 +416,7 @@ export const showDates: Dates = {
       trixie: "Lady Morgan",
       lights: "Lee",
       stagemanager: "Damia",
-      runningcrew: "Cris, Hannah, Marco, Maslin, Talia, Tori, Virgil, Wren"
+      runningcrew: "Cris, Hannah, Marco, Maslin, Talia, Tori, Virgil, Sewrenity"
     }
   },
   '103125': {
@@ -430,7 +430,7 @@ export const showDates: Dates = {
       janet: "Leandra",
       brad: "Oscar",
       riff: "Damia",
-      magenta: "Wren",
+      magenta: "Sewrenity",
       columbia: "Lady Morgan",
       rocky: "Eden",
       eddie: "Sara",
