@@ -1,9 +1,8 @@
 <div *ngIf="!showDates[date]" class="wrapper">
   <h1>Calendar</h1>
   <p>
-    We have shows the second weekend of every month, as well as bonus
-    shows at Halloween! Click any show date for a cast list and more info, or
-    visit
+    We have shows the second weekend of every month, as well as bonus shows at
+    Halloween! Click any show date for a cast list and more info, or visit
     <a
       class="landmark"
       href="https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/"
@@ -156,9 +155,27 @@
   </div>
 
   <div *ngIf="date == '011025'">
+    <p>Due to winter weather, this show is cancelled! Stay safe everyone!</p>
+  </div>
+
+  <div *ngIf="date == '111425' || date == '111525'">
     <p>
-      Due to winter weather, this show is cancelled! Stay safe everyone!
+      At our November shows, we'll be collecting food donations for
+      <a target="_blank" href="https://marthastable.org/">Martha's Table</a>, a
+      nonprofit organization in DC committed to increasing access to quality
+      education, health and wellness, and family resources.
     </p>
+    <p>They accept:</p>
+    <ul>
+      <li>Beans & lentils, dried or canned</li>
+      <li>Canned fruits & veggies</li>
+      <li>Coffee & tea</li>
+      <li>Canned turkey, chicken, & salmon</li>
+      <li>Whole-grain crackers, low-sugar cereal, rolled oats</li>
+      <li>Pasta & tomato sauce</li>
+      <li>Grains & quinoa</li>
+      <li>Nuts, dried fruit, applesauce, breakfast bars</li>
+    </ul>
   </div>
 
   <div class="buy center" *ngIf="date != '011025'">
