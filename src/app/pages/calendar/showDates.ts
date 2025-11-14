@@ -448,6 +448,22 @@ export const showDates: Dates = {
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/4d11dbda-d2c8-4e2e-8b43-6898b331ee99',
+    cast: {
+      frank: "Rachel",
+      janet: "Talia",
+      brad: "Jeff",
+      riff: "Brad",
+      magenta: "Lindsay",
+      columbia: "Eden",
+      rocky: "Oscar",
+      eddie: "Cris",
+      scott: "Tori",
+      crim: "Marco",
+      trixie: "Hannah",
+      lights: "Lee",
+      stagemanager: "Leandra",
+      runningcrew: "Cherry, Cris, Emma, Hannah, Lilka, Peaches, Sara, Silva, Tori"
+    }
   },
   '111525': {
     date: new Date('November 15, 2025'),
@@ -455,6 +471,22 @@ export const showDates: Dates = {
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: 'https://booking.landmarktheatres.com/startticketing/993e2dc1-6712-4dfd-b72b-afb69e2c9027/6cad59db-aa94-4b6f-820b-685e1337502e',
+    cast: {
+      frank: "Rachel",
+      janet: "Talia",
+      brad: "Cris",
+      riff: "Petra",
+      magenta: "Lilka",
+      columbia: "Lady Morgan",
+      rocky: "Leandra",
+      eddie: "Nature",
+      scott: "Lindsay",
+      crim: "CG",
+      trixie: "Cherry",
+      lights: "Lee, Brian",
+      stagemanager: "Eden",
+      runningcrew: "Cherry, Emma, Hannah, Lindsay, Marco, Nature, Peaches, Silva, Tori"
+    }
   },
   '121225': {
     date: new Date('December 12, 2025'),
