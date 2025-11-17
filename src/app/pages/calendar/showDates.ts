@@ -493,13 +493,13 @@ export const showDates: Dates = {
     time: '10:30pm',
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/aba2b2e7-b064-5978-822f-c3f00db8bc27',
   },
   '121325': {
     date: new Date('December 13, 2025'),
     time: '10:30pm',
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: '',
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/f1f2d8b4-75e6-5c02-a091-fc56f10ab156',
   },
 };
