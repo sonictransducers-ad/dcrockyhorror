@@ -219,6 +219,16 @@ export class CastComponent {
 
     },
     {
+      name: "Marco-X",
+      pronouns: "he/him",
+      photoUrl: "assets/cast/marcox.png",
+      yearJoined: "Aug 2025",
+      roles: "Transylvanian, Crim",
+      favCallback: "Oh shit, what a bitch, quick Magenta flip the switch!",
+      aboutMe: "I'm a misfit ,a multimedia artist, a theater fan ,A Punk Rock cosplayer, etc. I'm just a wild old soul Goth punk hippie who loves me some Rock n Roll from Classic 70s and 80s rock.",
+      instagram: "https://www.instagram.com/marcoxpsychocircus",
+    },
+    {
       name: "Sewrenity",
       pronouns: "her.",
       photoUrl: "assets/cast/sewrenity.png",
@@ -226,7 +236,7 @@ export class CastComponent {
       roles: "Magenta",
       whyJoin: "How could I not?",
       favCallback: "SEX SEX SEX SEX"
-    }
+    },
     // {
     //   name: "",
     //   pronouns: "",

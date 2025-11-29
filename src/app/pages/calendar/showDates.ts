@@ -347,7 +347,7 @@ export const showDates: Dates = {
       trixie: "Cris",
       lights: "Lee, Eden",
       stagemanager: "Kelly",
-      runningcrew: "CG, Cris, Emma, Hannah, Lindsay, Marco, Mariah, Maryjo, Peaches, Sara, Virgil, Cherry"
+      runningcrew: "CG, Cris, Emma, Hannah, Lindsay, Marco-X, Mariah, Maryjo, Peaches, Sara, Virgil, Cherry"
     }
   },
   '101125': {
@@ -370,7 +370,7 @@ export const showDates: Dates = {
       trixie: "Oscar and Leandra",
       lights: "Lee, Brian",
       stagemanager: "Damia",
-      runningcrew: "Eden, CG, Cris, Emma, Geoff, Leandra, Lyla, Marco, Nature, Oscar, Peaches, Samantha, Silva, Tyler, Sewrenity, Cherry"
+      runningcrew: "Eden, CG, Cris, Emma, Geoff, Leandra, Lyla, Marco-X, Nature, Oscar, Peaches, Samantha, Silva, Tyler, Sewrenity, Cherry"
     }
   },
   '102425': {
@@ -393,7 +393,7 @@ export const showDates: Dates = {
       trixie: "Cris",
       lights: "Lee",
       stagemanager: "Leandra",
-      runningcrew: "CG, Cherry, Cris, Hannah, Jack, Lilka, Marco, Talia, Virgil, Sewrenity"
+      runningcrew: "CG, Cherry, Cris, Hannah, Jack, Lilka, Marco-X, Talia, Virgil, Sewrenity"
     }
   },
   '102525': {
@@ -412,11 +412,11 @@ export const showDates: Dates = {
       rocky: "Jack",
       eddie: "Talia",
       scott: "Virgil",
-      crim: "Marco",
+      crim: "Marco-X",
       trixie: "Lady Morgan",
       lights: "Lee",
       stagemanager: "Damia",
-      runningcrew: "Cris, Hannah, Marco, Maslin, Talia, Tori, Virgil, Sewrenity"
+      runningcrew: "Cris, Hannah, Marco-X, Maslin, Talia, Tori, Virgil, Sewrenity"
     }
   },
   '103125': {
@@ -439,7 +439,7 @@ export const showDates: Dates = {
       trixie: "Cris",
       lights: "",
       stagemanager: "Lee",
-      runningcrew: "Cate, Cherry, Cris, Hannah, Marco, Mariah, Molly, Sara, Tyler, Virgil"
+      runningcrew: "Cate, Cherry, Cris, Hannah, Marco-X, Mariah, Molly, Sara, Tyler, Virgil"
     }
   },
   '111425': {
@@ -458,7 +458,7 @@ export const showDates: Dates = {
       rocky: "Oscar",
       eddie: "Cris",
       scott: "Tori",
-      crim: "Marco",
+      crim: "Marco-X",
       trixie: "Hannah",
       lights: "Lee",
       stagemanager: "Leandra",
@@ -485,7 +485,7 @@ export const showDates: Dates = {
       trixie: "Cherry",
       lights: "Lee, Brian",
       stagemanager: "Eden",
-      runningcrew: "Cherry, Emma, Hannah, Lindsay, Marco, Nature, Peaches, Silva, Tori"
+      runningcrew: "Cherry, Emma, Hannah, Lindsay, Marco-X, Nature, Peaches, Silva, Tori"
     }
   },
   '121225': {
