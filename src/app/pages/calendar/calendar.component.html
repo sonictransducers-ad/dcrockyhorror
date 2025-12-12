@@ -160,9 +160,12 @@
 
   <div *ngIf="date == '121225' || date == '121325'">
     <p>
-      At our December shows, we'll be collecting new and gently used warm clothing donations for
-      <a target="_blank" href="https://thedccenter.org/">the DC LGBTQ+ Community Center</a>, a 
-      non-profit that offers a variety of programs and services to the LGBTQ+ community.
+      At our December shows, we'll be collecting new and gently used warm
+      clothing donations for
+      <a target="_blank" href="https://thedccenter.org/"
+        >the DC LGBTQ+ Community Center</a
+      >, a non-profit that offers a variety of programs and services to the
+      LGBTQ+ community.
     </p>
   </div>
 
@@ -193,6 +196,18 @@
     Some roles for this performance are double-cast! For roles with two names
     listed, the second name will perform the role from floorshow onward.
   </p>
+
+  <div *ngIf="showDates[date].hatNightPlayers">
+    <p>
+      This show will be our annual HAT NIGHT! Veteran cast members will grab a
+      random role out of a hat every scene. This year's Hat Night Players are:</p>
+    <section class="cast">
+      <p *ngFor="let castMember of showDates[date].hatNightPlayers">
+        {{ castMember }}
+      </p>
+    </section>
+    <h3>ADDITIONAL CAST:</h3>
+  </div>
 
   <section class="cast" *ngIf="showDates[date].cast">
     <p class="role" *ngIf="showDates[date].cast?.frank">
