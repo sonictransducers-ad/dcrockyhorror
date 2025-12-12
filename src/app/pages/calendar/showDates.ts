@@ -5,21 +5,22 @@ export interface Show {
   locationLink?: string;
   ticketLink?: string;
   doubleCast?: boolean;
+  hatNightPlayers?: string[];
   cast?: {
-    frank: string;
-    janet: string;
-    brad: string;
-    riff: string;
-    magenta: string;
-    columbia: string;
-    rocky: string;
-    eddie: string;
-    scott: string;
-    crim: string;
-    trixie: string;
-    lights: string;
-    stagemanager: string;
-    runningcrew: string;
+    frank?: string;
+    janet?: string;
+    brad?: string;
+    riff?: string;
+    magenta?: string;
+    columbia?: string;
+    rocky?: string;
+    eddie?: string;
+    scott?: string;
+    crim?: string;
+    trixie?: string;
+    lights?: string;
+    stagemanager?: string;
+    runningcrew?: string;
   };
 }
 
@@ -64,6 +65,7 @@ export type Week = [Day, Day, Day, Day, Day, Day, Day];
 // K*** => Kay Ray
 // S**** => Crowley 
 // W*** => Sewrenity
+// M**** => Marco-X
 
 // New recruits/returning shouldn't be included here
 
@@ -494,6 +496,22 @@ export const showDates: Dates = {
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/aba2b2e7-b064-5978-822f-c3f00db8bc27',
+    cast: {
+      frank: "Kelly",
+      janet: "Leandra",
+      brad: "Rachel",
+      riff: "Brad",
+      magenta: "Sara",
+      columbia: "Emma",
+      rocky: "Eden",
+      eddie: "Cris",
+      scott: "Peaches",
+      crim: "Marco-X",
+      trixie: "Cris",
+      lights: "Lee, Brian",
+      stagemanager: "Damia",
+      runningcrew: "Cherry, Cris, Hannah, Lilka, Peaches, Sewrenity"
+    }
   },
   '121325': {
     date: new Date('December 13, 2025'),
@@ -501,5 +519,13 @@ export const showDates: Dates = {
     location: "Landmark Bethesda Row Cinema",
     locationLink: 'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/f1f2d8b4-75e6-5c02-a091-fc56f10ab156',
+    hatNightPlayers: ["Brad", "Kelly", "Leandra", "Lilka", "Nature", "Petra", "Rachel", "Talia", "Sewrenity"],
+    cast: {
+      crim: "Hannah",
+      trixie: "CG",
+      lights: "Brian",
+      stagemanager: "Damia",
+      runningcrew: "CG, Cherry, Emma, Jack, Marco-X, Maslin, Peaches"
+    }
   },
 };
