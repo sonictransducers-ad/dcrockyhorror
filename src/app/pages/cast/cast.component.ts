@@ -212,11 +212,10 @@ export class CastComponent {
     {
       name: "Hannah",
       pronouns: "she/they",
-      photoUrl: "assets/cast/placeholder1.png",
+      photoUrl: "assets/cast/hannah.jpeg",
       yearJoined: "Sep 2025",
-      roles: "Transylvanian",
-      favCallback: `During floor show, I like to say "Did somebody say Tollhouse Cookies????" right before everyone slowly turns around`,
-
+      roles: "Criminologist, Trixie, Transylvanian",
+      favCallback: `What diabolical chicken stepped on my forehead, pecked out my neck, and shat on my cravat?`
     },
     {
       name: "Marco-X",
