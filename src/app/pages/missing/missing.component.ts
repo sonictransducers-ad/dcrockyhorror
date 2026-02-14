@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-missing',
-  templateUrl: './missing.component.html',
-  styleUrls: ['./missing.component.scss']
+    selector: 'app-missing',
+    templateUrl: './missing.component.html',
+    styleUrls: ['./missing.component.scss'],
+    standalone: false
 })
 export class MissingComponent implements OnInit {
 
