@@ -4,50 +4,62 @@
   <section class="cast-bios">
     <div class="threecol">
       <div class="col">
-        <div class="member" *ngFor="let member of sliceCastList(3, 0)">
-          <ng-container
-            *ngTemplateOutlet="memberTemplate; context: { member: member }"
-          ></ng-container>
-        </div>
+        @for (member of sliceCastList(3, 0); track member) {
+          <div class="member">
+            <ng-container
+              *ngTemplateOutlet="memberTemplate; context: { member: member }"
+            ></ng-container>
+          </div>
+        }
       </div>
       <div class="col">
-        <div class="member" *ngFor="let member of sliceCastList(3, 1)">
-          <ng-container
-            *ngTemplateOutlet="memberTemplate; context: { member: member }"
-          ></ng-container>
-        </div>
+        @for (member of sliceCastList(3, 1); track member) {
+          <div class="member">
+            <ng-container
+              *ngTemplateOutlet="memberTemplate; context: { member: member }"
+            ></ng-container>
+          </div>
+        }
       </div>
       <div class="col">
-        <div class="member" *ngFor="let member of sliceCastList(3, 2)">
-          <ng-container
-            *ngTemplateOutlet="memberTemplate; context: { member: member }"
-          ></ng-container>
-        </div>
+        @for (member of sliceCastList(3, 2); track member) {
+          <div class="member">
+            <ng-container
+              *ngTemplateOutlet="memberTemplate; context: { member: member }"
+            ></ng-container>
+          </div>
+        }
       </div>
     </div>
     <div class="twocol">
       <div class="col">
-        <div class="member" *ngFor="let member of sliceCastList(2, 0)">
-          <ng-container
-            *ngTemplateOutlet="memberTemplate; context: { member: member }"
-          ></ng-container>
-        </div>
+        @for (member of sliceCastList(2, 0); track member) {
+          <div class="member">
+            <ng-container
+              *ngTemplateOutlet="memberTemplate; context: { member: member }"
+            ></ng-container>
+          </div>
+        }
       </div>
       <div class="col">
-        <div class="member" *ngFor="let member of sliceCastList(2, 1)">
-          <ng-container
-            *ngTemplateOutlet="memberTemplate; context: { member: member }"
-          ></ng-container>
-        </div>
+        @for (member of sliceCastList(2, 1); track member) {
+          <div class="member">
+            <ng-container
+              *ngTemplateOutlet="memberTemplate; context: { member: member }"
+            ></ng-container>
+          </div>
+        }
       </div>
     </div>
     <div class="onecol">
       <div class="col">
-        <div class="member" *ngFor="let member of castList">
-          <ng-container
-            *ngTemplateOutlet="memberTemplate; context: { member: member }"
-          ></ng-container>
-        </div>
+        @for (member of castList; track member) {
+          <div class="member">
+            <ng-container
+              *ngTemplateOutlet="memberTemplate; context: { member: member }"
+            ></ng-container>
+          </div>
+        }
       </div>
     </div>
   </section>
@@ -57,32 +69,46 @@
   <img class="headshot" src="{{ member.photoUrl }}" alt="{{ member.name }}" />
   <h2 class="name">
     {{ member.name }}
-    <span *ngIf="member.pronouns">({{ member.pronouns }})</span>
+    @if (member.pronouns) {
+      <span>({{ member.pronouns }})</span>
+    }
   </h2>
   <p class="title">
     <i>{{ member.title }}</i>
   </p>
   <p><i>Member since: </i><span class="space"></span>{{ member.yearJoined }}</p>
   <p><i>Roles: </i><span class="space"></span>{{ member.roles }}</p>
-  <p *ngIf="member.whyJoin">
-    <i>Why did you join? </i><span class="space"></span>{{ member.whyJoin }}
-  </p>
-  <p *ngIf="member.favCallback">
-    <i>Favorite callback? </i><span class="space"></span
-    >{{ member.favCallback }}
-  </p>
-  <p *ngIf="member.aboutMe">
-    <i>About me: </i><span class="space"></span>{{ member.aboutMe }}
-  </p>
+  @if (member.whyJoin) {
+    <p>
+      <i>Why did you join? </i><span class="space"></span>{{ member.whyJoin }}
+    </p>
+  }
+  @if (member.favCallback) {
+    <p>
+      <i>Favorite callback? </i><span class="space"></span
+      >{{ member.favCallback }}
+    </p>
+  }
+  @if (member.aboutMe) {
+    <p>
+      <i>About me: </i><span class="space"></span>{{ member.aboutMe }}
+    </p>
+  }
   <div class="socials">
-    <a *ngIf="member.facebook" href="{{ member.facebook }}" target="_blank"
-      ><img src="assets/facebook.png" alt="{{ member.name }} facebook"
-    /></a>
-    <a *ngIf="member.twitter" href="{{ member.twitter }}" target="_blank"
-      ><img src="assets/twitter.png" alt="{{ member.name }} twitter"
-    /></a>
-    <a *ngIf="member.instagram" href="{{ member.instagram }}" target="_blank"
-      ><img src="assets/instagram.png" alt="{{ member.name }} instagram"
-    /></a>
+    @if (member.facebook) {
+      <a href="{{ member.facebook }}" target="_blank"
+        ><img src="assets/facebook.png" alt="{{ member.name }} facebook"
+      /></a>
+    }
+    @if (member.twitter) {
+      <a href="{{ member.twitter }}" target="_blank"
+        ><img src="assets/twitter.png" alt="{{ member.name }} twitter"
+      /></a>
+    }
+    @if (member.instagram) {
+      <a href="{{ member.instagram }}" target="_blank"
+        ><img src="assets/instagram.png" alt="{{ member.name }} instagram"
+      /></a>
+    }
   </div>
 </ng-template>
