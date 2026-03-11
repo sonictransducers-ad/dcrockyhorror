@@ -671,7 +671,23 @@ export const showDates: Dates = {
     location: 'Landmark Bethesda Row Cinema',
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/32ed115b-a9ee-5790-870a-242111775114'
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/32ed115b-a9ee-5790-870a-242111775114',
+    cast: {
+      frank: "nuAlli",
+      janet: "Talia",
+      brad: "Rachel",
+      riff: "Brad",
+      magenta: "Lindsay",
+      columbia: "Nature",
+      rocky: "Jack",
+      eddie: "Sara",
+      scott: "Peaches",
+      crim: "Sam",
+      trixie: "Sam",
+      lights: "Lee, Eden, Brian",
+      stagemanager: "Kelly and Tyler",
+      runningcrew: "Cherry, Hannah, Lilka, Maslin, Mike, Oscar, Peaches, Sara, Virgil"
+    }
   },
   '031426': {
     date: new Date('March 14, 2026'),
@@ -679,7 +695,23 @@ export const showDates: Dates = {
     location: 'Landmark Bethesda Row Cinema',
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/f698ee9b-13b3-5f3b-9d75-e94d1b0f537a'
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/f698ee9b-13b3-5f3b-9d75-e94d1b0f537a',
+    cast: {
+      frank: "Rachel",
+      janet: "Hannah",
+      brad: "Cris",
+      riff: "Damia",
+      magenta: "Lilka",
+      columbia: "Lady Morgan",
+      rocky: "Eden",
+      eddie: "Marco-X",
+      scott: "Talia",
+      crim: "Lindsay",
+      trixie: "Talia",
+      lights: "Lee, Brian",
+      stagemanager: "Leandra",
+      runningcrew: "Marco-X, Mike, Peaches, Petra, Talia"
+    }
   },
   '041026': {
     date: new Date('April 10, 2026'),
