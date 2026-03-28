@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-lincolnshow',
-  templateUrl: './lincolnshow.component.html',
-  styleUrls: ['./lincolnshow.component.scss', '../calendar/calendar.component.scss']
+    selector: 'app-lincolnshow',
+    templateUrl: './lincolnshow.component.html',
+    styleUrls: ['./lincolnshow.component.scss', '../calendar/calendar.component.scss'],
+    standalone: false
 })
 export class LincolnshowComponent {
   // cast = {
