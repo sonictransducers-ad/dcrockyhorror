@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-header-nav',
-  templateUrl: './header-nav.component.html',
-  styleUrls: ['./header-nav.component.scss']
+    selector: 'app-header-nav',
+    templateUrl: './header-nav.component.html',
+    styleUrls: ['./header-nav.component.scss'],
+    standalone: false
 })
 export class HeaderNavComponent {
   showMobileMenu = false;

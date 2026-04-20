@@ -3,9 +3,10 @@ import { ActivatedRoute } from '@angular/router';
 import { showDates, Week, Show } from './showDates';
 
 @Component({
-  selector: 'app-calendar',
-  templateUrl: './calendar.component.html',
-  styleUrls: ['./calendar.component.scss']
+    selector: 'app-calendar',
+    templateUrl: './calendar.component.html',
+    styleUrls: ['./calendar.component.scss'],
+    standalone: false
 })
 export class CalendarComponent implements OnInit {
   date: string = "";

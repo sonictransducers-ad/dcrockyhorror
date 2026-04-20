@@ -2,7 +2,7 @@
 
 This is the website for the Sonic Trandsducers and is live at [dcrockyhorror.com](https://dcrockyhorror.com/). If you have any quesions or feedback, reach out to Reagan at reaganhenke@gmail.com, or on discord (ifthencreate).
 
-This project is written with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
+This project is using [Angular](https://github.com/angular/angular-cli) version 20.
 
 Deployments occur automatically with [Netlify](https://www.netlify.com/) when a change is commited to the `main` branch. 
 
@@ -27,7 +27,7 @@ First, open Terminal. Navigate to the directory that you'd like this repository 
 
 Clone the repository by running the following command: 
 ```
-gh repo clone reaganhenke/dcrockyhorror
+gh repo clone sonictransducers-ad/dcrockyhorror
 ```
 
 Once you've cloned it, install all the modules by running `npm i`. You may need to install node to do this. You can run the app locally with `npm start`, which creates a local development server on http://localhost:4200/.

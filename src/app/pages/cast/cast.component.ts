@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { Member } from './cast.interface';
 
 @Component({
-  selector: 'app-cast',
-  templateUrl: './cast.component.html',
-  styleUrls: ['./cast.component.scss']
+    selector: 'app-cast',
+    templateUrl: './cast.component.html',
+    styleUrls: ['./cast.component.scss'],
+    standalone: false
 })
 export class CastComponent {
   castList: Member[] = [
