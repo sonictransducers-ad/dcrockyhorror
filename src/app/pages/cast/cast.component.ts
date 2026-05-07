@@ -236,6 +236,14 @@ export class CastComponent {
       whyJoin: "How could I not?",
       favCallback: "SEX SEX SEX SEX"
     },
+    {
+      name: "Cris",
+      pronouns: "they/them",
+      photoUrl: "assets/cast/cris.jpeg",
+      yearJoined: "July 2024",
+      roles: "Brad, Eddie, Transylvanian, Trixie",
+      whyJoin: "I love Rocky Horror and I wanted to meet other people who love it, too!",
+    },
     // {
     //   name: "",
     //   pronouns: "",
