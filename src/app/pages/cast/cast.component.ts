@@ -214,7 +214,7 @@ export class CastComponent {
       pronouns: "she/they",
       photoUrl: "assets/cast/hannah.jpeg",
       yearJoined: "Sep 2025",
-      roles: "Criminologist, Trixie, Transylvanian",
+      roles: "Criminologist, Trixie, Transylvanian, Janet",
       favCallback: `What diabolical chicken stepped on my forehead, pecked out my neck, and shat on my cravat?`
     },
     {
