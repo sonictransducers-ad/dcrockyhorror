@@ -815,7 +815,23 @@ export const showDates: Dates = {
     location: 'Landmark Bethesda Row Cinema',
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/dbe7c7aa-1ef4-58eb-a55b-6d11bf40ced1'
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/dbe7c7aa-1ef4-58eb-a55b-6d11bf40ced1',
+    cast: {
+      frank: "Nature",
+      janet: "Oscar",
+      brad: "Rachel",
+      riff: "Brad",
+      magenta: "Lilka",
+      columbia: "Petra",
+      rocky: "Jack",
+      eddie: "Cris",
+      scott: "Lindsay",
+      crim: "Marco-X",
+      trixie: "CG",
+      lights: "Lee, Brian",
+      stagemanager: "Kelly",
+      runningcrew: "Cherry, Cris, Gabi, Lindsay, Mike, Talia, Virgil, Zen"
+    }
   },
   '061326': {
     date: new Date('June 13, 2026'),
@@ -823,7 +839,23 @@ export const showDates: Dates = {
     location: 'Landmark Bethesda Row Cinema',
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/ea9484bf-f921-54bd-a157-f7b3d57eb5ba'
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/ea9484bf-f921-54bd-a157-f7b3d57eb5ba',
+    cast: {
+      frank: "Rachel",
+      janet: "Talia",
+      brad: "Cris",
+      riff: "Mike",
+      magenta: "Lindsay",
+      columbia: "Damia",
+      rocky: "Leandra",
+      eddie: "Marco-X",
+      scott: "CG",
+      crim: "Geoff",
+      trixie: "Gabi",
+      lights: "Lee, Brian",
+      stagemanager: "Eden",
+      runningcrew: "CG, Cherry, Gabi, Lilka, Marco-X"
+    }
   },
   '071026': {
     date: new Date('July 10, 2026'),
