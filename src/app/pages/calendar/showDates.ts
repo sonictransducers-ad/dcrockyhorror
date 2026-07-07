@@ -863,6 +863,23 @@ export const showDates: Dates = {
     location: 'Landmark Bethesda Row Cinema',
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/0cc03508-4540-5a64-b8df-2787f8488a10',
+    cast: {
+      frank: "Oscar",
+      janet: "Hannah",
+      brad: "Lilka",
+      riff: "Leandra",
+      magenta: "Cherry",
+      columbia: "Petra",
+      rocky: "Talia",
+      eddie: "Marco-X",
+      scott: "CG",
+      crim: "Lindsay",
+      trixie: "Zen",
+      lights: "Lee and Brian",
+      stagemanager: "Eden",
+      runningcrew: "Amanda, CG, Gabi, Marco-X, Molly2, Molly3, Peaches, Rachel, Sewrenity, Zen"
+    }
   },
   '071126': {
     date: new Date('July 11, 2026'),
@@ -870,6 +887,23 @@ export const showDates: Dates = {
     location: 'Landmark Bethesda Row Cinema',
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/2a955f51-84ae-5f75-95f1-cef5eedc66d8',
+    cast: {
+      frank: "Rachel",
+      janet: "Talia",
+      brad: "Cris",
+      riff: "Damia",
+      magenta: "Lindsay",
+      columbia: "Lady Morgan",
+      rocky: "Sewrenity",
+      eddie: "Leandra",
+      scott: "Peaches",
+      crim: "Hannah",
+      trixie: "CG",
+      lights: "Lee and Brian",
+      stagemanager: "Eden",
+      runningcrew: "CG, Gabi, Leandra, Lilka, Molly2, Molly3, Peaches, Quinn"
+    }
   },
   '081426': {
     date: new Date('August 14, 2026'),
@@ -877,6 +911,7 @@ export const showDates: Dates = {
     location: 'Landmark Bethesda Row Cinema',
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/cb1f7685-aac7-5748-844c-b9c320ce31a9'
   },
   '081526': {
     date: new Date('August 15, 2026'),
@@ -884,6 +919,7 @@ export const showDates: Dates = {
     location: 'Landmark Bethesda Row Cinema',
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/c970bafa-acac-5b8f-955d-6387b2439c60'
   },
   '091126': {
     date: new Date('September 11, 2026'),
