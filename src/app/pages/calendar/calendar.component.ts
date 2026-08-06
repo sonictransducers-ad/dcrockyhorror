@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { showDates, Week, Show } from './showDates';
 
@@ -6,6 +6,7 @@ import { showDates, Week, Show } from './showDates';
     selector: 'app-calendar',
     templateUrl: './calendar.component.html',
     styleUrls: ['./calendar.component.scss'],
+    changeDetection: ChangeDetectionStrategy.Eager,
     standalone: false
 })
 export class CalendarComponent implements OnInit {
