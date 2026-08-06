@@ -1,270 +1,326 @@
-<div *ngIf="!showDates[date]" class="wrapper">
-  <h1>Calendar</h1>
-  <p>
-    We have shows the second weekend of every month, as well as bonus shows at
-    Halloween! Click any show date for a cast list and more info, or visit
-    <a
-      class="landmark"
-      href="https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/"
-      target="_blank"
-      ><b>Landmark Theatres' website</b></a
-    >
-    to buy tickets now.
-  </p>
-
-  <div id="mobile-calendar">
-    <div class="header">
-      <button (click)="incrementMonth(-1)"><</button>
-      <h2>{{ getFormattedMonth() }}</h2>
-      <button (click)="incrementMonth(1)">></button>
-    </div>
-    <div *ngFor="let show of getShowsInCurrentMonth()" class="shows">
+@if (!showDates[date]) {
+  <div class="wrapper">
+    <h1>Calendar</h1>
+    <p>
+      We have shows the second weekend of every month, as well as bonus shows at
+      Halloween! Click any show date for a cast list and more info, or visit
       <a
-        href="calendar?date={{ show[0] }}"
-        class="round-button"
-        *ngIf="
-          show[0].indexOf('halloween') === -1 &&
-          show[0].indexOf('phantom') === -1
-        "
-        >{{ getFormattedDate(show[1].date, false) + " " + show[1].time }}</a
-      >
-      <!-- <a href="hedwig" class="round-button hedwig-show" *ngIf="(show[0]).indexOf('hedwig') !== -1"><i>Hedwig and the Angry Inch</i><br>{{getFormattedDate(show[1].date, false) + ' ' + show[1].time}}</a> -->
-      <a
-        href="phantom"
-        class="round-button phantom-show"
-        *ngIf="show[0].indexOf('phantom') !== -1"
-        ><i>PHANTOM OF THE PARADISE</i><br />{{
-          getFormattedDate(show[1].date, false) + " " + show[1].time
-        }}</a
-      >
-      <a
-        href="halloween"
-        class="round-button"
-        *ngIf="show[0].indexOf('halloween') !== -1"
-        ><i>49TH ANNIVERSARY SPECTACULAR TOUR</i><br />{{
-          getFormattedDate(show[1].date, false) + " " + show[1].time
-        }}</a
-      >
-    </div>
-  </div>
-
-  <div id="desktop-calendar">
-    <div class="header">
-      <button (click)="incrementMonth(-1)" aria-label="previous month">
-        <
-      </button>
-      <h2>{{ getFormattedMonth() }}</h2>
-      <button (click)="incrementMonth(1)" aria-label="next month">></button>
-    </div>
-    <div class="row">
-      <div class="day">SUN</div>
-      <div class="day">MON</div>
-      <div class="day">TUE</div>
-      <div class="day">WED</div>
-      <div class="day">THU</div>
-      <div class="day">FRI</div>
-      <div class="day">SAT</div>
-    </div>
-    <div *ngFor="let week of calendarData" class="row">
-      <div
-        *ngFor="let day of week"
-        class="day"
-        [ngClass]="isCurrentMonth && isToday(day[0]) ? 'today' : ''"
-      >
-        <div *ngIf="day[0]" class="full">
-          <div *ngIf="day[1].length; else noShowDate" class="full">
-            <div *ngIf="day[1].length < 2; else multipleShowDates" class="full">
-              <a
-                class="full-day-link darkenfocus"
-                *ngIf="
-                  day[1][0][0].indexOf('halloween') === -1 &&
-                  day[1][0][0].indexOf('phantom') === -1
-                "
-                href="calendar?date={{ day[1][0][0] }}"
-                title="{{ day[1][0][1].time }}"
-                >{{ day[0] }}</a
-              >
-              <!-- <a class="full-day-link darkenfocus hedwig-show" *ngIf="(day[1][0][0]).indexOf('hedwig') !== -1" href="hedwig" title="{{day[1][0][1].time}}">{{day[0]}}</a> -->
-              <a
-                class="full-day-link darkenfocus phantom-show"
-                *ngIf="day[1][0][0].indexOf('phantom') !== -1"
-                href="phantom"
-                title="{{ day[1][0][1].time }}"
-                >{{ day[0] }}</a
-              >
-              <a
-                class="full-day-link darkenfocus"
-                *ngIf="day[1][0][0].indexOf('halloween') !== -1"
-                href="halloween"
-                title="{{ day[1][0][1].time }}"
-                >{{ day[0] }}</a
-              >
-            </div>
-            <ng-template #multipleShowDates>
-              <div class="multiple-day-links">
-                {{ day[0] }}
-                <div class="show-holders">
-                  <a
-                    *ngFor="let show of day[1]"
-                    class="darkenfocus"
-                    href="calendar?date={{ show[0] }}"
-                    title="{{ show[1].time }}"
-                  ></a>
-                </div>
-              </div>
-            </ng-template>
-          </div>
-          <ng-template #noShowDate>
-            {{ day[0] }}
-          </ng-template>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div *ngIf="showDates[date]" class="wrapper">
-  <p><a href="calendar" class="back">back to calendar</a></p>
-  <h2>{{ getFormattedDate(showDates[date].date) }}</h2>
-  <p class="center">
-    {{ showDates[date].time }} at
-    <span *ngIf="showDates[date].locationLink; else noLocationLink">
-      <a
-        href="{{ showDates[date].locationLink }}"
+        class="landmark"
+        href="https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/"
         target="_blank"
-        class="location"
-        >{{ showDates[date].location }}</a
-      >
-    </span>
-    <ng-template #noLocationLink>
-      {{ showDates[date].location }}
-    </ng-template>
-  </p>
-
-  <div *ngIf="date == '121324' || date == '121424'">
-    <p>
-      At our December shows, we'll be collecting new and gently used warm
-      clothing donations for
-      <a target="_blank" href="https://www.dcsafe.org/">DC SAFE</a>, a nonprofit
-      crisis intervention agency for domestic violence.
-    </p>
-    <p>
-      And who knows, if you make a donation at the show, you might even get a
-      special treat from Santa Frank!
-    </p>
-  </div>
-
-  <div *ngIf="date == '011025'">
-    <p>Due to winter weather, this show is cancelled! Stay safe everyone!</p>
-  </div>
-
-  <div *ngIf="date == '121225' || date == '121325'">
-    <p>
-      At our December shows, we'll be collecting new and gently used warm
-      clothing donations for
-      <a target="_blank" href="https://thedccenter.org/"
-        >the DC LGBTQ+ Community Center</a
-      >, a non-profit that offers a variety of programs and services to the
-      LGBTQ+ community.
-    </p>
-  </div>
-
-  <div class="buy center" *ngIf="date != '011025'">
-    <div *ngIf="isShowUpcoming(showDates[date]); else showPassed">
-      <div *ngIf="showDates[date].ticketLink; else noTickets">
-        <p>
-          <a
-            href="{{ showDates[date].ticketLink }}"
-            target="_blank"
-            class="round-button"
-            >BUY TICKETS</a
-          >
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <ng-template #showPassed>
-    <p>This show has already passed.</p>
-  </ng-template>
-
-  <ng-template #noTickets>
-    <p>Tickets are not currently available for this show. Check back soon!</p>
-  </ng-template>
-
-  <p *ngIf="showDates[date].doubleCast">
-    Some roles for this performance are double-cast! For roles with two names
-    listed, the second name will perform the role from floorshow onward.
-  </p>
-
-  <div *ngIf="showDates[date].hatNightPlayers">
-    <p>
-      This show will be our annual HAT NIGHT! Veteran cast members will grab a
-      random role out of a hat every scene. This year's Hat Night Players are:</p>
-    <section class="cast">
-      <p *ngFor="let castMember of showDates[date].hatNightPlayers">
-        {{ castMember }}
+        ><b>Landmark Theatres' website</b></a
+        >
+        to buy tickets now.
       </p>
-    </section>
-    <h3>ADDITIONAL CAST:</h3>
-  </div>
+      <div id="mobile-calendar">
+        <div class="header">
+          <button (click)="incrementMonth(-1)"><</button>
+          <h2>{{ getFormattedMonth() }}</h2>
+          <button (click)="incrementMonth(1)">></button>
+        </div>
+        @for (show of getShowsInCurrentMonth(); track show) {
+          <div class="shows">
+            @if (
+              show[0].indexOf('halloween') === -1 &&
+              show[0].indexOf('phantom') === -1
+              ) {
+              <a
+                href="calendar?date={{ show[0] }}"
+                class="round-button"
+                >{{ getFormattedDate(show[1].date, false) + " " + show[1].time }}</a
+                >
+              }
+              <!-- <a href="hedwig" class="round-button hedwig-show" *ngIf="(show[0]).indexOf('hedwig') !== -1"><i>Hedwig and the Angry Inch</i><br>{{getFormattedDate(show[1].date, false) + ' ' + show[1].time}}</a> -->
+              @if (show[0].indexOf('phantom') !== -1) {
+                <a
+                  href="phantom"
+                  class="round-button phantom-show"
+                  ><i>PHANTOM OF THE PARADISE</i><br />{{
+                  getFormattedDate(show[1].date, false) + " " + show[1].time
+                  }}</a
+                  >
+                }
+                @if (show[0].indexOf('halloween') !== -1) {
+                  <a
+                    href="halloween"
+                    class="round-button"
+                    ><i>49TH ANNIVERSARY SPECTACULAR TOUR</i><br />{{
+                    getFormattedDate(show[1].date, false) + " " + show[1].time
+                    }}</a
+                    >
+                  }
+                </div>
+              }
+            </div>
+            <div id="desktop-calendar">
+              <div class="header">
+                <button (click)="incrementMonth(-1)" aria-label="previous month">
+                  <
+                </button>
+                <h2>{{ getFormattedMonth() }}</h2>
+                <button (click)="incrementMonth(1)" aria-label="next month">></button>
+              </div>
+              <div class="row">
+                <div class="day">SUN</div>
+                <div class="day">MON</div>
+                <div class="day">TUE</div>
+                <div class="day">WED</div>
+                <div class="day">THU</div>
+                <div class="day">FRI</div>
+                <div class="day">SAT</div>
+              </div>
+              @for (week of calendarData; track week) {
+                <div class="row">
+                  @for (day of week; track day) {
+                    <div
+                      class="day"
+                      [ngClass]="isCurrentMonth && isToday(day[0]) ? 'today' : ''"
+                      >
+                      @if (day[0]) {
+                        <div class="full">
+                          @if (day[1].length) {
+                            <div class="full">
+                              @if (day[1].length < 2) {
+                                <div class="full">
+                                  @if (
+                                    day[1][0][0].indexOf('halloween') === -1 &&
+                                    day[1][0][0].indexOf('phantom') === -1
+                                    ) {
+                                    <a
+                                      class="full-day-link darkenfocus"
+                                      href="calendar?date={{ day[1][0][0] }}"
+                                      title="{{ day[1][0][1].time }}"
+                                      >{{ day[0] }}</a
+                                      >
+                                    }
+                                    <!-- <a class="full-day-link darkenfocus hedwig-show" *ngIf="(day[1][0][0]).indexOf('hedwig') !== -1" href="hedwig" title="{{day[1][0][1].time}}">{{day[0]}}</a> -->
+                                    @if (day[1][0][0].indexOf('phantom') !== -1) {
+                                      <a
+                                        class="full-day-link darkenfocus phantom-show"
+                                        href="phantom"
+                                        title="{{ day[1][0][1].time }}"
+                                        >{{ day[0] }}</a
+                                        >
+                                      }
+                                      @if (day[1][0][0].indexOf('halloween') !== -1) {
+                                        <a
+                                          class="full-day-link darkenfocus"
+                                          href="halloween"
+                                          title="{{ day[1][0][1].time }}"
+                                          >{{ day[0] }}</a
+                                          >
+                                        }
+                                      </div>
+                                    } @else {
+                                      <div class="multiple-day-links">
+                                        {{ day[0] }}
+                                        <div class="show-holders">
+                                          @for (show of day[1]; track show) {
+                                            <a
+                                              class="darkenfocus"
+                                              href="calendar?date={{ show[0] }}"
+                                              title="{{ show[1].time }}"
+                                            ></a>
+                                          }
+                                        </div>
+                                      </div>
+                                    }
+                                  </div>
+                                } @else {
+                                  {{ day[0] }}
+                                }
+                              </div>
+                            }
+                          </div>
+                        }
+                      </div>
+                    }
+                  </div>
+                </div>
+              }
 
-  <section class="cast" *ngIf="showDates[date].cast">
-    <p class="role" *ngIf="showDates[date].cast?.frank">
-      <span class="name">FRANK <span class="divider"></span></span
-      ><span class="actor">{{ showDates[date].cast?.frank }}</span>
-    </p>
-    <p class="role" *ngIf="showDates[date].cast?.janet">
-      <span class="name">JANET <span class="divider"></span></span
-      ><span class="actor">{{ showDates[date].cast?.janet }}</span>
-    </p>
-    <p class="role" *ngIf="showDates[date].cast?.brad">
-      <span class="name">BRAD <span class="divider"></span></span
-      ><span class="actor">{{ showDates[date].cast?.brad }}</span>
-    </p>
-    <p class="role" *ngIf="showDates[date].cast?.riff">
-      <span class="name">RIFF RAFF <span class="divider"></span></span
-      ><span class="actor">{{ showDates[date].cast?.riff }}</span>
-    </p>
-    <p class="role" *ngIf="showDates[date].cast?.magenta">
-      <span class="name">MAGENTA <span class="divider"></span></span
-      ><span class="actor">{{ showDates[date].cast?.magenta }}</span>
-    </p>
-    <p class="role" *ngIf="showDates[date].cast?.columbia">
-      <span class="name">COLUMBIA <span class="divider"></span></span
-      ><span class="actor">{{ showDates[date].cast?.columbia }}</span>
-    </p>
-    <p class="role" *ngIf="showDates[date].cast?.rocky">
-      <span class="name">ROCKY <span class="divider"></span></span
-      ><span class="actor">{{ showDates[date].cast?.rocky }}</span>
-    </p>
-    <p class="role" *ngIf="showDates[date].cast?.eddie">
-      <span class="name">EDDIE <span class="divider"></span></span
-      ><span class="actor">{{ showDates[date].cast?.eddie }}</span>
-    </p>
-    <p class="role" *ngIf="showDates[date].cast?.scott">
-      <span class="name">DR. SCOTT/RALPH <span class="divider"></span></span
-      ><span class="actor">{{ showDates[date].cast?.scott }}</span>
-    </p>
-    <p class="role" *ngIf="showDates[date].cast?.crim">
-      <span class="name">CRIM <span class="divider"></span></span
-      ><span class="actor">{{ showDates[date].cast?.crim }}</span>
-    </p>
-    <p class="role" *ngIf="showDates[date].cast?.trixie">
-      <span class="name">TRIXIE <span class="divider"></span></span
-      ><span class="actor">{{ showDates[date].cast?.trixie }}</span>
-    </p>
-    <p class="role" *ngIf="showDates[date].cast?.lights">
-      <span class="name">LIGHTS <span class="divider"></span></span
-      ><span class="actor">{{ showDates[date].cast?.lights }}</span>
-    </p>
-    <p class="role" *ngIf="showDates[date].cast?.stagemanager">
-      <span class="name">STAGE MANAGER <span class="divider"></span></span
-      ><span class="actor">{{ showDates[date].cast?.stagemanager }}</span>
-    </p>
-    <p class="role" *ngIf="showDates[date].cast?.runningcrew">
-      <span class="name">RUNNING CREW <span class="divider"></span></span
-      ><span class="actor">{{ showDates[date].cast?.runningcrew }}</span>
-    </p>
-  </section>
-</div>
+              @if (showDates[date]) {
+                <div class="wrapper">
+                  <p><a href="calendar" class="back">back to calendar</a></p>
+                  <h2>{{ getFormattedDate(showDates[date].date) }}</h2>
+                  <p class="center">
+                    {{ showDates[date].time }} at
+                    @if (showDates[date].locationLink) {
+                      <span>
+                        <a
+                          href="{{ showDates[date].locationLink }}"
+                          target="_blank"
+                          class="location"
+                          >{{ showDates[date].location }}</a
+                          >
+                        </span>
+                      } @else {
+                        {{ showDates[date].location }}
+                      }
+                    </p>
+                    @if (date == '121324' || date == '121424') {
+                      <div>
+                        <p>
+                          At our December shows, we'll be collecting new and gently used warm
+                          clothing donations for
+                          <a target="_blank" href="https://www.dcsafe.org/">DC SAFE</a>, a nonprofit
+                          crisis intervention agency for domestic violence.
+                        </p>
+                        <p>
+                          And who knows, if you make a donation at the show, you might even get a
+                          special treat from Santa Frank!
+                        </p>
+                      </div>
+                    }
+                    @if (date == '011025') {
+                      <div>
+                        <p>Due to winter weather, this show is cancelled! Stay safe everyone!</p>
+                      </div>
+                    }
+                    @if (date == '121225' || date == '121325') {
+                      <div>
+                        <p>
+                          At our December shows, we'll be collecting new and gently used warm
+                          clothing donations for
+                          <a target="_blank" href="https://thedccenter.org/"
+                            >the DC LGBTQ+ Community Center</a
+                            >, a non-profit that offers a variety of programs and services to the
+                            LGBTQ+ community.
+                          </p>
+                        </div>
+                      }
+                      @if (date != '011025') {
+                        <div class="buy center">
+                          @if (isShowUpcoming(showDates[date])) {
+                            <div>
+                              @if (showDates[date].ticketLink) {
+                                <div>
+                                  <p>
+                                    <a
+                                      href="{{ showDates[date].ticketLink }}"
+                                      target="_blank"
+                                      class="round-button"
+                                      >BUY TICKETS</a
+                                      >
+                                    </p>
+                                  </div>
+                                } @else {
+                                  <p>Tickets are not currently available for this show. Check back soon!</p>
+                                }
+                              </div>
+                            } @else {
+                              <p>This show has already passed.</p>
+                            }
+                          </div>
+                        }
+                        @if (showDates[date].doubleCast) {
+                          <p>
+                            Some roles for this performance are double-cast! For roles with two names
+                            listed, the second name will perform the role from floorshow onward.
+                          </p>
+                        }
+                        @if (showDates[date].hatNightPlayers) {
+                          <div>
+                            <p>
+                              This show will be our annual HAT NIGHT! Veteran cast members will grab a
+                            random role out of a hat every scene. This year's Hat Night Players are:</p>
+                            <section class="cast">
+                              @for (castMember of showDates[date].hatNightPlayers; track castMember) {
+                                <p>
+                                  {{ castMember }}
+                                </p>
+                              }
+                            </section>
+                            <h3>ADDITIONAL CAST:</h3>
+                          </div>
+                        }
+                        @if (showDates[date].cast) {
+                          <section class="cast">
+                            @if (showDates[date].cast?.frank) {
+                              <p class="role">
+                                <span class="name">FRANK <span class="divider"></span></span
+                                ><span class="actor">{{ showDates[date].cast?.frank }}</span>
+                              </p>
+                            }
+                            @if (showDates[date].cast?.janet) {
+                              <p class="role">
+                                <span class="name">JANET <span class="divider"></span></span
+                                ><span class="actor">{{ showDates[date].cast?.janet }}</span>
+                              </p>
+                            }
+                            @if (showDates[date].cast?.brad) {
+                              <p class="role">
+                                <span class="name">BRAD <span class="divider"></span></span
+                                ><span class="actor">{{ showDates[date].cast?.brad }}</span>
+                              </p>
+                            }
+                            @if (showDates[date].cast?.riff) {
+                              <p class="role">
+                                <span class="name">RIFF RAFF <span class="divider"></span></span
+                                ><span class="actor">{{ showDates[date].cast?.riff }}</span>
+                              </p>
+                            }
+                            @if (showDates[date].cast?.magenta) {
+                              <p class="role">
+                                <span class="name">MAGENTA <span class="divider"></span></span
+                                ><span class="actor">{{ showDates[date].cast?.magenta }}</span>
+                              </p>
+                            }
+                            @if (showDates[date].cast?.columbia) {
+                              <p class="role">
+                                <span class="name">COLUMBIA <span class="divider"></span></span
+                                ><span class="actor">{{ showDates[date].cast?.columbia }}</span>
+                              </p>
+                            }
+                            @if (showDates[date].cast?.rocky) {
+                              <p class="role">
+                                <span class="name">ROCKY <span class="divider"></span></span
+                                ><span class="actor">{{ showDates[date].cast?.rocky }}</span>
+                              </p>
+                            }
+                            @if (showDates[date].cast?.eddie) {
+                              <p class="role">
+                                <span class="name">EDDIE <span class="divider"></span></span
+                                ><span class="actor">{{ showDates[date].cast?.eddie }}</span>
+                              </p>
+                            }
+                            @if (showDates[date].cast?.scott) {
+                              <p class="role">
+                                <span class="name">DR. SCOTT/RALPH <span class="divider"></span></span
+                                ><span class="actor">{{ showDates[date].cast?.scott }}</span>
+                              </p>
+                            }
+                            @if (showDates[date].cast?.crim) {
+                              <p class="role">
+                                <span class="name">CRIM <span class="divider"></span></span
+                                ><span class="actor">{{ showDates[date].cast?.crim }}</span>
+                              </p>
+                            }
+                            @if (showDates[date].cast?.trixie) {
+                              <p class="role">
+                                <span class="name">TRIXIE <span class="divider"></span></span
+                                ><span class="actor">{{ showDates[date].cast?.trixie }}</span>
+                              </p>
+                            }
+                            @if (showDates[date].cast?.lights) {
+                              <p class="role">
+                                <span class="name">LIGHTS <span class="divider"></span></span
+                                ><span class="actor">{{ showDates[date].cast?.lights }}</span>
+                              </p>
+                            }
+                            @if (showDates[date].cast?.stagemanager) {
+                              <p class="role">
+                                <span class="name">STAGE MANAGER <span class="divider"></span></span
+                                ><span class="actor">{{ showDates[date].cast?.stagemanager }}</span>
+                              </p>
+                            }
+                            @if (showDates[date].cast?.runningcrew) {
+                              <p class="role">
+                                <span class="name">RUNNING CREW <span class="divider"></span></span
+                                ><span class="actor">{{ showDates[date].cast?.runningcrew }}</span>
+                              </p>
+                            }
+                          </section>
+                        }
+                      </div>
+                    }
