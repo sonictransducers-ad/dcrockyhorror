@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
     selector: 'app-lincolnshow',
     templateUrl: './lincolnshow.component.html',
     styleUrls: ['./lincolnshow.component.scss', '../calendar/calendar.component.scss'],
+    changeDetection: ChangeDetectionStrategy.Eager,
     standalone: false
 })
 export class LincolnshowComponent {
