@@ -959,6 +959,7 @@ export const showDates: Dates = {
     location: 'Landmark Bethesda Row Cinema',
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/b71d0d54-3bd2-5364-997c-6a9c8ba128a9'
   },
   '091226': {
     date: new Date('September 12, 2026'),
@@ -966,6 +967,7 @@ export const showDates: Dates = {
     location: 'Landmark Bethesda Row Cinema',
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/a2e01243-9113-5c96-95b2-23b49377807b'
   },
   '100926': {
     date: new Date('October 9, 2026'),
@@ -973,6 +975,7 @@ export const showDates: Dates = {
     location: 'Landmark Bethesda Row Cinema',
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/f39c32ee-e812-5c45-bef0-cef0597df380'
   },
   '101026': {
     date: new Date('October 10, 2026'),
@@ -980,6 +983,7 @@ export const showDates: Dates = {
     location: 'Landmark Bethesda Row Cinema',
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/1c0cd5a6-540c-5000-a392-551bde172885'
   },
   '111326': {
     date: new Date('November 13, 2026'),
