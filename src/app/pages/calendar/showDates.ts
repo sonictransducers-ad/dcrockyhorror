@@ -985,6 +985,31 @@ export const showDates: Dates = {
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/1c0cd5a6-540c-5000-a392-551bde172885'
   },
+  '102326': {
+    date: new Date('October 23, 2026'),
+    time: '10:30pm',
+    location: 'Landmark Bethesda Row Cinema',
+    locationLink:
+      'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/5c2681fb-d7f9-5439-8d1c-355237b1fe95'
+  },
+  '102426': {
+    date: new Date('October 24, 2026'),
+    time: '10:30pm',
+    location: 'Landmark Bethesda Row Cinema',
+    locationLink:
+      'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/704a56a2-9e79-556b-8dfa-dc005db6ab47'
+  },
+  '103126': {
+    date: new Date('October 31, 2026'),
+    time: '8:00pm',
+    location: 'Lincoln Theatre',
+    locationLink:
+      'https://www.thelincolndc.com/e/the-rocky-horror-picture-show/',
+    ticketLink:
+      'https://www.ticketmaster.com/the-rocky-horror-picture-show-washington-district-of-columbia-10-31-2026/event/150064B3991F54F6?_gl=1*ijr6l1*_ga*MzI5MzgzNTU1LjE3ODgyOTc5NDM.*_ga_2N5K4XJ2XP*czE3ODgyOTc5NDMkbzEkZzEkdDE3ODgyOTc5NTgkajQ1JGwwJGgw',
+  },
   '111326': {
     date: new Date('November 13, 2026'),
     time: '10:30pm',
