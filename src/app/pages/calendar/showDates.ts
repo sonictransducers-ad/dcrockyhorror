@@ -63,9 +63,9 @@ export type Week = [Day, Day, Day, Day, Day, Day, Day];
 // R***** => Roswell
 // A** => Eden
 // K*** => Kay Ray
-// S**** => Crowley
 // W*** => Sewrenity
 // M**** => Marco-X
+// D*** => Damia
 
 // New recruits/returning shouldn't be included here
 
@@ -959,7 +959,23 @@ export const showDates: Dates = {
     location: 'Landmark Bethesda Row Cinema',
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/b71d0d54-3bd2-5364-997c-6a9c8ba128a9'
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/b71d0d54-3bd2-5364-997c-6a9c8ba128a9',
+    cast: {
+      frank: "Rachel",
+      janet: "Talia",
+      brad: "Cris",
+      riff: "Petra",
+      magenta: "Lilka",
+      columbia: "Leandra",
+      rocky: "Kay Ray",
+      eddie: "Marco-X",
+      scott: "Peaches",
+      crim: "Lindsay",
+      trixie: "Cherry",
+      lights: "Brian, Brad, Molly3",
+      stagemanager: "Kelly",
+      runningcrew: "Brylie, Cherry, Claire, Lexi, Marco-X, Meg, Nature, Peaches, Tyler, Zen"
+    }
   },
   '091226': {
     date: new Date('September 12, 2026'),
@@ -967,7 +983,23 @@ export const showDates: Dates = {
     location: 'Landmark Bethesda Row Cinema',
     locationLink:
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
-    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/a2e01243-9113-5c96-95b2-23b49377807b'
+    ticketLink: 'https://booking.landmarktheatres.com/launch/ticketing/a2e01243-9113-5c96-95b2-23b49377807b',
+    cast: {
+      frank: "Oscar",
+      janet: "Rachel",
+      brad: "Brad",
+      riff: "Damia",
+      magenta: "Lindsay",
+      columbia: "Lady Morgan",
+      rocky: "Talia",
+      eddie: "Marco-X",
+      scott: "Peaches",
+      crim: "Kelly",
+      trixie: "Gabi",
+      lights: "Molly3, Kelly",
+      stagemanager: "Leandra",
+      runningcrew: "Hannah, Gabi, Marco-X, Peaches, Cris, Virgil"
+    }
   },
   '100926': {
     date: new Date('October 9, 2026'),

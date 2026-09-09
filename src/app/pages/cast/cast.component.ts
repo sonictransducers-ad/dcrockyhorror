@@ -2,11 +2,11 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { Member } from './cast.interface';
 
 @Component({
-    selector: 'app-cast',
-    templateUrl: './cast.component.html',
-    styleUrls: ['./cast.component.scss'],
-    changeDetection: ChangeDetectionStrategy.Eager,
-    standalone: false
+  selector: 'app-cast',
+  templateUrl: './cast.component.html',
+  styleUrls: ['./cast.component.scss'],
+  changeDetection: ChangeDetectionStrategy.Eager,
+  standalone: false
 })
 export class CastComponent {
   castList: Member[] = [
@@ -68,14 +68,6 @@ export class CastComponent {
       whyJoin: "Because waving a fiery torch and fronting a fire circus wasn't enough of a theatrical challenge."
     },
     {
-      name: "Relle",
-      pronouns: "",
-      photoUrl: "assets/cast/placeholder5.png",
-      yearJoined: "??",
-      roles: "Stage Manager",
-      whyJoin: "I do what Leandra tells me to do; it's safer that way. The only thing scarier than what happens if I catch you touching the props is Leandra's epic stink eye."
-    },
-    {
       name: "Lindsay",
       pronouns: "she/her",
       photoUrl: "assets/cast/lindsay.jpg",
@@ -92,15 +84,6 @@ export class CastComponent {
       roles: "Frank, Columbia, Janet, and Trixie",
       whyJoin: "I'm a slut for applause and an insomniac.",
       favCallback: "Show us how a butterfly masturbates!"
-    },
-    {
-      name: "Caitlyn",
-      pronouns: "she/her",
-      photoUrl: "assets/cast/caitlyn.jpg",
-      yearJoined: "Aug 2022",
-      roles: "Dr. Scott, Ralph, and Transylvanian",
-      whyJoin: "",
-      aboutMe: "Weird and Fun Loving. Love to meet new people and do activities with them. You're now my new best friend."
     },
     {
       name: "Lady Morgan",
@@ -202,14 +185,6 @@ export class CastComponent {
       roles: "Crew, Crim, Transylvanian, and Trixie",
       whyJoin: "To honor my bicycle, Dr. Crank N Furter",
       aboutMe: "Baby beauty pageant queen, weird art enthusiast, wants to unionize your workplace. Ask me about my compost worms.",
-    },
-    {
-      name: "Crowley",
-      pronouns: "any",
-      photoUrl: "assets/cast/crowley.jpeg",
-      yearJoined: "Oct 2024",
-      roles: "Trixie, Running Crew",
-      whyJoin: "My undying love for the strange spectacle that is The Rocky Horror Picture Show!"
     },
     {
       name: "Hannah",
