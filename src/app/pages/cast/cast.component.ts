@@ -73,7 +73,7 @@ export class CastComponent {
     {
       name: "Lindsay",
       pronouns: "she/her",
-      photoUrl: "assets/cast/lindsay.jpg",
+      photoUrl: "assets/cast/lindsay.webp",
       yearJoined: "June 2017",
       roles: "Magenta, Crim, Dr. Scott",
       whyJoin: "To meet likewise weirdos and entertain people",
@@ -108,7 +108,7 @@ export class CastComponent {
     {
       name: "Oscar Soto Jr.",
       pronouns: "he/him",
-      photoUrl: "assets/cast/oscar.jpg",
+      photoUrl: "assets/cast/oscar.webp",
       title: "Cast Consultant",
       yearJoined: "Aug 2010",
       roles: "Brad, Janet, Rocky, Eddie, Dr. Scott, Trixie, Ralph, Transylvanian, and Tech Crew",
@@ -179,7 +179,6 @@ export class CastComponent {
       roles: "Frank, Janet, Brad, Rocky, Dr. Scott, Transylvanian, Running Crew",
       whyJoin: "I've loved Rocky Horror and wanted to join a shadow cast ever since I was a young gay kid growing up in the Deep South. Finally found my Rocky home with the Sonic Transducers!",
       favCallback: "“First one in the pool gets an Oscar…last one in the pool has to be in the sequel!”",
-      instagram: "https://www.instagram.com/rachelemoline/"
     },
     {
       name: "Sara",
