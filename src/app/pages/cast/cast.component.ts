@@ -42,12 +42,15 @@ export class CastComponent {
       instagram: "https://www.instagram.com/edenkitch3n/"
     },
     {
-      name: "Damia",
-      pronouns: "",
-      photoUrl: "assets/cast/damia.png",
-      yearJoined: "Oct 2017",
-      roles: "Crew, Rocky, Columbia, Dr. Scott, Eddie, Crim, and Transylvanian",
-      whyJoin: "So. Much. Fun! And to come out of my performing shell with great people to a fab soundtrack in front of an awesome, engaged, audience."
+      name: "Dana",
+      pronouns: "any pronouns",
+      photoUrl: "assets/cast/damia.webp",
+      yearJoined: "Before the plague. Lindsay remembers.",
+      roles: "All but Brad, Janet, and Frank",
+      whyJoin: "Great people, love the show.",
+      favCallback: "Mama said drown!",
+      instagram: "https://www.instagram.com/damiatorhagen/",
+      facebook: "https://www.facebook.com/damia.torhagen/"
     },
     {
       name: "Roswell",
@@ -171,11 +174,12 @@ export class CastComponent {
     {
       name: "Rachel",
       pronouns: "she/her",
-      photoUrl: "assets/cast/rachel.jpeg",
+      photoUrl: "assets/cast/rachel.webp",
       yearJoined: "Apr 2024",
-      roles: "Janet, Frank, Rocky, Dr. Scott, Transylvanian, Running Crew",
+      roles: "Frank, Janet, Brad, Rocky, Dr. Scott, Transylvanian, Running Crew",
       whyJoin: "I've loved Rocky Horror and wanted to join a shadow cast ever since I was a young gay kid growing up in the Deep South. Finally found my Rocky home with the Sonic Transducers!",
-      favCallback: "“First one in the pool gets an Oscar…last one in the pool has to be in the sequel!”"
+      favCallback: "“First one in the pool gets an Oscar…last one in the pool has to be in the sequel!”",
+      instagram: "https://www.instagram.com/rachelemoline/"
     },
     {
       name: "Sara",
@@ -189,7 +193,7 @@ export class CastComponent {
     {
       name: "Hannah",
       pronouns: "she/they",
-      photoUrl: "assets/cast/hannah.jpeg",
+      photoUrl: "assets/cast/hannah.webp",
       yearJoined: "Sep 2025",
       roles: "Criminologist, Trixie, Transylvanian, Janet",
       favCallback: `What diabolical chicken stepped on my forehead, pecked out my neck, and shat on my cravat?`
@@ -197,7 +201,7 @@ export class CastComponent {
     {
       name: "Marco-X",
       pronouns: "he/him",
-      photoUrl: "assets/cast/marcox.png",
+      photoUrl: "assets/cast/marcox.webp",
       yearJoined: "Aug 2025",
       roles: "Transylvanian, Crim",
       favCallback: "Oh shit, what a bitch, quick Magenta flip the switch!",
@@ -216,7 +220,7 @@ export class CastComponent {
     {
       name: "Cris",
       pronouns: "they/them",
-      photoUrl: "assets/cast/cris.jpeg",
+      photoUrl: "assets/cast/cris.webp",
       yearJoined: "July 2024",
       roles: "Brad, Eddie, Transylvanian, Trixie",
       whyJoin: "I love Rocky Horror and I wanted to meet other people who love it, too!",
