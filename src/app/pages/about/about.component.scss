@@ -16,15 +16,15 @@ h2 {
     padding-left: v.$large;
     box-sizing: border-box;
   }
-    .image-credit {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      background-color: v.$black;
-      color: v.$light-gray;
-      padding: 5px 10px;
-      font-size: 0.8rem;
-      font-family: Arial, sans-serif;
+  .image-credit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: v.$black;
+    color: v.$light-gray;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    font-family: Arial, sans-serif;
   }
 }
 
@@ -72,10 +72,6 @@ h2 {
 }
 
 .rules {
-  background-color: white;
-  border-left: 5px solid v.$red;
-  color: v.$black;
-  padding: v.$large;
   margin: v.$verylarge 0;
   line-height: 2.5rem;
   h2 {
