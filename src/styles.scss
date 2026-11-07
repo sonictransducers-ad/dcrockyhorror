@@ -1,6 +1,7 @@
 @use "src/variables" as v;
 
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
   height: 100%;
@@ -15,15 +16,15 @@ body {
 }
 
 h1 {
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
   font-size: v.$very-large-text;
   line-height: v.$very-large-text;
   margin: 0;
   color: v.$red;
   text-transform: uppercase;
- }
+}
 
- .wrapper {
+.wrapper {
   box-sizing: border-box;
   width: 90%;
   max-width: 800px;
@@ -54,8 +55,9 @@ h1 {
   border-radius: v.$medium;
   padding: v.$medium v.$large;
   transition: all 0.2s;
-  &:focus, &:hover {
-    background-color: rgba(255,255,255,0.2);
+  &:focus,
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
   }
 }
 
@@ -69,6 +71,14 @@ h1 {
     border-radius: v.$medium;
     padding: v.$medium v.$verylarge;
   }
+}
+
+.feature-box {
+  margin: v.$medium 0;
+  background-color: white;
+  border-left: 5px solid v.$red;
+  color: v.$black;
+  padding: v.$large;
 }
 
 @media only screen and (max-width: 700px) {
