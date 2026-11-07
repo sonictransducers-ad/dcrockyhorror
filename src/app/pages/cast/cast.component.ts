@@ -146,11 +146,11 @@ export class CastComponent {
     {
       name: "Petra",
       pronouns: "she/he",
-      photoUrl: "assets/cast/petra.jpg",
+      photoUrl: "assets/cast/petra.webp",
       yearJoined: "Jan 2024",
-      roles: "Tech, Transylvanian, Dr. Scott, Eddie, Riff Raff, Brad Majors",
+      roles: "Tech, Transylvanian, Dr. Scott, Eddie, Riff Raff, Brad Majors, Columbia",
       whyJoin: "To make my mom proud one missed cue at a time",
-      favCallback: 'Oh my GOD Brad smokes!'
+      favCallback: 'Shit! Goddamn it! Sit on my face and slam it, Janet!!'
     },
     {
       name: "Brad",
