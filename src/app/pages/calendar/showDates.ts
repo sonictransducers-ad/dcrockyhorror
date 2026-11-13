@@ -1122,6 +1122,22 @@ export const showDates: Dates = {
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink:
       'https://booking.landmarktheatres.com/launch/ticketing/849461c0-0ded-5bb2-8a7d-cedaa6ab2b1b',
+    cast: {
+      frank: "Kelly",
+      janet: "Talia",
+      brad: "Lilka",
+      riff: "Brad",
+      magenta: "Lindsay",
+      columbia: "Leandra",
+      rocky: "Rachel",
+      eddie: "Cris",
+      scott: "Jack",
+      crim: "Gabi",
+      trixie: "Taz",
+      lights: "Lee and Brian",
+      stagemanager: "Eden",
+      runningcrew: "Claire, Cris, Jack, Marco-X, Meg, Taz, Willow, Sara"
+    }
   },
   '111426': {
     date: new Date('November 14, 2026'),
@@ -1131,6 +1147,22 @@ export const showDates: Dates = {
       'https://www.landmarktheatres.com/our-locations/x06c1-landmark-bethesda-row-cinema/',
     ticketLink:
       'https://booking.landmarktheatres.com/launch/ticketing/ecde5968-25ca-5dfd-b628-545e1480bfe5',
+    cast: {
+      frank: "Leandra",
+      janet: "Rachel",
+      brad: "Cris",
+      riff: "Brad",
+      magenta: "Kelly",
+      columbia: "Petra",
+      rocky: "Talia",
+      eddie: "Lilka",
+      scott: "Geoff",
+      crim: "Lindsay",
+      trixie: "Talia",
+      lights: "Lee and Molly3",
+      stagemanager: "Eden",
+      runningcrew: "Gabi, Geoff, Lilka, Peaches, Willow"
+    }
   },
   '121126': {
     date: new Date('December 11, 2026'),
